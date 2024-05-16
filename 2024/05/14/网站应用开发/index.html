@@ -6,15 +6,15 @@
   
   <title>网站应用开发 | The Website of Michael Liu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="前端（vue，采用vant组件库）画出界面的大概用例图熟悉vue的基本架构后端（c# EF框架）画出用例图，流程图，类图用例图是展示出用户可以利用软件完成什么样的功能 流程图是展示用户在使用软件（用例）的时候所经历的流程 在画类图的时候，可以就把后端看作是控制类和实体类这两块 制作API文档，设计架构可以采用postman或者apifox等软件来进行api设计postman可以测通后端在没有后端的">
+  <meta name="description" content="前端（vue（vite），采用vant组件库）画出界面的大概用例图没什么好说的，一言难尽的审美 画完之后该去设计api文档了 熟悉vue的基本架构主要是一个pages文件夹，一个component组件文件夹，然后剩下的事就是去配路由什么的 前端ide是vscode 灵活运用组件库中的各种组件要会用组件库中的组件，让应用显得不那么古板 组件先和vue文件中的script部分绑定，再将script的数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="网站应用开发">
 <meta property="og:url" content="http://example.com/2024/05/14/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/index.html">
 <meta property="og:site_name" content="The Website of Michael Liu">
-<meta property="og:description" content="前端（vue，采用vant组件库）画出界面的大概用例图熟悉vue的基本架构后端（c# EF框架）画出用例图，流程图，类图用例图是展示出用户可以利用软件完成什么样的功能 流程图是展示用户在使用软件（用例）的时候所经历的流程 在画类图的时候，可以就把后端看作是控制类和实体类这两块 制作API文档，设计架构可以采用postman或者apifox等软件来进行api设计postman可以测通后端在没有后端的">
+<meta property="og:description" content="前端（vue（vite），采用vant组件库）画出界面的大概用例图没什么好说的，一言难尽的审美 画完之后该去设计api文档了 熟悉vue的基本架构主要是一个pages文件夹，一个component组件文件夹，然后剩下的事就是去配路由什么的 前端ide是vscode 灵活运用组件库中的各种组件要会用组件库中的组件，让应用显得不那么古板 组件先和vue文件中的script部分绑定，再将script的数">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-05-14T01:06:00.000Z">
-<meta property="article:modified_time" content="2024-05-15T09:49:22.093Z">
+<meta property="article:modified_time" content="2024-05-16T12:57:45.799Z">
 <meta property="article:author" content="Michael Liu">
 <meta name="twitter:card" content="summary">
   
@@ -105,24 +105,38 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        <h1 id="前端（vue，采用vant组件库）"><a href="#前端（vue，采用vant组件库）" class="headerlink" title="前端（vue，采用vant组件库）"></a>前端（vue，采用vant组件库）</h1><h2 id="画出界面的大概用例图"><a href="#画出界面的大概用例图" class="headerlink" title="画出界面的大概用例图"></a>画出界面的大概用例图</h2><h2 id="熟悉vue的基本架构"><a href="#熟悉vue的基本架构" class="headerlink" title="熟悉vue的基本架构"></a>熟悉vue的基本架构</h2><h1 id="后端（c-EF框架）"><a href="#后端（c-EF框架）" class="headerlink" title="后端（c# EF框架）"></a>后端（c# EF框架）</h1><h2 id="画出用例图，流程图，类图"><a href="#画出用例图，流程图，类图" class="headerlink" title="画出用例图，流程图，类图"></a>画出用例图，流程图，类图</h2><p>用例图是展示出用户可以利用软件完成什么样的功能</p>
+        <h1 id="前端（vue（vite），采用vant组件库）"><a href="#前端（vue（vite），采用vant组件库）" class="headerlink" title="前端（vue（vite），采用vant组件库）"></a>前端（vue（vite），采用vant组件库）</h1><h2 id="画出界面的大概用例图"><a href="#画出界面的大概用例图" class="headerlink" title="画出界面的大概用例图"></a>画出界面的大概用例图</h2><p>没什么好说的，一言难尽的审美</p>
+<p>画完之后该去设计api文档了</p>
+<h2 id="熟悉vue的基本架构"><a href="#熟悉vue的基本架构" class="headerlink" title="熟悉vue的基本架构"></a>熟悉vue的基本架构</h2><p>主要是一个pages文件夹，一个component组件文件夹，然后剩下的事就是去配路由什么的</p>
+<p>前端ide是vscode</p>
+<h2 id="灵活运用组件库中的各种组件"><a href="#灵活运用组件库中的各种组件" class="headerlink" title="灵活运用组件库中的各种组件"></a>灵活运用组件库中的各种组件</h2><p>要会用组件库中的组件，让应用显得不那么古板</p>
+<p>组件先和vue文件中的script部分绑定，再将script的数据和组件的数据绑定</p>
+<h2 id="封装axios"><a href="#封装axios" class="headerlink" title="封装axios"></a>封装axios</h2><p>create方法新建一个axios实例</p>
+<p>拦截器（先不使用拦截器也可以）</p>
+<p>当你在发起request请求前想做一些事时，比如携带token，或者处理请求错误。</p>
+<p>当你在接受response前想做一些事时，比如处理错误码，数据过滤。</p>
+<h2 id="配置跨域"><a href="#配置跨域" class="headerlink" title="配置跨域"></a>配置跨域</h2><p>如果是自己电脑上同时跑前后端需要去配置跨域，在vite上配置很简单</p>
+<h1 id="后端（c-EF框架）"><a href="#后端（c-EF框架）" class="headerlink" title="后端（c# EF框架）"></a>后端（c# EF框架）</h1><h2 id="画出用例图，流程图，类图"><a href="#画出用例图，流程图，类图" class="headerlink" title="画出用例图，流程图，类图"></a>画出用例图，流程图，类图</h2><p>用例图是展示出用户可以利用软件完成什么样的功能</p>
 <p>流程图是展示用户在使用软件（用例）的时候所经历的流程</p>
 <p>在画类图的时候，可以就把后端看作是控制类和实体类这两块</p>
 <h2 id="制作API文档，设计架构"><a href="#制作API文档，设计架构" class="headerlink" title="制作API文档，设计架构"></a>制作API文档，设计架构</h2><p>可以采用postman或者apifox等软件来进行api设计<br>postman可以测通后端<br>在没有后端的情况下，该怎么样确定前端写的对不对呢？</p>
 <p>—-前端—<br>Controller层<br>Service层<br>Dbcontext（Repositories层）</p>
 <p>—-数据库–</p>
 <p>Service里面有一个Dbcontext<br>Controller里面有一个Service</p>
-<h2 id="编码，Service层和Models层"><a href="#编码，Service层和Models层" class="headerlink" title="编码，Service层和Models层"></a>编码，Service层和Models层</h2><p>Models层的代码用于存放实体类，这个没有什么好说的。</p>
+<h2 id="编码，Service层和Models层"><a href="#编码，Service层和Models层" class="headerlink" title="编码，Service层和Models层"></a>编码，Service层和Models层</h2><p>后端ide是visual studio</p>
+<p>Models层的代码用于存放实体类，这个没有什么好说的。</p>
 <p>这个层的代码要写两遍，第一遍先用List模拟数据库，写一遍<br>第二遍是当Repositories层给构建完成后再写一遍。</p>
 <h2 id="编码，连接数据库"><a href="#编码，连接数据库" class="headerlink" title="编码，连接数据库"></a>编码，连接数据库</h2><p>使用的是EFcore框架，构造DbContext类，这一部分的代码操作上并不是很复杂，我们相当于是继承了DbContext类，而DbContext类是EFCore框架自带的，是别人已经写好了的，我们直接拿来用就好，比较复杂的地方是配置读取层面。</p>
 <p>手动将appsettings.json和项目相关联，需要右键点击appsettings.json，修改两个地方,确保“复制到输出目录”设置为“如果较新则复制”。</p>
 <h2 id="编码，制作接口-和前端格式相对接"><a href="#编码，制作接口-和前端格式相对接" class="headerlink" title="编码，制作接口,和前端格式相对接"></a>编码，制作接口,和前端格式相对接</h2><p>要学会使用postman这个工具，这个工具既可以模拟前端，又可以模拟后端</p>
+<p>要去写不同的接口码来</p>
+<p>在这里需要把Service层再写一遍，同时去写Controller层</p>
 <h1 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h1><p>调试，看懂报错等一系列的动作都需要不断提升能力</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2024/05/14/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/" data-id="clw7xgkao0008e8h7axvgc0li" data-title="网站应用开发" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2024/05/14/%E7%BD%91%E7%AB%99%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/" data-id="clw9aflce0008p4h7ay7w5igw" data-title="网站应用开发" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -189,6 +203,10 @@
       <ul>
         
           <li>
+            <a href="/2024/05/16/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%B6%E8%97%8F%E5%A4%B9/">浏览器收藏夹</a>
+          </li>
+        
+          <li>
             <a href="/2024/05/14/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/">数据库学习</a>
           </li>
         
@@ -202,10 +220,6 @@
         
           <li>
             <a href="/2024/05/13/OpenAI/">Analyze OpenAI from a management perspective</a>
-          </li>
-        
-          <li>
-            <a href="/2024/05/11/Aboutme/">About Me</a>
           </li>
         
       </ul>
