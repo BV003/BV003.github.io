@@ -1,6 +1,8 @@
 +++
 title = 'Git使用'
 date = 2024-10-13T10:20:43+08:00
+categories = ["技术"] 
+tags = ["git"]
 +++
 
 # git基本使用
