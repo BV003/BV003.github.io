@@ -89,19 +89,18 @@ params:
   socialIcons:
     - name: github
       title: Follow my Github
-      url: "https://github.com/sonnycalcr"
+      url: "https://github.com/BV003"
     - name: X
       title: Follow my Twitter
-      url: "https://x.com/sonnycalcr"
-    - name: Bilibili
-      title: 关注我的 B 站帐号
-      url: "https://space.bilibili.com/3493138859559908"
-    - name: Youtube
-      title: Follow my Youtube Channel
-      url: "https://youtube.com/@sonnycalcr"
-    - name: Telegram
-      title: Contact Me
-      url: "https://t.me/sonnycalcr"
+      url: "https://twitter.com/bbz377889285007"
+    - name: LinkedIn
+      title: Follow my LinkedIn
+      url: "https://www.linkedin.com/in/michael-liu-0673452b1/"  
+    - name: Stack Overflow
+      title: Follow my Stack Overflow
+      url: "https://stackoverflow.com/users/24234722/michael-liu"  
+
+
 
   # 搜索
   fuseOpts:
