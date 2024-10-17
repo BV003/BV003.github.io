@@ -1,7 +1,6 @@
 +++
 title = 'Tips'
 date = 2024-10-17T11:07:14+08:00
-draft = true
 categories = ["技术"] 
 tags = ["异常"]
 +++
