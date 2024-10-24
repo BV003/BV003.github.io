@@ -1,5 +1,5 @@
 +++
-title = '翻译 **The Day You Became A Better Writer**'
+title = '翻译 "The Day You Became A Better Writer"'
 date = 2024-10-24T10:01:48+08:00
 categories = ["写作"] 
 tags = ["翻译","写作技巧"]
