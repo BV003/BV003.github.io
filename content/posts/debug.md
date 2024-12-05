@@ -5,8 +5,9 @@ categories = ["技术"]
 tags = ["debug"]
 +++
 
-最近在做csapp的两个lab（bomblab和attacklab）
-</br>发现debug还真的是好用
+### gdb调试
+最近在做csapp的两个lab（bomblab和attacklab）</br>
+发现debug还真的是好用
 
 使用gdb，b打上相应的断点，run启动后，nexti进行单步调试，来查看相关的变量状态
 
@@ -19,3 +20,6 @@ tags = ["debug"]
 ```
 
 同时也感叹一下linux好用
+
+### visual studio调试
+加入断点，点击调试运行，然后在相应的地方逐过程执行，查看相关变量。
