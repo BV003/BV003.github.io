@@ -1,5 +1,5 @@
 +++
-title = 'Linuxandshell'
+title = 'Linux and shell'
 date = 2024-12-13T16:12:35+08:00
 categories = ["技术"] 
 tags = ["linux","shell"]

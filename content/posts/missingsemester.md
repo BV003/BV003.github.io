@@ -1,5 +1,5 @@
 +++
-title = 'Missingsemester'
+title = 'Missing semester学习'
 date = 2024-12-24T16:47:26+08:00
 categories = ["技术"] 
 tags = ["网络课程","linux","shell"]
