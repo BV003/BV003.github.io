@@ -14,3 +14,7 @@ https://missing-semester-cn.github.io/2020/course-shell/
 ### 1.The Shell
 简单介绍了一下bash
 </br>介绍了一些简单的指令
+
+### 2.Shell工具和脚本
+上节课介绍了简单的指令，这节课开始学着写Shell脚本
+</br>shell还提供了一些工具，如man命令（查看手册），find命令（查找）
