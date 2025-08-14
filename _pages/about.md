@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Research Assistant.
 
-> **Announcement:** I am looking for **Please fill out !**
+> **Announcement:** I am always open to collaboration. Feel free to drop me an e-mail!
 
 ## Research
 
@@ -30,7 +30,7 @@ My work investigates the core principles of representation learning, uncovers li
 
 ## Education
 
-- **B.S. (2022)** Computer Engineering, WH University  
+- **B.S. (2022)** — Software Engineering — WuHan University  
 
 ## Contact
 
