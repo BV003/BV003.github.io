@@ -17,11 +17,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "BV003"
   pronouns         : # example: "she/her"  
-  bio              : "Hi!"
+  bio              : "I am working!"
   location         : "Earth"
-  employer         : "University"
+  employer         : 
   uri              : # URL
   email            :  
 
