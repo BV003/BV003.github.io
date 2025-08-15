@@ -22,8 +22,7 @@ My recent work designs better post-training algorithms to improve reasoning, fac
 ### Efficiency: Overcoming Data and Inference Bottlenecks
 My research addresses critical bottlenecks in data efficiency and inference efficiency, from synthetic data generation to faster decoding.
 
-### Foundations of Representation Learning
-My work investigates the core principles of representation learning, uncovers limitations in language model representations, and proposes novel pre-training objectives to build more robust and capable foundation models.
+
 
 ## News
 
