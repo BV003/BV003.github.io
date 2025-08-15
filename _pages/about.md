@@ -14,13 +14,16 @@ I am a Research Assistant.
 ## Research
 
 
-My research is dedicated to developing more **capable, efficient, and aligned** Large Language Models (LLMs). I work across the entire LLM lifecycle, including training paradigms, data and inference efficiency, and the foundations of representations.
+My current research focuses on energy-based models (EBMs), with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models (LLMs).
 
-### Post-Training: Aligning and Enhancing LLMs
-My recent work designs better post-training algorithms to improve reasoning, factuality, preference alignment, and model-based evaluation.
+From a broader perspective, my research goals are twofold:
 
-### Efficiency: Overcoming Data and Inference Bottlenecks
-My research addresses critical bottlenecks in data efficiency and inference efficiency, from synthetic data generation to faster decoding.
+### To continuously make new discoveries in the field of artificial intelligence. 
+The rapid development of AI—especially LLMs—is remarkable, and I believe there are still many untapped “treasures” waiting to be explored.
+
+### To create practical technologies that improve people’s lives. 
+I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.
+
 
 
 
