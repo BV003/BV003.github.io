@@ -95,7 +95,7 @@ layout: default
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
-    <div class="page__related">
+    <!-- <div class="page__related">
       {% if site.data.ui-text[site.locale].related_label %}
         <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
       {% endif %}
@@ -104,6 +104,6 @@ layout: default
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
-    </div>
+    </div> -->
   {% endif %}
 </div>
