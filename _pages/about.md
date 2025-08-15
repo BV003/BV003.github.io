@@ -13,7 +13,6 @@ I am a Research Assistant.
 
 ## Research
 
----
 
 My research is dedicated to developing more **capable, efficient, and aligned** Large Language Models (LLMs). I work across the entire LLM lifecycle, including training paradigms, data and inference efficiency, and the foundations of representations.
 
@@ -28,19 +27,16 @@ My work investigates the core principles of representation learning, uncovers li
 
 ## News
 
----
 
 - **2025.05** — Two papers !
 
 ## Education
 
----
 
 - **B.S. (2022)** — Software Engineering — WuHan University  
 
 ## Contact
 
----
 
 - **Email:**  
 - **Office:**  
