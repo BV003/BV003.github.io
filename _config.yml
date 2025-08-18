@@ -3,7 +3,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "BV003"
+title                    : "Michael Liu"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -17,7 +17,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "BV003"
+  name             : "Michael Liu"
   pronouns         : # example: "she/her"  
   bio              : "I am working!"
   location         : "Earth"
