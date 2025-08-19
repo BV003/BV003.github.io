@@ -40,4 +40,5 @@ I am committed to applying AI techniques to solve real-world problems and bring 
 ## Contact
 
 
-- **Email:**  
+ **Email:**  
+- michaelliuwq003 at gmail.com
