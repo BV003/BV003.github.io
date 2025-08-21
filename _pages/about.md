@@ -31,7 +31,14 @@ I am committed to applying AI techniques to solve real-world problems and bring 
 
 
 <!-- - **2025.05** — Two papers ! -->
-<div style="height: 150px; overflow-y: auto; padding: 12px; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef;">
+<div style="
+height: 210px; 
+overflow-y: auto; 
+padding: 12px; 
+background-color: #f8f9fa;
+border-radius: 6px; 
+border: 1px solid #e9ecef;
+">
 - **2025.05** — Two papers accepted by NeurIPS 2025! Our work on "Self-Supervised Learning for Robotic Manipulation" and "Efficient Transformer Architectures for Real-Time Systems" will be presented at the conference.
 - **2025.03** — Joined the AI Research Lab at TechCorp as a Senior Research Engineer. Working on advancing foundation models for industrial applications.
 - **2024.11** — Invited speaker at the International Conference on Machine Learning Applications. Gave a talk on "Bridging Theory and Practice in Deep Reinforcement Learning".
