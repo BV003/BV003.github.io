@@ -63,24 +63,8 @@ border: 1px solid #e9ecef;
 
 
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
+    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers ！🥰</li>
+
 
   </ul>
 
