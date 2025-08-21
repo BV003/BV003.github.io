@@ -12,11 +12,12 @@ I am a Research Assistant.
 <div class="announcement-container" style="
     max-width: 800px;
     margin: 2rem auto;
-    /* padding: 1.5rem 2rem; */
-    padding: 12px;
+    padding: 1.5rem 2rem; 
     background-color: #f8f9fa;
-    border-radius: 6px;
-    border: 1px solid #e9ecef;
+    border-left: 4px solid #000000;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
 ">
     <h3 style="
         margin-top: 0;
