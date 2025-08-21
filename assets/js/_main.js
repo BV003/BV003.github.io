@@ -4,20 +4,22 @@
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
-let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
-};
+// let determineThemeSetting = () => {
+//   let themeSetting = localStorage.getItem("theme");
+//   return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+// };
 
-// Determine the computed theme, which can be "dark" or "light". If the theme setting is
-// "system", the computed theme is determined based on the user's system preference.
-let determineComputedTheme = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting != "system") {
-    return themeSetting;
-  }
-  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
-};
+// // Determine the computed theme, which can be "dark" or "light". If the theme setting is
+// // "system", the computed theme is determined based on the user's system preference.
+// let determineComputedTheme = () => {
+//   let themeSetting = determineThemeSetting();
+//   if (themeSetting != "system") {
+//     return themeSetting;
+//   }
+//   return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+// };
+let determineThemeSetting = () => "light";
+let determineComputedTheme = () => "light";
 
 // detect OS/browser preference
 // const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
@@ -32,7 +34,8 @@ let setTheme = (theme) => {
   //   $("html").attr("data-theme") ||
   //   browserPref;
   const use_theme = 'light'; 
-
+  $("html").removeAttr("data-theme"); // 保持浅色
+  $("#theme-icon").removeClass("fa-moon").addClass("fa-sun"); // 图标显示太阳
   // if (use_theme === "dark") {
   //   $("html").attr("data-theme", "dark");
   //   $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
@@ -72,7 +75,8 @@ if (plotlyElements.length > 0) {
         elem.parentElement.after(chartElement);
 
         // Set the theme for the plot and render it
-        const theme = (determineComputedTheme() === "dark") ? plotlyDarkLayout : plotlyLightLayout;
+        //const theme = (determineComputedTheme() === "dark") ? plotlyDarkLayout : plotlyLightLayout;
+        const theme = plotlyLightLayout;
         if (jsonData.layout) {
           jsonData.layout.template = (jsonData.layout.template) ? { ...theme, ...jsonData.layout.template } : theme;
         } else {
