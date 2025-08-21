@@ -18,7 +18,7 @@ I am a Research Assistant.
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 ">
-    <h4 style="
+    <h3 style="
         margin-top: 0;
         margin-bottom: 0.75rem;
         color: #2c3e50;
@@ -28,7 +28,7 @@ I am a Research Assistant.
     ">
         <span style="margin-right: 0.5rem;">📢</span>
         Announcement
-    </h4>
+    </h3>
     <p style="
         margin: 0;
         color: #34495e;
@@ -41,7 +41,7 @@ I am a Research Assistant.
 </div>
 
 
-### Research
+## Research
 
 
 My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models.  
@@ -56,7 +56,7 @@ I am committed to applying AI techniques to solve real-world problems and bring 
 
 
 
-### News
+## News
 
 
 <!-- - **2025.05** — Two papers ! -->
@@ -92,7 +92,7 @@ border: 1px solid #e9ecef;
 
 
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers ！🥰</li>
+    <li style="margin-bottom: 12px;">2025.05 — Two papers ！🥰</li>
 
 
   </ul>
@@ -102,13 +102,13 @@ border: 1px solid #e9ecef;
 
 
 
-### Education
+## Education
 
 
-- **B.S. (2022)** — Software Engineering — WuHan University  
+- B.S. (2022) — Software Engineering — WuHan University  
 
 
 
-### Email  
+## Email  
 - michaelliuwq003 at gmail.com
 - 2022302111185 at whu.edu.cn
