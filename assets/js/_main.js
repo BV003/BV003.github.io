@@ -20,7 +20,9 @@ let determineComputedTheme = () => {
 };
 
 // detect OS/browser preference
-const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+// const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+// 直接强制 browserPref 为 light
+const browserPref = 'light';
 
 // Set the theme on page load or when explicitly called
 let setTheme = (theme) => {
@@ -31,10 +33,8 @@ let setTheme = (theme) => {
     browserPref;
 
   if (use_theme === "dark") {
-    // $("html").attr("data-theme", "dark");
-    // $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-    $("html").removeAttr("data-theme");
-    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+    $("html").attr("data-theme", "dark");
+    $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
   } else if (use_theme === "light") {
     $("html").removeAttr("data-theme");
     $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
