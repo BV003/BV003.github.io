@@ -14,7 +14,6 @@ I am a Research Assistant.
     margin: 2rem auto;
     padding: 1.5rem 2rem; 
     background-color: #f8f9fa;
-    border-left: 4px solid #000000;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     
@@ -64,10 +63,11 @@ I am committed to applying AI techniques to solve real-world problems and bring 
 <div style="
 height: 210px; 
 overflow-y: auto; 
-padding: 12px; 
+margin: 2rem auto;
+padding: 1.5rem 2rem;
 background-color: #f8f9fa;
-border-radius: 6px; 
-border: 1px solid #e9ecef;
+border-radius: 4px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 ">
   <!-- 滚动条美化样式 (仅支持WebKit内核浏览器) -->
   <style>
