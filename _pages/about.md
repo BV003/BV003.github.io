@@ -12,11 +12,11 @@ I am a Research Assistant.
 <div class="announcement-container" style="
     max-width: 800px;
     margin: 2rem auto;
-    padding: 1.5rem 2rem;
+    /* padding: 1.5rem 2rem; */
+    padding: 12px;
     background-color: #f8f9fa;
-    border-left: 4px solid #00000000;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    border: 1px solid #e9ecef;
 ">
     <h3 style="
         margin-top: 0;
@@ -44,10 +44,12 @@ I am a Research Assistant.
 ## Research
 
 
-My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models.  
-From a broader perspective, my research goals are twofold:  
+My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:
+
 **To continuously make new discoveries in the field of artificial intelligence**  
-The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.  
+The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.
+
+
 **To create practical technologies that solve real-world problems**  
 I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.
 
