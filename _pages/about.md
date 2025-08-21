@@ -30,7 +30,12 @@ I am committed to applying AI techniques to solve real-world problems and bring 
 ## News
 
 
-- **2025.05** — Two papers !
+<!-- - **2025.05** — Two papers ! -->
+<div style="height: 150px; overflow-y: auto; padding: 12px; background-color: #f8f9fa; border-radius: 6px; border: 1px solid #e9ecef;">
+- **2025.05** — Two papers ！
+</div>
+
+
 
 ## Education
 
