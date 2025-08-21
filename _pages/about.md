@@ -39,18 +39,32 @@ background-color: #f8f9fa;
 border-radius: 6px; 
 border: 1px solid #e9ecef;
 ">
+  <!-- 滚动条美化样式 (仅支持WebKit内核浏览器) -->
+  <style>
+    /* 滚动条整体宽度 */
+    div::-webkit-scrollbar {
+      width: 6px;
+    }
+    /* 滚动条轨道 */
+    div::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 3px;
+    }
+    /* 滚动条滑块 */
+    div::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 3px;
+    }
+    /* 滑块悬停效果 */
+    div::-webkit-scrollbar-thumb:hover {
+      background: #a8a8a8;
+    }
+  </style>
+
 
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers accepted by NeurIPS 2025! Our work on "Self-Supervised Learning for Robotic Manipulation" and "Efficient Transformer Architectures for Real-Time Systems" will be presented at the conference.</li>
-    <li style="margin-bottom: 12px;"><strong>2025.03</strong> — Joined the AI Research Lab at TechCorp as a Senior Research Engineer. Working on advancing foundation models for industrial applications.</li>
-    <li style="margin-bottom: 12px;"><strong>2024.11</strong> — Invited speaker at the International Conference on Machine Learning Applications. Gave a talk on "Bridging Theory and Practice in Deep Reinforcement Learning".</li>
-    <li style="margin-bottom: 12px;"><strong>2024.08</strong> — Published a book chapter in "Advances in Neural Networks" titled "Challenges in Scaling Deep Learning Systems".</li>
-    <li style="margin-bottom: 12px;"><strong>2024.05</strong> — Received the "Outstanding Young Researcher Award" from the Computer Science Association.</li>
-    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers accepted by NeurIPS 2025! Our work on "Self-Supervised Learning for Robotic Manipulation" and "Efficient Transformer Architectures for Real-Time Systems" will be presented at the conference.</li>
-    <li style="margin-bottom: 12px;"><strong>2025.03</strong> — Joined the AI Research Lab at TechCorp as a Senior Research Engineer. Working on advancing foundation models for industrial applications.</li>
-    <li style="margin-bottom: 12px;"><strong>2024.11</strong> — Invited speaker at the International Conference on Machine Learning Applications. Gave a talk on "Bridging Theory and Practice in Deep Reinforcement Learning".</li>
-    <li style="margin-bottom: 12px;"><strong>2024.08</strong> — Published a book chapter in "Advances in Neural Networks" titled "Challenges in Scaling Deep Learning Systems".</li>
-    <li><strong>2024.05</strong> — Received the "Outstanding Young Researcher Award" from the Computer Science Association.</li>
+    <li style="margin-bottom: 12px;"><strong>2025.05</strong> — Two papers !</li>
+
   </ul>
 
 
