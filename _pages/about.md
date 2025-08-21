@@ -9,19 +9,48 @@ redirect_from:
 
 I am a Research Assistant.
 
-> **Announcement:** I am always open to collaboration. Feel free to drop me an e-mail!
+<div class="announcement-container" style="
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background-color: #f8f9fa;
+    border-left: 4px solid #00000000;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+">
+    <h4 style="
+        margin-top: 0;
+        margin-bottom: 0.75rem;
+        color: #2c3e50;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        display: flex;
+        align-items: center;
+    ">
+        <span style="margin-right: 0.5rem;">📢</span>
+        Announcement
+    </h4>
+    <p style="
+        margin: 0;
+        color: #34495e;
+        font-size: 1.05rem;
+        line-height: 1.6;
+        font-family: 'Georgia', serif;
+    ">
+        I am always open to collaboration. Feel free to drop me an e-mail!
+    </p>
+</div>
+
 
 ### Research
 
 
-My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models.
-</br>
+My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models.  
 From a broader perspective, my research goals are twofold:
 
-**To continuously make new discoveries in the field of artificial intelligence**</br>
+**To continuously make new discoveries in the field of artificial intelligence**  
 The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.
 
-**To create practical technologies that solve real-world problems**</br>
+**To create practical technologies that solve real-world problems**  
 I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.
 
 
@@ -78,9 +107,8 @@ border: 1px solid #e9ecef;
 
 - **B.S. (2022)** — Software Engineering — WuHan University  
 
-### Contact
 
 
- **Email**  
+### Email  
 - michaelliuwq003 at gmail.com
 - 2022302111185 at whu.edu.cn
