@@ -1,3 +1,39 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Content Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1a365d',
+                        secondary: '#4a5568',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .card-shadow {
+                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            }
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            }
+        }
+    </style>
+</head>
 {% include base_path %}
 
 {% if post.header.teaser %}
@@ -79,6 +115,33 @@
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %} -->
-    <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+
+
+
+    <!-- <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> -->
+
+
+    <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="block w-full max-w-2xl mx-auto">
+        <div class="bg-white rounded-xl p-6 card-shadow card-hover">
+            <h2 class="text-3xl font-bold text-primary mb-4">lalala</h2>
+            
+            <p class="text-secondary mb-4 leading-relaxed">
+                Special thanks to John Schulman for a lot of super valuable feedback and direct edits on this post. 
+                Test time compute (Graves et al. 2016, Ling, et al. 2017, Cobbe et al. 2021) and Chain-of-thought (CoT) (Wei et al....
+            </p>
+            
+            <div class="flex flex-wrap items-center text-gray-500 text-sm gap-x-4 gap-y-2">
+                <span class="flex items-center">
+                    <i class="fa fa-calendar-o mr-1"></i> May 1, 2025
+                </span>
+                <span class="flex items-center">
+                    <i class="fa fa-clock-o mr-1"></i> 40 min read
+                </span>
+
+            </div>
+        </div>
+    </a>
+
+
   </article>
 </div>
