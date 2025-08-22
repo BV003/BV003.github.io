@@ -1,4 +1,4 @@
-<head>
+<!-- <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Styled Content Card</title>
@@ -33,7 +33,7 @@
             }
         }
     </style>
-</head>
+</head> -->
 {% include base_path %}
 
 {% if post.header.teaser %}
@@ -50,7 +50,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <!-- {% if include.type == "grid" and teaser %}
+    {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
@@ -114,14 +114,14 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% endif %} -->
+    {% endif %}
 
 
 
     <!-- <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a> -->
 
 
-    <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="block w-full max-w-2xl mx-auto">
+    <!-- <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="block w-full max-w-2xl mx-auto">
         <div class="bg-white rounded-xl p-6 card-shadow card-hover">
             <h2 class="text-3xl font-bold text-primary mb-4">lalala</h2>
             
@@ -140,7 +140,7 @@
 
             </div>
         </div>
-    </a>
+    </a> -->
 
 
   </article>
