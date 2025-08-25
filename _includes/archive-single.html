@@ -24,7 +24,7 @@
             box-shadow: 
                 0 20px 25px -5px rgba(0, 0, 0, 0.1), 
                 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            text-decoration: none; 
+            text-decoration: none !important
         }
 
         /* 5. 标题样式：对应原 text-3xl font-bold text-primary mb-4 效果 */
@@ -34,6 +34,7 @@
             color: #000000; /* 对应原 text-primary（原 Tailwind 配置的 primary 色） */
             margin-bottom: 1rem; /* 对应原 mb-4（Tailwind 4=16px） */
             margin-top: 0; /* 清除默认 p 标签 margin */
+            text-decoration: none !important
         }
 
         /* 6. 摘要样式：对应原 text-secondary mb-4 leading-relaxed 效果 */
@@ -42,6 +43,7 @@
             margin-bottom: 1rem; /* 对应原 mb-4 */
             line-height: 1.625; /* 对应原 leading-relaxed（Tailwind relaxed=1.625） */
             margin-top: 0;
+            text-decoration: none !important
         }
 
         /* 7. 元信息容器：对应原 flex flex-wrap items-center gap-x-4 gap-y-2 效果 */
@@ -52,12 +54,14 @@
             gap: 0.5rem 1rem; /* 对应原 gap-y-2（0.5rem）和 gap-x-4（1rem） */
             color: #6b7280; /* 对应原 text-gray-500 */
             font-size: 0.875rem; /* 对应原 text-sm（Tailwind sm=14px） */
+            text-decoration: none !important
         }
 
         /* 8. 元信息单个项：对应原 flex items-center 效果 */
         .card-meta-item {
             display: flex;
             align-items: center;
+            text-decoration: none !important
         }
 
         /* 9. 元信息图标间距：对应原 mr-1 效果 */
