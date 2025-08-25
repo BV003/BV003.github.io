@@ -123,9 +123,9 @@
         <div class="content-card">
             <p class="card-title">{{ title }}</p>
             {% if post.excerpt and site.read_more != 'enabled' %}
-            <p class="card-excerpt">
+            <div class="card-excerpt">
                 {{ post.excerpt | markdownify }}
-            </p>
+            </div>
             {% endif %}
             <div class="card-meta">
                 {% if post.date %}
