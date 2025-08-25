@@ -50,7 +50,7 @@
 }
 
 .cv-profile-item a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Section Styles */
