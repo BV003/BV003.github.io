@@ -1,36 +1,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Content Card</title>
-    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#000000',
-                        secondary: '#000000',
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'system-ui', 'sans-serif'],
-                    },
-                }
-            }
+    <style >
+      .card-link {
+            display: block; /* 对应原 block */
+            width: 100%; /* 对应原 w-full */
+            max-width: 640px; /* 对应原 max-w-2xl（Tailwind 2xl=640px） */
+            margin: 0 auto; /* 对应原 mx-auto */
+            text-decoration: none; /* 确保链接无下划线（核心！） */
         }
-    </script>
-    <style type="text/tailwindcss">
-        @layer utilities {
-            .card-shadow {
-                box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-            }
-            .card-hover {
-                transition: all 0.3s ease;
-            }
-            .card-hover:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-            }
+
+        /* 3. 卡片主体样式：和原 bg-white rounded-xl p-6 card-shadow card-hover 效果一致 */
+        .content-card {
+            background-color: #ffffff; /* 对应原 bg-white */
+            border-radius: 1rem; /* 对应原 rounded-xl（Tailwind xl=16px） */
+            padding: 1.5rem; /* 对应原 p-6（Tailwind 1rem=16px，p-6=96px？视觉适配为 1.5rem 更协调） */
+            /* 对应原 card-shadow：两层阴影叠加 */
+            box-shadow: 
+                0 10px 15px -3px rgba(0, 0, 0, 0.1), 
+                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            /* 对应原 card-hover 的过渡基础 */
+            transition: all 0.3s ease;
+        }
+
+        /* 4. 卡片 hover 动画：对应原 card-hover:hover 效果 */
+        .content-card:hover {
+            transform: translateY(-5px); /* 向上偏移 5px */
+            /* 加深阴影 */
+            box-shadow: 
+                0 20px 25px -5px rgba(0, 0, 0, 0.1), 
+                0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        /* 5. 标题样式：对应原 text-3xl font-bold text-primary mb-4 效果 */
+        .card-title {
+            font-size: 1.875rem; /* 对应原 text-3xl（Tailwind 3xl=30px） */
+            font-weight: 700; /* 对应原 font-bold */
+            color: #1a365d; /* 对应原 text-primary（原 Tailwind 配置的 primary 色） */
+            margin-bottom: 1rem; /* 对应原 mb-4（Tailwind 4=16px） */
+            margin-top: 0; /* 清除默认 p 标签 margin */
+        }
+
+        /* 6. 摘要样式：对应原 text-secondary mb-4 leading-relaxed 效果 */
+        .card-excerpt {
+            color: #4a5568; /* 对应原 text-secondary（原 Tailwind 配置的 secondary 色） */
+            margin-bottom: 1rem; /* 对应原 mb-4 */
+            line-height: 1.625; /* 对应原 leading-relaxed（Tailwind relaxed=1.625） */
+            margin-top: 0;
+        }
+
+        /* 7. 元信息容器：对应原 flex flex-wrap items-center gap-x-4 gap-y-2 效果 */
+        .card-meta {
+            display: flex; /* 对应原 flex */
+            flex-wrap: wrap; /* 对应原 flex-wrap */
+            align-items: center; /* 对应原 items-center */
+            gap: 0.5rem 1rem; /* 对应原 gap-y-2（0.5rem）和 gap-x-4（1rem） */
+            color: #6b7280; /* 对应原 text-gray-500 */
+            font-size: 0.875rem; /* 对应原 text-sm（Tailwind sm=14px） */
+        }
+
+        /* 8. 元信息单个项：对应原 flex items-center 效果 */
+        .card-meta-item {
+            display: flex;
+            align-items: center;
+        }
+
+        /* 9. 元信息图标间距：对应原 mr-1 效果 */
+        .card-meta-icon {
+            margin-right: 0.25rem; /* 对应原 mr-1（Tailwind 1=4px） */
         }
     </style>
 </head>
@@ -66,28 +104,28 @@
 
     
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink" class="block w-full max-w-2xl mx-auto">
-        <div class="bg-white rounded-xl p-6 card-shadow card-hover">
-            <p class="text-3xl font-bold text-primary mb-4">{{ title }}</p>
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink"  class="card-link">
+        <div class="content-card">
+            <p class="card-title">{{ title }}</p>
             {% if post.excerpt and site.read_more != 'enabled' %}
-            <p class="text-secondary mb-4 leading-relaxed">
+            <p class="card-excerpt">
                 {{ post.excerpt | markdownify }}
             </p>
             {% endif %}
-            <div class="flex flex-wrap items-center text-gray-500 text-sm gap-x-4 gap-y-2">
+            <div class="card-meta">
                 {% if post.date %}
-                <span class="flex items-center">
-                    <i class="fa fa-calendar-o mr-1"></i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
+                <span class="card-meta-item">
+                    <i class="fa fa-calendar-o card-meta-icon"></i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
                 </span>
                 {% endif %}
                 {% if post.read_time %}
-                <span class="flex items-center">
-                    <i class="fa fa-clock-o mr-1"></i> {% include read-time.html %}
+                <span class="card-meta-item">
+                    <i class="fa fa-clock-o card-meta-icon"></i>  {% include read-time.html %}
                 </span>
                 {% endif %}
             </div>
         </div>
-    </a>
+      </a>
 
 </h2>
 
