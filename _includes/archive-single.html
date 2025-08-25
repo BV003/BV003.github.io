@@ -71,6 +71,12 @@
         .card-meta-icon {
             margin-right: 0.25rem; /* 对应原 mr-1（Tailwind 1=4px） */
         }
+        a {
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: none;
+        }
     </style>
 </head>
 
@@ -112,8 +118,6 @@
             margin: 0 auto; /* 对应原 mx-auto */
             text-decoration: none; /* 确保链接无下划线（核心！） */
             color: inherit;"
-            onmouseover="this.style.textDecoration='none'"
-            onmouseout="this.style.textDecoration='none'"
             >
         <div class="content-card">
             <p class="card-title">{{ title }}</p>
