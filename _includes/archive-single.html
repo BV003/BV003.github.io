@@ -8,7 +8,6 @@
             width: 100%; /* 对应原 w-full */
             max-width: 640px; /* 对应原 max-w-2xl（Tailwind 2xl=640px） */
             margin: 0 auto; /* 对应原 mx-auto */
-            text-decoration: none; /* 确保链接无下划线（核心！） */
             color: inherit;
         }
 
@@ -19,8 +18,8 @@
             padding: 1.5rem; /* 对应原 p-6（Tailwind 1rem=16px，p-6=96px？视觉适配为 1.5rem 更协调） */
             /* 对应原 card-shadow：两层阴影叠加 */
             box-shadow: 
-                0 10px 15px -3px rgba(0, 0, 0, 0.1), 
-                0 4px 6px -2px rgba(0, 0, 0, 0.05);
+                0 10px 15px -3px rgba(0, 0, 0, 0), 
+                0 4px 6px -2px rgba(0, 0, 0, 0);
             /* 对应原 card-hover 的过渡基础 */
             transition: all 0.3s ease;
         }
@@ -30,8 +29,8 @@
             transform: translateY(-5px); /* 向上偏移 5px */
             /* 加深阴影 */
             box-shadow: 
-                0 20px 25px -5px rgba(0, 0, 0, 0.1), 
-                0 10px 10px -5px rgba(0, 0, 0, 0.04);
+                0 20px 25px -5px rgba(0, 0, 0, 0), 
+                0 10px 10px -5px rgba(0, 0, 0, 0.);
         }
 
         /* 5. 标题样式：对应原 text-3xl font-bold text-primary mb-4 效果 */
@@ -45,7 +44,7 @@
 
         /* 6. 摘要样式：对应原 text-secondary mb-4 leading-relaxed 效果 */
         .card-excerpt {
-            color: #4a5568; /* 对应原 text-secondary（原 Tailwind 配置的 secondary 色） */
+            color: #000000; /* 对应原 text-secondary（原 Tailwind 配置的 secondary 色） */
             margin-bottom: 1rem; /* 对应原 mb-4 */
             line-height: 1.625; /* 对应原 leading-relaxed（Tailwind relaxed=1.625） */
             margin-top: 0;
@@ -105,7 +104,7 @@
 
     
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ base_path }}{{ post.url }}" rel="permalink"  class="card-link">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink"  class="card-link" style="text-decoration: none">
         <div class="content-card">
             <p class="card-title">{{ title }}</p>
             {% if post.excerpt and site.read_more != 'enabled' %}
