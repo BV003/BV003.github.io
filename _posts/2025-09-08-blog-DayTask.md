@@ -1,5 +1,5 @@
 ---
-title: 'DayTak'
+title: 'DayTask'
 date: 2025-09-08
 permalink: /posts/2025/09/blog-test/
 ---
