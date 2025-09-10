@@ -6,7 +6,6 @@ permalink: /posts/2025/09/blog-test/
 
 An open source tool designed for personal productivity.
 
-
 ### Copyright & Originality Statement
 
 The ArgoAgent project, including its concept and initial design, was originally created by Michael Liu on September 2025.
