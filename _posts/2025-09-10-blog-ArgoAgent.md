@@ -4,9 +4,8 @@ date: 2025-09-10
 permalink: /posts/2025/09/blog-test/
 ---
 
-An open source tool designed for personal productivity.
+An open source tool designed for personal productivity.  
 
----
 
 ### Copyright & Originality Statement
 
