@@ -59,7 +59,7 @@ I am committed to applying AI techniques to solve real-world problems and bring 
 
 
 
-## News
+### News
 
 
 <!-- - **2025.05** — Two papers ! -->
@@ -104,14 +104,14 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
 
 
-## Education
+### Education
 
 
 - B.S.  — Software Engineering — WuHan University  
 
 
 
-## Email  
+### Email  
 - michaelliuwq003 at gmail.com
 - 2022302111185 at whu.edu.cn
 
