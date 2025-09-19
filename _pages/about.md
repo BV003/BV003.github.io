@@ -39,7 +39,7 @@ Aspiring Research Assistant in computer science and artificial intelligence.
         line-height: 1.6;
         font-family: 'Georgia', serif;
     ">
-        I am always open to collaboration. Feel free to drop me an e-mail!
+        For any suggestions or collaborations, please feel free to drop me an e-mail!
     </p>
 </div>
 
