@@ -15,7 +15,7 @@ Aspiring Research Assistant in computer science and artificial intelligence.
 <div class="announcement-container" style="
     max-width: 800px;
     margin: 2rem auto;
-    padding: 1.5rem 2rem; 
+    padding: 0 0 1.5em 0;
     background-color: #f8f9fa;
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
