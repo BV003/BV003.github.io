@@ -123,3 +123,8 @@ h1:before, .anchor:before {
 .page {
   padding-right: 0rem;   // 你想要的数值
 }
+
+.page__content p {
+  margin-top: 0;
+  margin-bottom: 0.75em;   // 控制间隔大小
+}
