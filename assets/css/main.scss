@@ -63,7 +63,8 @@ h4, h5, h6 { font-size: 1rem; }
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    
+    font-size: 0.9rem;   // 整体小一点
+    line-height: 1.4;    // 保证可读性
 
     .paper-box-image{
         justify-content: center;
@@ -99,7 +100,7 @@ h4, h5, h6 { font-size: 1rem; }
 
     }
   }
-  
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 
