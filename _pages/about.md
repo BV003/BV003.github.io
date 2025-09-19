@@ -13,7 +13,7 @@ I am currently studying artificial intelligence and software engineering.
 Aspiring Research Assistant in computer science and artificial intelligence.
 
 <div class="announcement-container" style="
-    max-width: 800px;
+    max-width: 660px;
     margin: 0 auto 2rem auto;
     padding: 1.5rem 2rem; 
     background-color: #f8f9fa;
@@ -58,6 +58,7 @@ Aspiring Research Assistant in computer science and artificial intelligence.
 
 <!-- - **2025.05** — Two papers ! -->
 <div style="
+max-width: 660px;
 height: 210px; 
 overflow-y: auto; 
 margin: 0 auto 2rem auto;
