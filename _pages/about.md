@@ -46,8 +46,8 @@ Aspiring Research Assistant in computer science and artificial intelligence.
 
 ## Research
 
-My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:  
-To continuously make new discoveries in the field of artificial intelligence. The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.  
+My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:<br>  
+To continuously make new discoveries in the field of artificial intelligence. The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.<br>  
 To create practical technologies that solve real-world problems. I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.
 
 
@@ -88,7 +88,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
   </style>
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li style="margin-bottom: 12px;">2025.09 — One papers 🥰</li>
+    <li style="margin-bottom: 12px;">2025.09 — One paper 🥰</li>
 </ul>
 </div>
 
