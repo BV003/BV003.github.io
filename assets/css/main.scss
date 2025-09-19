@@ -63,8 +63,6 @@ h4, h5, h6 { font-size: 1rem; }
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
-    font-size: 0.9rem;   // 整体小一点
-    line-height: 1.4;    // 保证可读性
 
     .paper-box-image{
         justify-content: center;
@@ -120,4 +118,8 @@ h1:before, .anchor:before {
     color: white;
     background-color: #00369f;
     font-size: .8em;
+}
+
+.page {
+  padding-right: 0rem;   // 你想要的数值
 }
