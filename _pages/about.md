@@ -44,7 +44,7 @@ Aspiring Research Assistant in computer science and artificial intelligence.
 </div>
 
 
-## Research
+### Research
 
 
 My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:
