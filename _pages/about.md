@@ -46,15 +46,9 @@ Aspiring Research Assistant in computer science and artificial intelligence.
 
 ## Research
 
-
-My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:
-
-To continuously make new discoveries in the field of artificial intelligence  
-The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.
-
-
-To create practical technologies that solve real-world problems  
-I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.
+My current research focuses on energy-based models, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:  
+To continuously make new discoveries in the field of artificial intelligence. The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.  
+To create practical technologies that solve real-world problems. I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.
 
 
 
@@ -93,13 +87,9 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       background: #a8a8a8;
     }
   </style>
-
-
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li style="margin-bottom: 12px;">2025.05 — Two papers ！🥰</li>
-  </ul>
-
-
+    <li style="margin-bottom: 12px;">2025.09 — One papers 🥰</li>
+</ul>
 </div>
 
 
@@ -107,14 +97,12 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 ## Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/point2rbox-v2.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box-text' markdown="1">  
 
-[Point2RBox-v2: Rethinking Point-supervised Oriented Object Detection with Spatial Layout Among Instances](https://arxiv.org/pdf/2502.04268)
-
-**Yi Yu**, **Botao Ren**, **Peiyuan Zhang**, Mingxin Liu, Junwei Luo, Shaofeng Zhang, Feipeng Da, Junchi Yan, Xue Yang
-
-[**Project**](https://github.com/VisionXLab/point2rbox-v2) <strong><span class='show_paper_citations' data='rQbW67AAAAAJ:u-x6o8ySG0sC'></span></strong>
-- This work rethinks point-supervised oriented object detection with the layout among instances. At the core are three principles: 1) Gaussian overlap loss. 2) Voronoi watershed loss. 3) Consistency loss. 
+[Point2RBox-v2: Rethinking Point-supervised Oriented Object Detection with Spatial Layout Among Instances](https://arxiv.org/pdf/2502.04268)  
+**Yi Yu**, **Botao Ren**, **Peiyuan Zhang**, Mingxin Liu, Junwei Luo, Shaofeng Zhang, Feipeng Da, Junchi Yan, Xue Yang  
+[**Project**](https://github.com/VisionXLab/point2rbox-v2)   
+This work rethinks point-supervised oriented object detection with the layout among instances. At the core are three principles: 1) Gaussian overlap loss. 2) Voronoi watershed loss. 3) Consistency loss. 
 </div>
 </div>
 
