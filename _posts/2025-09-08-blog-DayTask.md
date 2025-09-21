@@ -7,7 +7,7 @@ An open source tool designed for personal productivity.
 
 
 
----excerpt---
+<!-- excerpt -->
 
 ### Copyright & Originality Statement
 
