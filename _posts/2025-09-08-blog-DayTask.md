@@ -3,7 +3,8 @@ title: 'DayTask'
 date: 2025-09-08
 permalink: /posts/2025/09/blog/DayTask
 ---
-An open source tool designed for personal productivity.
+> **An open source tool designed for personal productivity.**
+
 
 
 

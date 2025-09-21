@@ -3,7 +3,8 @@ title: 'ArgoAgent'
 date: 2025-09-10
 permalink: /posts/2025/09/blog/ArgoAgent
 ---
-An open source tool designed for personal productivity.  
+> **An open source tool designed for personal productivity.**
+
 
 
 
