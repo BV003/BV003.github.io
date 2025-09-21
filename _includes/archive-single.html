@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style >
 
         /* 3. 卡片主体样式：和原 bg-white rounded-xl p-6 card-shadow card-hover 效果一致 */
@@ -130,12 +130,12 @@
             <div class="card-meta">
                 {% if post.date %}
                 <span class="card-meta-item">
-                    <i class="fa fa-calendar-o card-meta-icon"></i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
+                    <i class="fa fa-calendar-o card-meta-icon" aria-hidden="true"></i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
                 </span>
                 {% endif %}
                 {% if post.read_time %}
                 <span class="card-meta-item">
-                    <i class="fa fa-clock-o card-meta-icon"></i>  {% include read-time.html %}
+                    <i class="fa fa-clock-o card-meta-icon" aria-hidden="true"></i>  {% include read-time.html %}
                 </span>
                 {% endif %}
             </div>
