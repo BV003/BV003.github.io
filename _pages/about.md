@@ -119,8 +119,8 @@ This work rethinks point-supervised oriented object detection with the layout am
 
 
 ## Email  
-- michaelliuwq003 at gmail.com
-- 2022302111185 at whu.edu.cn
+- michaelliuwq003 At gmail.com
+- 2022302111185 At whu.edu.cn
 
 <div style="width: 150px; background-color: #ffffff;  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); padding: 2px; margin: 5px auto; transition: transform 0.3s ease;">
   <a href="https://mapmyvisitors.com/web/1byw8" title="Visit tracker" style="display: block; text-decoration: none;">
