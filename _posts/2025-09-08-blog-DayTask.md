@@ -1,7 +1,7 @@
 ---
 title: 'DayTask'
 date: 2025-09-08
-permalink: /posts/2025/09/blog-test/
+permalink: /posts/2025/09/blog-test/DayTask
 ---
 An open source tool designed for personal productivity.
 
