@@ -1,6 +1,6 @@
 ---
 title: 'pintest'
-date: 9999-01-01
+date: 2025-09-22
 permalink: /posts/pin/blog/pintest
 ---
 
