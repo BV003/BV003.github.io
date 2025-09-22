@@ -97,17 +97,15 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 
 ## Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://github.com/user-attachments/assets/929bd9da-fd25-4755-9a04-9f13eb70b27e' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://github.com/user-attachments/assets/929bd9da-fd25-4755-9a04-9f13eb70b27e' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">  
 
 Point2RBox-v2: Rethinking Point-supervised Oriented Object Detection with Spatial Layout Among Instances
-
 Yi Yu, Botao Ren, **Peiyuan Zhang**, Mingxin Liu, Junwei Luo, Shaofeng Zhang, Feipeng Da, Junchi Yan, Xue Yang 
- 
 [[**paper**](https://arxiv.org/pdf/2502.04268)] [[**code**](https://github.com/VisionXLab/point2rbox-v2)]   
 This work rethinks point-supervised oriented object detection with the layout among instances. At the core are three principles: 1) Gaussian overlap loss. 2) Voronoi watershed loss. 3) Consistency loss. 
 </div>
-</div>
+</div> -->
 
 
 
