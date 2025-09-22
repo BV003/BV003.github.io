@@ -21,5 +21,5 @@ Any reproduction or commercial use of the concept without acknowledgment may con
 
 ### Article Attribution and License
 Author: Michael Liu  
-Original Link: https://bv003.github.io/posts/2025/09/blog/ArgoAgent  
+Original Link: https://bv003.github.io/posts/2025/09/blog/DayTask  
 License: This article is licensed under CC BY-SA 4.0. Redistribution is not permitted without complying with the license requirements.  
