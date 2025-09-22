@@ -20,7 +20,6 @@ The project is intended to be open-source and collaborative. You are welcome to 
 Any reproduction or commercial use of the concept without acknowledgment may constitute a violation of intellectual property rights.
 
 ### Article Attribution and License
-
 Author: Michael Liu  
 Original Link: https://bv003.github.io/posts/2025/09/blog/ArgoAgent  
 License: This article is licensed under CC BY-SA 4.0. Redistribution is not permitted without complying with the license requirements.  
