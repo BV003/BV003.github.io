@@ -1,7 +1,7 @@
 ---
-title: 'pintest'
+title: 'How to Become a Good Engineer'
 date: 2025-09-22
-permalink: /posts/pin/blog/pintest
+permalink: /posts/pin/blog/engineer
 pin: true
 ---
 
