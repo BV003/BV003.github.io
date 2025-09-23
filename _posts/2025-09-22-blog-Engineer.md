@@ -5,26 +5,29 @@ permalink: /posts/pin/blog/engineer
 pin: true
 ---
 
-这篇文章是写如何成为一名好的工程师，是写给我自己看的。因为我的理解一直在不断变化，所以这篇文章也会不断改变。
+This article is about how to become a good engineer, written mainly for myself. Since my understanding is constantly evolving, this piece will also keep changing.
 
 <!-- excerpt -->
+### Always Do Useful Things to Achieve Compounding
+A good career is one where compounding exists. The work you do now will lead to better opportunities in the future. For me at this stage, internships (work) and research in trending areas of industry are useful things.  
+One thing to watch out for is being hidden within the collective. The work you do may not receive clear external feedback. This has two sides: on the positive side, even if your work isn’t outstanding, you won’t be criticized; but on the negative side, you can’t improve yourself based on external feedback. You need to actively join the game.
 
-### 一直做有用的事情来达到复利
-存在复利的职业才是好职业。当下做的工作会在未来给你带来一份更好的工作。对于目前的我来说，实习（工作），从事业界热门方向的论文研究都是有用的事情。  
-需要注意的是小心你被集体给隐藏起来了。你所做的工作不会得到明确的外部反馈，这带来的影响是两方面的。从好的一方面来看，就算你做的不够出色，你也不会受到批评，但是从坏的一方面来看，你不能根据外部反馈来改进自己。你需要入局。
+### Build a Personal Brand
 
-### 打造个人品牌
-谷歌学术，github，博客，我用个人网站将它们全部串起来。
+Google Scholar, GitHub, blog—I connect them all through my personal website.
 
-### 学习市场需要的新技术
-终身学习。用一些时间去接触新技术，可以做一个简单demo放在github上，或者写博客或是拍视频。  
-找同伴一起讨论也是不错的选择。
+### Learn New Technologies the Market Needs
 
-### 跳槽以寻找更好的机会
-跳槽这一行为是很正确的。既然公司可以辞退员工，那么员工为什么不可以跳槽呢？  
-跳槽不要存在空窗期，也就是说不要当你空闲下来，无事可做的时候才去寻找新的机会。而是当你手头还有工作时就要利用空闲时间去寻找新机会。  
-跳槽也需要和原来的同事们维持良好的关系，这是必须的。  
-不能频繁跳槽。
+Lifelong learning. Spend some time exploring new technologies, maybe create a simple demo and put it on GitHub, or write a blog post, or even record a video.
+Finding peers to discuss with is also a good option.
 
-### 信息戒断防止焦虑
-当太阳下山后，一天的工作也就结束了。头脑需要休息。不要在工作时间以外接触外界工作信息（除非你头脑里灵感自己蹦出来），防止焦虑。
+### Switch Jobs to Find Better Opportunities
+
+Changing jobs is a perfectly reasonable action. If companies can fire employees, why shouldn’t employees switch jobs?
+Avoid having gaps between jobs. Don’t wait until you’re idle and have nothing to do before looking for new opportunities. Instead, start searching for them while you’re still employed, using your spare time.
+At the same time, maintain good relationships with your former colleagues—that’s essential.
+But don’t switch jobs too frequently.
+
+### Information Fasting to Prevent Anxiety
+
+When the sun goes down, the workday should also end. The brain needs rest. Don’t expose yourself to work-related information outside working hours (unless inspiration naturally comes to you), in order to prevent anxiety.
