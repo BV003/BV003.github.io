@@ -31,3 +31,12 @@ But don’t switch jobs too frequently.
 ### Information Fasting to Prevent Anxiety
 
 When the sun goes down, the workday should also end. The brain needs rest. Don’t expose yourself to work-related information outside working hours (unless inspiration naturally comes to you), in order to prevent anxiety.
+
+
+### Work Content
+
+Here, “work” refers to its broadest sense. The field I am engaged in is about using human knowledge and wisdom to build products that can change the world. In form, this could be as fundamental as being a software engineer who writes code to create software products. It could also be like Noyce inventing the integrated circuit. You can be the one who personally writes the code, or you can simply focus on thinking at the macro level and have others carry out your ideas. The key is to remember that the purpose of work is to build things with real impact, and not to lose sight of that.
+
+### Good Attitude
+
+Stay humble, and don’t boast about your achievements when luck is on your side. Remain calm in the face of major setbacks. Put passion into the places where it is truly needed.
