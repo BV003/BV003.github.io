@@ -89,7 +89,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
   </style>
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li style="margin-bottom: 12px;">2025.09 — One paper was accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰</li>
+    <li style="margin-bottom: 12px;">[2025.09] One paper was accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰</li>
 </ul>
 </div>
 
