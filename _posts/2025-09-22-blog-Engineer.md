@@ -40,3 +40,8 @@ Here, “work” refers to its broadest sense. The field I am engaged in is abou
 ### Good Attitude
 
 Stay humble, and don’t boast about your achievements when luck is on your side. Remain calm in the face of major setbacks. Put passion into the places where it is truly needed.
+
+### Article Attribution and License
+Author: Michael Liu  
+Original Link: https://bv003.github.io/posts/pin/blog/engineer
+License: This article is licensed under CC BY-SA 4.0. Redistribution is not permitted without complying with the license requirements.  
