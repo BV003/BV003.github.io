@@ -39,7 +39,7 @@ Original Link: [https://bv003.github.io/posts/blog/superposition](https://bv003.
 License: This article is licensed under CC BY-SA 4.0. Redistribution is not permitted without complying with the license requirements.  
 
 ### References
-1. Bills, S., Cammarata, N., Mossing, D., Tillman, H., Gao, L., Goh, G., Sutskever, I., Leike, J., Wu, J., Saunders, W. Language models can explain neurons in language models. 2023. [link](https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html)
-2. Ameisen, E., Lindsey, J., Pearce, A., Gurnee, W., Turner, N. L., Chen, B., Citro, C., Abrahams, D., Carter, S., Hosmer, B., Marcus, J., Sklar, M., Templeton, A., Bricken, T., McDougall, C., Cunningham, W., Henighan, T., Jermyn, A., Jones, A., Persic, A., Qi, Z., Thompson, T. B., Zimmerman, S., Rivoire, K., Conerly, T., Olah, C., Batson, J. Circuit Tracing: Revealing Computational Graphs in Language Models. 2025. [link](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)
-3. 
-4. Eichhorn, Tim and Lin, H. W. and Olsson, Christopher and Olah, Chris. Signal in the noise: Polysemantic interference transfers and predicts cross-model influence. [link](https://arxiv.org/html/2505.11611v2)
+1. Language models can explain neurons in language models. 2023. [link](https://openaipublic.blob.core.windows.net/neuron-explainer/paper/index.html)
+2. Circuit Tracing: Revealing Computational Graphs in Language Models. 2025. [link](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)
+3. Towards Monosemanticity: Decomposing Language Models With Dictionary Learning.[link](https://transformer-circuits.pub/2023/monosemantic-features/index.html)
+4. Signal in the noise: Polysemantic interference transfers and predicts cross-model influence. [link](https://arxiv.org/html/2505.11611v2)
