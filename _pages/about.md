@@ -103,7 +103,7 @@ MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Eva
 [[**paper**](https://neurips.cc/virtual/2025/poster/121843)] [[**code**](https://github.com/shentt67/MARS-VFL)]  
 Wei Shen, **Weiqi Liu**, Mingde Chen, Wenke Huang, Mang Ye  
 The 39th Conference on Neural Information Processing Systems (NeurIPS), 2025  
-Spotlight  
+**Spotlight**  
 We propose a unified benchmark for realistic VFL evaluation that integrates data from practical applications.  
 
 </div>
