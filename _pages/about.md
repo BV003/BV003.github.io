@@ -10,7 +10,7 @@ redirect_from:
 Hi 👋  
 I'm Michael Liu.  
 I am currently studying artificial intelligence and software engineering.  
-Aspiring Research Assistant in computer science and artificial intelligence.
+I aim to become a skilled and innovative engineer in computer science and AI.
 
 <div class="announcement-container" style="
     max-width: 660px;
