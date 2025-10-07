@@ -126,8 +126,8 @@
       {% if author.medium %}
         <li><a href="{{ author.medium }}"><i class="fab fa-fw fa-medium icon-pad-right" aria-hidden="true"></i>Medium</a></li>
       {% endif %}
-      <!-- {% if author.substack %}<li><a href="{{ author.substack }}" target="_blank"><img src="{{ '/images/substack.png' | prepend: base_path }}" alt="Substack" style="height:16px;width:16px;vertical-align:middle;margin-right:6px;">Substack</a></li>
-      {% endif %} -->
+      {% if author.substack %}<li><a href="{{ author.substack }}" target="_blank"><img src="{{ '/images/substack.png' | prepend: base_path }}" alt="Substack" style="height:16px;width:16px;vertical-align:middle;margin-right:6px;">Substack</a></li>
+      {% endif %}
       {% if author.pinterest %}
         <li><a href="https://www.pinterest.com/{{ author.pinterest }}"><i class="fab fa-fw fa-pinterest icon-pad-right" aria-hidden="true"></i>Pinterest</a></li>
       {% endif %}            
