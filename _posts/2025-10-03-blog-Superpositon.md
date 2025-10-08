@@ -23,7 +23,12 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 
 #### Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
 
-#### 
+神经网络中最自然的计算单元——神经元本身——却并不是一个适合人类理解的自然单元。这是因为许多神经元具有多义性（polysemanticity）：它们会对看似无关的多种输入产生反应。这种多义性使得我们难以仅通过单个神经元的活动来推理整个网络的行为。在之前的文章Toy Models of Superposition 一文中，作者提出了三种策略，用以在特征被叠加掩盖时，寻找一组稀疏且可解释的特征表示，(1) 构建无叠加的模型，例如通过鼓励激活稀疏性来实现，(2) 使用**字典学习（dictionary learning）**来在存在叠加的模型中寻找一个过完备的特征基，以及 (3) 结合前两者的混合方法。自那篇论文发表以来，作者探索了这三种方法。最终，作者提出了一些反例，这些反例使作者相信：仅依赖稀疏架构（方法1）不足以防止多义性，而标准的字典学习方法（方法2）则存在严重的过拟合问题。
+
+在本文中，我们使用一种称为稀疏自编码器（sparse autoencoder）的弱字典学习算法，从已训练的模型中提取学习到的特征，这些特征相较于模型的神经元本身，构成了更具单义性（monosemantic）的分析单元。本文的目标是详细展示稀疏自编码器如何在两个关键目标上取得令人信服的成果：(1) 从叠加（superposition）中提取可解释的特征，(2) 支持对神经网络内部电路进行基础的可解释性分析。
+
+具体而言，我们取一个单层 Transformer 模型，其 MLP 层包含 512 个神经元，并在 80 亿个数据点上训练稀疏自编码器，以将 MLP 激活分解为相对可解释的特征。扩展因子（expansion factor）从 1×（512 个特征）到 256×（131,072 个特征）不等。我们将主要分析集中在一次特定实验中学习到的 4,096 个特征上，该实验被称为 A/1。
+
 
 #### 使用SAE,POLYSEMANTIC INTERFERENCE  TRANSFERS AND PREDICTS CROSS-MODEL INFLUENCE
 
