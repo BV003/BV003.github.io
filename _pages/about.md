@@ -116,9 +116,6 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
 
 ## Education
 
-<!-- 
-- B.S. — Software Engineering — WuHan University   -->
-
 <div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
     <img src="/images/whu.png" 
          alt="Wuhan University Logo" 
@@ -149,8 +146,11 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
 
 
 ## Email  
-- michaelliuwq003 At gmail.com
-- 2022302111185 At whu.edu.cn
+<div style="display: flex; gap: 25px; justify-content: center; align-items: center; padding: 10px 20px; border-radius: 10px; background-color: #f5f5f5; box-shadow: 0 3px 8px rgba(0,0,0,0.1); font-family: 'Segoe UI', Tahoma, sans-serif;">
+    <a href="mailto:michaelliuwq003@gmail.com" style="text-decoration: none; color: #1a73e8; font-weight: 500;">michaelliuwq003@gmail.com</a>
+    <a href="mailto:2022302111185@whu.edu.cn" style="text-decoration: none; color: #1a73e8; font-weight: 500;">2022302111185@whu.edu.cn</a>
+</div>
+
 
 <div style="width: 150px; background-color: #ffffff;  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); padding: 2px; margin: 5px auto; transition: transform 0.3s ease;">
   <a href="https://mapmyvisitors.com/web/1byw8" title="Visit tracker" style="display: block; text-decoration: none;">
