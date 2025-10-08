@@ -152,7 +152,7 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
         <a href="mailto:michaelliuwq003@gmail.com" style="text-decoration: none; color: #000000;">michaelliuwq003@gmail.com</a>
     </div>
     <div style="display: flex; align-items: center; gap: 10px;">
-        <span style="font-weight: bold; color: #555;">✉️s</span>
+        <span style="font-weight: bold; color: #555;">✉️</span>
         <a href="mailto:2022302111185@whu.edu.cn" style="text-decoration: none; color: #000000;">2022302111185@whu.edu.cn</a>
     </div>
 </div>
