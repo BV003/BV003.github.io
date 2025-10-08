@@ -6,6 +6,7 @@ permalink: /posts/blog/superposition
 
 This blog summarizes the superposition problem, with the aim of addressing the issue that a single neuron or attention head may simultaneously represent multiple concepts.
 
+
 <!-- excerpt -->
 
 ## 问题描述
