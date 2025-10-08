@@ -18,7 +18,6 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 在openai的blog中，研究人员也提出了解决多义性问题的一些方法。研究提出 “寻找可解释方向” 的方法，通过**优化神经元的线性组合**（而非单个神经元）来降低多义性影响。具体做法为初始化随机单位向量 θ，通过坐标上升迭代优化 —— 先寻找能解释该向量激活的自然语言描述，再基于解释得分调整 θ，最终得到 “低多义性的虚拟神经元”。研究提出未来可探索 “非负矩阵分解（NMF）、奇异值分解（SVD）” 等技术，将多义性神经元的激活分解为多个独立的 “单义子成分”，再针对每个子成分生成解释，本质是将 “多义性问题拆解为单义性问题”。
 
 
-### 特征分解（Feature Decomposition）
 
 ### Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
 
