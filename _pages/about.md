@@ -136,7 +136,7 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
                 border-radius: 12px; 
                 box-shadow: 0 4px 12px rgba(0,0,0,0.1);
                 background-color: #fafafa;">
-        <img src="https://www.urongda.com/logos/4142010486/武汉大学-logo-2048px.png" 
+        <img src="/images/whu.png" 
              alt="武汉大学校徽" 
              style="width:70px; height:70px; border-radius:50%; border:1px solid #ccc;">
         <div>
