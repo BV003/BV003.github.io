@@ -21,7 +21,7 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 
 ### Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
 
-本文最重要的论点是：通过字典学习得到的特征比单个神经元更具单义性（monosemantic）。
+这是的Anthropic的blog，本文最重要的论点是：通过字典学习得到的特征比单个神经元更具单义性（monosemantic）。
 
 神经网络中最自然的计算单元——神经元本身——却并不是一个适合人类理解的自然单元。这是因为许多神经元具有多义性（polysemanticity）：它们会对看似无关的多种输入产生反应。这种多义性使得作者难以仅通过单个神经元的活动来推理整个网络的行为。在之前的文章Toy Models of Superposition 一文中，作者提出了三种策略，用以在特征被叠加掩盖时，寻找一组稀疏且可解释的特征表示，(1) 构建无叠加的模型，例如通过鼓励激活稀疏性来实现，(2) 使用**字典学习（dictionary learning）**来在存在叠加的模型中寻找一个过完备的特征基，以及 (3) 结合前两者的混合方法。自那篇论文发表以来，作者探索了这三种方法。最终，作者提出了一些反例，这些反例使作者相信：仅依赖稀疏架构（方法1）不足以防止多义性，而标准的字典学习方法（方法2）则存在严重的过拟合问题。
 
@@ -50,7 +50,7 @@ $$ x_j \approx b + \sum_{i} f_i(x_j) d_i $$
 
 我们的稀疏自编码器包括：输入层带有偏置项，一个带偏置和 ReLU 激活的线性编码器层，以及一个带偏置的线性解码器层。在玩具模型中，我们发现偏置项对自编码器的性能非常重要。我们使用 Adam 优化器训练自编码器，以重构 Transformer 模型中 MLP 层的激活值，损失函数为 MSE（均方误差）加上 L1 正则项，以鼓励稀疏性。在训练过程中，我们发现了两个关键原则：首先，数据规模非常重要，其次，在训练过程中，有些神经元会“死亡”——即在大量数据点上都不会被激活。我们采用人工检查，特征密度，重建损失和玩具模型认证等方法来实现判断自编码器是否有效。
 
-#### 使用SAE,POLYSEMANTIC INTERFERENCE  TRANSFERS AND PREDICTS CROSS-MODEL INFLUENCE
+### POLYSEMANTIC INTERFERENCE  TRANSFERS AND PREDICTS CROSS-MODEL INFLUENCE
 
 通过利用稀疏自编码器（Sparse Autoencoders, SAEs），作者绘制了两个小模型（Pythia-70M 和 GPT-2-Small）的多义性拓扑结构，以识别那些语义上不相关但在模型内部会相互干扰的 SAE 特征对。作者在四个层面进行了干预（提示词、单词、特征、神经元），并测量了由此在下一个词预测分布中引发的变化，从而揭示了暴露这些模型系统性脆弱性的多义性结构。
 
