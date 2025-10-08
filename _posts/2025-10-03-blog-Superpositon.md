@@ -42,7 +42,9 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 作者选取了单层 Transformer + MLP（ReLU）作为研究目标，称之为“作者尚未理解的最简单语言模型”。他们希望通过分析这层 MLP 的激活，验证是否能用更基础的可解释单元（features）替代“神经元”这一过于粗糙的分析单元。作者提出使用稀疏自编码器（sparse autoencoder）来分解 MLP 激活。并且强调一个关键设定：分解出的特征数远多于神经元数（overcomplete decomposition），因为他们相信 MLP 层通过叠加（superposition）机制压缩了更多语义特征。
 
 我们来采取这样的一种观点，模型的激活可以写成多个“特征方向”的线性组合：
+
 $$ x_j \approx b + \sum_{i} f_i(x_j) d_i $$
+
 激活向量可以由一系列特征向量进行表示。我们使用一个稀疏自编码器来实现这种分解，编码器（encoder）计算特征激活 \\( f_i(x) \\)，解码器（decoder）的列向量代表每个特征的方向\\( d_{i} \\)。如果我们能用稀疏特征把这些激活重新分解出来，就能揭示这些被“叠加”的语义单位，从而理解模型是如何“在少量神经元中存放更多概念”的。
 
 
