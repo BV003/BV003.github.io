@@ -126,22 +126,7 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
     </div>
 </div>
 
-<!-- <div style="display: flex; justify-content: center; align-items: center; margin-top: 30px;">
-    <div style="display: flex; align-items: center; gap: 20px; 
-                font-family: 'Segoe UI', Tahoma, sans-serif;
-                padding: 15px 25px; 
-                border-radius: 12px; 
-                box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-                background-color: #fafafa;">
-        <img src="/images/whu.png" 
-             alt="武汉大学校徽" 
-             style="width:70px; height:70px; border-radius:50%; border:1px solid #ccc;">
-        <div>
-            <div style="font-weight: bold; font-size: 1.2em; color: #333;">B.S. in Software Engineering</div>
-            <div style="font-style: italic; color: #666; font-size: 1em;">Wuhan University</div>
-        </div>
-    </div>
-</div> -->
+
 
 
 
