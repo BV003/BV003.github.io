@@ -94,8 +94,9 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 </div>
 
 
+## Experience
 
-## Publications
+## Academic Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='https://raw.githubusercontent.com/BV003/images/main/paper/1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">  
@@ -111,7 +112,7 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
 
 
 
-## Experience
+## Popular Publications
 
 ## Education
 
@@ -119,7 +120,7 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
 - B.S. — Software Engineering — WuHan University   -->
 
 <div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Wuhan_University_Logo.png" 
+    <img src="/images/whu.png" 
          alt="Wuhan University Logo" 
          style="width:60px; height:60px; border-radius:50%; border:1px solid #ccc;">
     <div>
