@@ -146,20 +146,16 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
 
 
 ## Email  
-<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 10px; 
-            font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 1em; color: #333;
-            padding: 15px 20px; border-radius: 12px; background-color: #f9f9f9;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px; font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 1em; color: #333;">
     <div style="display: flex; align-items: center; gap: 10px;">
         <span style="font-weight: bold; color: #555;">✉️</span>
-        <span>michaelliuwq003 At gmail.com</span>
+        <a href="mailto:michaelliuwq003@gmail.com" style="text-decoration: none; color: #000000;">michaelliuwq003@gmail.com</a>
     </div>
     <div style="display: flex; align-items: center; gap: 10px;">
-        <span style="font-weight: bold; color: #555;">✉️</span>
-        <span>2022302111185 At whu.edu.cn</span>
+        <span style="font-weight: bold; color: #555;">✉️s</span>
+        <a href="mailto:2022302111185@whu.edu.cn" style="text-decoration: none; color: #000000;">2022302111185@whu.edu.cn</a>
     </div>
 </div>
-
 
 
 <div style="width: 150px; background-color: #ffffff;  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); padding: 2px; margin: 5px auto; transition: transform 0.3s ease;">
