@@ -146,9 +146,15 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
 
 
 ## Email  
-<div style="display: flex; gap: 25px; justify-content: center; align-items: center; padding: 10px 20px; border-radius: 10px; background-color: #f5f5f5; box-shadow: 0 3px 8px rgba(0,0,0,0.1); font-family: 'Segoe UI', Tahoma, sans-serif;">
-    <a href="mailto:michaelliuwq003@gmail.com" style="text-decoration: none; color: #1a73e8; font-weight: 500;">michaelliuwq003@gmail.com</a>
-    <a href="mailto:2022302111185@whu.edu.cn" style="text-decoration: none; color: #1a73e8; font-weight: 500;">2022302111185@whu.edu.cn</a>
+<div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px; font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 1em; color: #333;">
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon" style="width:18px; height:18px;">
+        <a href="mailto:michaelliuwq003@gmail.com" style="text-decoration: none; color: #000000;">michaelliuwq003@gmail.com</a>
+    </div>
+    <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email Icon" style="width:18px; height:18px;">
+        <a href="mailto:2022302111185@whu.edu.cn" style="text-decoration: none; color: #000000;">2022302111185@whu.edu.cn</a>
+    </div>
 </div>
 
 
