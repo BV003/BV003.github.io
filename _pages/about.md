@@ -115,8 +115,19 @@ We propose a unified benchmark for realistic VFL evaluation that integrates data
 
 ## Education
 
+<!-- 
+- B.S. — Software Engineering — WuHan University   -->
 
-- B.S. — Software Engineering — WuHan University  
+<div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Wuhan_University_Logo.png" 
+         alt="Wuhan University Logo" 
+         style="width:60px; height:60px; border-radius:50%; border:1px solid #ccc;">
+    <div>
+        <div style="font-weight: bold; font-size: 1.1em;">B.S. in Software Engineering</div>
+        <div style="font-style: italic; color: #555;">Wuhan University</div>
+    </div>
+</div>
+
 
 
 
