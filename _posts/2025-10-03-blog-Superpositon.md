@@ -21,7 +21,7 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 
 ### 特征分解（Feature Decomposition）
 
-#### Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
+### Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
 
 神经网络中最自然的计算单元——神经元本身——却并不是一个适合人类理解的自然单元。这是因为许多神经元具有多义性（polysemanticity）：它们会对看似无关的多种输入产生反应。这种多义性使得我们难以仅通过单个神经元的活动来推理整个网络的行为。在之前的文章Toy Models of Superposition 一文中，作者提出了三种策略，用以在特征被叠加掩盖时，寻找一组稀疏且可解释的特征表示，(1) 构建无叠加的模型，例如通过鼓励激活稀疏性来实现，(2) 使用**字典学习（dictionary learning）**来在存在叠加的模型中寻找一个过完备的特征基，以及 (3) 结合前两者的混合方法。自那篇论文发表以来，作者探索了这三种方法。最终，作者提出了一些反例，这些反例使作者相信：仅依赖稀疏架构（方法1）不足以防止多义性，而标准的字典学习方法（方法2）则存在严重的过拟合问题。
 
@@ -37,6 +37,8 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 稀疏自编码器能生成在神经元基底中“不可见”的可解释特征。我们发现了一些特征（例如对希伯来文字母表征的特征），这些特征在任何神经元的主要激活样本中都未出现，却能被稀疏自编码器有效识别出来。稀疏自编码器的特征可用于干预并引导Transformer的生成行为。例如，当我们激活研究中的 base64 特征 时，模型会生成 Base64 编码文本；激活 阿拉伯文字特征 时，模型则会生成阿拉伯语文本。稀疏自编码器学习到的特征具有一定的普适性（universality）。当将稀疏自编码器分别应用于不同的 Transformer 语言模型时，所得特征之间大多相似——并且彼此之间的相似度要高于它们与各自模型原始神经元的相似度。
 
 随着自编码器规模的增加，特征会发生“分裂（feature splitting）”。当我们逐步将自编码器的宽度从 512（即神经元数量）增加到超过 131,000（即 256× 扩展），发现某些特征会自然地分化成若干“家族”。例如，在较小字典中出现的一个 Base64 特征，在更大的字典中会分裂成三个，具有更细致但仍可解释的功能。不同规模的自编码器因此提供了理解同一对象的不同“分辨率”。仅 512 个神经元即可表示数万个特征。尽管 MLP 层规模很小，我们在扩大稀疏自编码器时仍不断发现新的特征。特征之间可形成类似“有限状态自动机（finite-state automata）”的系统，从而实现复杂行为。例如，我们发现某些特征能够协同工作以生成有效的 HTML 结构。
+
+
 
 #### 使用SAE,POLYSEMANTIC INTERFERENCE  TRANSFERS AND PREDICTS CROSS-MODEL INFLUENCE
 
