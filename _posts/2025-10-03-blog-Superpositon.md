@@ -8,7 +8,7 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 
 <!-- excerpt -->
 
-### 问题描述
+## 问题描述
 在openai的blog当中，研究通过对 GPT-2 XL 等模型的神经元分析发现，多数神经元表现出显著的多义性。即单个神经元并非只对某一类单一语义模式（如 “漫威电影相关词汇”“过去时态动词”）激活，而是同时对多个无关或弱相关的语义概念产生响应。
 
 现有解释方法（如基于 GPT-4 的自然语言解释）难以捕捉复杂的多义性。若神经元同时对应多个概念，解释往往只能覆盖其中一个或部分核心概念，导致 “解释不完整”。为兼顾多个概念，解释可能变得过度宽泛（如将 “既对‘not all’激活，也对‘部分否定短语’激活” 简化为 “对否定相关词汇激活”），反而降低解释的精准度。
@@ -19,7 +19,7 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 
 
 
-### Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
+## Towards Monosemanticity: Decomposing Language Models With Dictionary Learning
 
 这是的Anthropic的blog，本文最重要的论点是：通过字典学习得到的特征比单个神经元更具单义性（monosemantic）。
 
@@ -50,7 +50,7 @@ $$ x_j \approx b + \sum_{i} f_i(x_j) d_i $$
 
 我们的稀疏自编码器包括：输入层带有偏置项，一个带偏置和 ReLU 激活的线性编码器层，以及一个带偏置的线性解码器层。在玩具模型中，我们发现偏置项对自编码器的性能非常重要。我们使用 Adam 优化器训练自编码器，以重构 Transformer 模型中 MLP 层的激活值，损失函数为 MSE（均方误差）加上 L1 正则项，以鼓励稀疏性。在训练过程中，我们发现了两个关键原则：首先，数据规模非常重要，其次，在训练过程中，有些神经元会“死亡”——即在大量数据点上都不会被激活。我们采用人工检查，特征密度，重建损失和玩具模型认证等方法来实现判断自编码器是否有效。
 
-### POLYSEMANTIC INTERFERENCE  TRANSFERS AND PREDICTS CROSS-MODEL INFLUENCE
+## POLYSEMANTIC INTERFERENCE  TRANSFERS AND PREDICTS CROSS-MODEL INFLUENCE
 
 通过利用稀疏自编码器（Sparse Autoencoders, SAEs），作者绘制了两个小模型（Pythia-70M 和 GPT-2-Small）的多义性拓扑结构，以识别那些语义上不相关但在模型内部会相互干扰的 SAE 特征对。作者在四个层面进行了干预（提示词、单词、特征、神经元），并测量了由此在下一个词预测分布中引发的变化，从而揭示了暴露这些模型系统性脆弱性的多义性结构。
 
