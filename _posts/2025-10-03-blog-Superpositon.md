@@ -43,6 +43,7 @@ This blog summarizes the superposition problem, with the aim of addressing the i
 
 我们来采取这样的一种观点，模型的激活可以写成多个“特征方向”的线性组合：
 $$ x_j \approx b + \sum_{i} f_i(x_j) d_i $$
+激活向量可以由一系列特征向量进行表示。我们使用一个稀疏自编码器来实现这种分解，编码器（encoder）计算特征激活 \\( f_i(x) \\)，解码器（decoder）的列向量代表每个特征的方向\\( d_{i} \\)。如果我们能用稀疏特征把这些激活重新分解出来，就能揭示这些被“叠加”的语义单位，从而理解模型是如何“在少量神经元中存放更多概念”的。
 
 
 
