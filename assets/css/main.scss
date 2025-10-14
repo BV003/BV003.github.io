@@ -61,7 +61,8 @@ h4, h5, h6 { font-size: 1rem; }
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
+    // border-bottom: 1px #efefef solid;
+    border-bottom: none;
     padding: 0 0 2em 0;
 
     .paper-box-image{
