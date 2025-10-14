@@ -59,27 +59,27 @@
   }
 
   /* paragraph indents */
-  // p {
-  //   margin: 0 0 $indent-var;
-
-  //   /* sibling indentation*/
-  //   @if $paragraph-indent == true {
-  //     & + p {
-  //       text-indent: $indent-var;
-  //       margin-top: -($indent-var);
-  //     }
-  //   }
-  // }
   p {
-  margin: 0 0 0; // 段落底部无间距
+    margin: 0 0 $indent-var;
 
-  @if $paragraph-indent == true {
-    & + p {
-      text-indent: $indent-var; // 保留首行缩进
-      margin-top: 0; // 去掉负边距，避免段落重叠
+    /* sibling indentation*/
+    @if $paragraph-indent == true {
+      & + p {
+        text-indent: $indent-var;
+        margin-top: -($indent-var);
+      }
     }
   }
-}
+//   p {
+//   margin: 0 0 0; // 段落底部无间距
+
+//   @if $paragraph-indent == true {
+//     & + p {
+//       text-indent: $indent-var; // 保留首行缩进
+//       margin-top: 0; // 去掉负边距，避免段落重叠
+//     }
+//   }
+// }
 
   a {
     text-decoration:none;
