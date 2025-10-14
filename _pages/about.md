@@ -12,6 +12,8 @@ I'm Michael Liu.
 I am currently studying artificial intelligence and software engineering.  
 I aim to become a skilled and innovative engineer in computer science and AI.
 
+<div class="spacer"></div>
+
 <div class="announcement-container" style="
     max-width: 660px;
     margin: 0 auto 2rem auto;
