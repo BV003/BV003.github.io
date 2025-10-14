@@ -121,11 +121,11 @@ h1:before, .anchor:before {
 }
 
 .page {
-  // 默认样式（大屏幕）：右侧内边距为2rem
+  // 默认样式（大屏幕）：右侧内边距为9rem
   padding-right: 9rem;
 
   // 仅在移动端（小于$medium断点）特别修改为0
-  @include breakpoint(max $medium) {
+  @include breakpoint(max-width $medium) {
     padding-right: 0rem;
   }
 }
