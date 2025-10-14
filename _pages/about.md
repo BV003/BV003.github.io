@@ -94,7 +94,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 </div>
 
 
-## Experience
+<!-- ## Experience -->
 
 ## Academic Publications
 
@@ -111,7 +111,7 @@ NeurIPS, 2025, Spotlight
 
 
 
-## Popular Publications
+<!-- ## Popular Publications -->
 
 ## Education
 
