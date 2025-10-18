@@ -4,7 +4,7 @@ date: 2025-10-17
 permalink: /posts/blog/software_development_tips
 ---
 
-In software development, principles like overloading, inheritance, and polymorphism are more than just technical jargon — they shape the way we think about building systems. Understanding these core ideas allows developers to write cleaner, more adaptable, and more scalable code. This post explores the essence of such principles, revealing how thoughtful design turns ordinary code into robust architecture.
+In software development, principles like overloading, inheritance, and polymorphism are more than just technical jargon — they shape the way we think about building systems. This post explores the essence of such principles, revealing how thoughtful design turns ordinary code into robust architecture.
 
 <!-- excerpt -->
 
