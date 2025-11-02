@@ -132,7 +132,7 @@ NeurIPS, 2025, Spotlight
         <div style="font-size: 1em;">B.S. in Software Engineering</div>
         <div style="font-style: italic; color: #555;">Wuhan University</div>
     </div>
-    <div style="width: 60%;"></div>
+    <div style="width: 50%;"></div>
     <img src="/images/whu.png" 
          alt="Wuhan University Logo" 
          style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
