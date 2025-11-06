@@ -139,7 +139,9 @@ NeurIPS, 2025, Spotlight
 </div>
 
 
+## Service
 
+Reviewer for Applied AI Letters 2025
 
 
 ## Email  
