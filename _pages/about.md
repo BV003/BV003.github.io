@@ -127,6 +127,7 @@ NeurIPS, 2025, Spotlight
 ## Education
 
 <div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
+    <div style="width: 15%;"></div>
     <div>
         <div style="font-weight: bold;font-size: 1em;">B.S. in Software Engineering</div>
         <div style="font-style: italic; color: #555;">Wuhan University</div>
