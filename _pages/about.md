@@ -133,7 +133,7 @@ NeurIPS, 2025, Spotlight
         <div style="font-style: italic; color: #555;">Wuhan University</div>
         <div style="font-style: italic; color: #555;">2022 - 2026</div>
     </div>
-    <div style="width: 60%;"></div>
+    <div style="width: 57%;"></div>
     <img src="/images/whu.png" 
          alt="Wuhan University Logo" 
          style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
