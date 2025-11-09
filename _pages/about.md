@@ -127,13 +127,13 @@ NeurIPS, 2025, Spotlight
 ## Education
 
 <div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
-    <div style="width: 15%;"></div>
+    <div style="width: 10%;"></div>
     <div>
         <div style="font-weight: bold;font-size: 1em;">B.S. in Software Engineering</div>
         <div style="font-style: italic; color: #555;">Wuhan University</div>
         <div style="font-style: italic; color: #555;">2022 - 2026</div>
     </div>
-    <div style="width: 30%;"></div>
+    <div style="width: 35%;"></div>
     <img src="/images/whu.png" 
          alt="Wuhan University Logo" 
          style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
