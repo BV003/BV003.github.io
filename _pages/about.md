@@ -129,7 +129,9 @@ NeurIPS, 2025, Spotlight
 
 <div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
   <div style="display: flex; 
-  align-items: center; gap: 16px;
+  align-items: center; 
+  gap: 16px;
+  padding: 12px;
   background-color: #f8f9fa; 
   border: 1px solid #eee;">
     <div>
