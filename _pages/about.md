@@ -132,7 +132,7 @@ NeurIPS, 2025, Spotlight
   align-items: center; 
   gap: 16px;
   padding: 12px;
-  background-color: #ffffff; 
+  background-color: #f8f9fa;
   border: 1px solid #eee;
   border-radius: 8px;">
     <div>
