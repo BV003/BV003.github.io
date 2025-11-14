@@ -132,8 +132,9 @@ NeurIPS, 2025, Spotlight
   align-items: center; 
   gap: 16px;
   padding: 12px;
-  background-color: #f8f9fa; 
-  border: 1px solid #eee;">
+  background-color: #ffffff; 
+  border: 1px solid #eee;
+  border-radius: 8px;">
     <div>
         <div style="font-weight: bold;font-size: 1em;">B.S. in Software Engineering</div>
         <div style="font-style: italic; color: #555;">Wuhan University</div>
