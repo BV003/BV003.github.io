@@ -133,7 +133,6 @@ NeurIPS, 2025, Spotlight
   gap: 16px;
   padding: 21px;
   background-color: #f8f9fa;
-  border: 2px solid #eee;
   border-radius: 4px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
     <div>
