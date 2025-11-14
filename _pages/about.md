@@ -91,7 +91,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
   </style>
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li >[2025.11] I get my first internship at Philips as an AI engineer.</li>
+    <!-- <li >[2025.11] I get my first internship at Philips as an AI engineer.</li> -->
     <li >[2025.09] One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰</li>
 </ul>
 </div>
