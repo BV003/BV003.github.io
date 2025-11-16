@@ -149,9 +149,7 @@ NeurIPS, 2025, Spotlight
 
 ## Service
 
-**Reviewer**
-
-Applied AI Letters 2025
+**Reviewer:** Applied AI Letters(2025)
 
 
 ## Email  
