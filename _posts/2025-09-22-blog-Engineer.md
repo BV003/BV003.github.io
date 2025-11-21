@@ -43,6 +43,14 @@ Stay humble, and don’t boast about your achievements when luck is on your side
 
 ### Elegance
 
+### 程序员营销
+github
+
+### References
+1. Sonmez, J. (2015). Soft Skills: The Software Developer's Life Manual. New York: Manning Publications. (Paperback, January 6, 2015)
+2. Hunt, A., & Thomas, D. (2019). The Pragmatic Programmer: Your Journey to Mastery (20th Anniversary Edition, 2nd ed.). Boston: Addison-Wesley Professional.
+
+
 
 ### Article Attribution and License
 Author: Michael Liu  
