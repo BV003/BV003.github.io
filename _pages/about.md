@@ -10,7 +10,7 @@ redirect_from:
 Hi 👋  
 I'm Michael Liu.  
 I am currently studying artificial intelligence and software engineering.  
-I aim to become a skilled and innovative engineer in computer science and AI.
+I aim to become one of the top engineers in the world.
 
 
 
