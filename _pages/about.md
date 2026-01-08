@@ -104,15 +104,15 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 <div class='paper-box'>
 <div class='paper-box-image'>
     <div>
-      <div class="badge">NeurIPS 2025</div>
-      <img src='https://raw.githubusercontent.com/BV003/images/main/paper/1.png' alt="sym" width="100%">
+      <div class="badge">arxiv</div>
+      <img src='https://raw.githubusercontent.com/BV003/images/main/paper/2.png' alt="sym" width="100%">
     </div>
 </div>
 <div class='paper-box-text' markdown="1">  
-MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation    
-[[**paper**](https://neurips.cc/virtual/2025/poster/121843)] [[**code**](https://github.com/shentt67/MARS-VFL)]  
-Wei Shen, **Weiqi Liu**, Mingde Chen, Wenke Huang, Mang Ye  
-NeurIPS, 2025, Spotlight
+NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models    
+[[**paper**](https://arxiv.org/pdf/2601.03671)]
+**Weiqi Liu**, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du   
+arxiv
 </div>
 </div>
 
