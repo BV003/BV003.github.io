@@ -104,6 +104,108 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       hahahaha
     </div>
   </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+    <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+    <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+    <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+    <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+    <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      hahahaha
+    </div>
+  </div>
   
   <div class="news-item">
     <span class="news-date">Dec 2025</span>
