@@ -116,7 +116,7 @@ NeurIPS, 2025, Spotlight
 </div>
 </div>
 
-
+<div style="height: 20px;"></div>
 
 <div class='paper-box'>
 <div class='paper-box-image'>
