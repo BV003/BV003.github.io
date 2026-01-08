@@ -110,7 +110,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 </div>
 <div class='paper-box-text' markdown="1">  
 NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models    
-[[**paper**](https://arxiv.org/pdf/2601.03671)] [[** **]()] 
+[[**paper**](https://arxiv.org/pdf/2601.03671)]<br>
 **Weiqi Liu**, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du   
 arxiv
 </div>
