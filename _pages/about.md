@@ -101,14 +101,14 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
-      One paper related to AI interpretability is now available on arXiv 🎉
+      One paper related to AI interpretability is now available on arXiv. Feel free to check it out.🎉
     </div>
   </div>
 
   <div class="news-item">
     <span class="news-date">Sep 2025</span>
     <div class="news-content">
-      One paper is accepted to NeurIPS 2025 (Spotlight). Thanks to all collaborators 🥰
+      One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰
     </div>
   </div>
   
