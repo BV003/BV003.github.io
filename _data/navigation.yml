@@ -9,11 +9,11 @@
 
 main:
         
-  - title: "Blog posts"
-    url: /year-archive/
-    
   - title: "CV"
     url: /files/cv.pdf
+
+  - title: "Blog posts"
+    url: /year-archive/
     
     
 
