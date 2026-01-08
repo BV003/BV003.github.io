@@ -58,7 +58,6 @@ I aim to become one of the top engineers in the world.
 ## News
 
 
-<!-- - **2025.05** — Two papers ! -->
 <div style="
 max-width: 660px;
 height: 210px; 
@@ -102,14 +101,14 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   <div class="news-item">
     <span class="news-date">Dec 2025</span>
     <div class="news-content">
-      Honored to organize <a href="https://sites.google.com/view/law-2025">LAW 2025 workshop (Bridging Language, Agent, and World Models) at NeurIPS 2025</a>. Thanks to our amazing co-organizers, Ziqiao, Jessy, Melanie, Jianwen, Kelsey, Alane, Jacob, Tianmin and Zhiting; and speakers, Sherry, Chelsea, Francois, Eric, Danijar, Philop, Stephen, Ying Nian and Keyon. Check the recording of their talks <a href="https://neurips.cc/virtual/2025/loc/san-diego/workshop/109552">here</a> (with a NeurIPS registration); public videos will be released 30 days after the workshop.
+      hahahaha
     </div>
   </div>
   
   <div class="news-item">
     <span class="news-date">Dec 2025</span>
     <div class="news-content">
-      Presenting two papers at NeurIPS 2025: <strong>scPilot</strong> (first omics-native reasoning agents) and <strong>DeepPersona</strong> (generative engine for real-human personas).
+      lalalala
     </div>
   </div>
   
