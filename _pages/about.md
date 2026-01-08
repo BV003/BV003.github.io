@@ -69,32 +69,52 @@ background-color: #f8f9fa;
 border-radius: 4px;
 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 ">
-  <!-- 滚动条美化样式 (仅支持WebKit内核浏览器) -->
-  <style>
-    /* 滚动条整体宽度 */
-    div::-webkit-scrollbar {
-      width: 6px;
-    }
-    /* 滚动条轨道 */
-    div::-webkit-scrollbar-track {
-      background: #f1f1f1;
-      border-radius: 3px;
-    }
-    /* 滚动条滑块 */
-    div::-webkit-scrollbar-thumb {
-      background: #c1c1c1;
-      border-radius: 3px;
-    }
-    /* 滑块悬停效果 */
-    div::-webkit-scrollbar-thumb:hover {
-      background: #a8a8a8;
-    }
-  </style>
+<!-- 滚动条美化样式 (仅支持WebKit内核浏览器) -->
+<style>
+  /* 滚动条整体宽度 */
+  div::-webkit-scrollbar {
+    width: 6px;
+  }
+  /* 滚动条轨道 */
+  div::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+  /* 滚动条滑块 */
+  div::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 3px;
+  }
+  /* 滑块悬停效果 */
+  div::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+  }
+</style>
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
     <li >[2026.01] One paper related to AI interpretability is now available on arXiv. Feel free to check it out.🎉</li>
     <li >[2025.09] One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰</li>
 </ul>
 </div>
+
+
+<div class="news-container">
+
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      Honored to organize <a href="https://sites.google.com/view/law-2025">LAW 2025 workshop (Bridging Language, Agent, and World Models) at NeurIPS 2025</a>. Thanks to our amazing co-organizers, Ziqiao, Jessy, Melanie, Jianwen, Kelsey, Alane, Jacob, Tianmin and Zhiting; and speakers, Sherry, Chelsea, Francois, Eric, Danijar, Philop, Stephen, Ying Nian and Keyon. Check the recording of their talks <a href="https://neurips.cc/virtual/2025/loc/san-diego/workshop/109552">here</a> (with a NeurIPS registration); public videos will be released 30 days after the workshop.
+    </div>
+  </div>
+  
+  <div class="news-item">
+    <span class="news-date">Dec 2025</span>
+    <div class="news-content">
+      Presenting two papers at NeurIPS 2025: <strong>scPilot</strong> (first omics-native reasoning agents) and <strong>DeepPersona</strong> (generative engine for real-human personas).
+    </div>
+  </div>
+  
+</div>
+
 
 
 <!-- ## Experience -->
@@ -184,3 +204,77 @@ NeurIPS, 2025, Spotlight
          onmouseout="this.parentNode.parentNode.style.transform='translateY(0)'">
   </a>
 </div>
+
+
+<style>
+    /* News Section */
+    .news-container {
+      background: var(--bg-card);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      max-height: 340px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .news-container::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .news-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .news-container::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+
+    .news-item {
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      gap: 14px;
+      align-items: baseline;
+      transition: background 0.2s;
+    }
+
+    .news-item:last-child {
+      border-bottom: none;
+    }
+
+    .news-item:hover {
+      background: rgba(0, 98, 155, 0.04);
+    }
+
+    .news-date {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ucsd-blue);
+      font-family: 'Crimson Pro', serif;
+    }
+
+    .news-content {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .news-content a {
+      color: var(--ucsd-navy);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .news-content a:hover {
+      color: var(--ucsd-blue);
+      text-decoration: underline;
+    }
+
+    .news-highlight {
+      color: #dc2626;
+      font-weight: 600;
+    }
+</style>
