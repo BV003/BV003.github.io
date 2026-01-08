@@ -58,7 +58,7 @@ I aim to become one of the top engineers in the world.
 ## News
 
 
-<div style="
+<!-- <div style="
 max-width: 660px;
 height: 210px; 
 overflow-y: auto; 
@@ -67,9 +67,9 @@ padding: 1.5rem 2rem;
 background-color: #f8f9fa;
 border-radius: 4px;
 box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-">
+"> -->
 <!-- 滚动条美化样式 (仅支持WebKit内核浏览器) -->
-<style>
+<!-- <style>
   /* 滚动条整体宽度 */
   div::-webkit-scrollbar {
     width: 6px;
@@ -88,129 +88,27 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   div::-webkit-scrollbar-thumb:hover {
     background: #a8a8a8;
   }
-</style>
-<ul style="list-style-type: none; padding-left: 0; margin: 0;">
+</style> -->
+<!-- <ul style="list-style-type: none; padding-left: 0; margin: 0;">
     <li >[2026.01] One paper related to AI interpretability is now available on arXiv. Feel free to check it out.🎉</li>
     <li >[2025.09] One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰</li>
 </ul>
-</div>
+</div> -->
 
 
 <div class="news-container">
 
   <div class="news-item">
-    <span class="news-date">Dec 2025</span>
+    <span class="news-date">Jan 2026</span>
     <div class="news-content">
-      hahahaha
+      One paper related to AI interpretability is now available on arXiv 🎉
     </div>
   </div>
+
   <div class="news-item">
-    <span class="news-date">Dec 2025</span>
+    <span class="news-date">Sep 2025</span>
     <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-    <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-    <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-    <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-    <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-    <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      hahahaha
-    </div>
-  </div>
-  
-  <div class="news-item">
-    <span class="news-date">Dec 2025</span>
-    <div class="news-content">
-      lalalala
+      One paper is accepted to NeurIPS 2025 (Spotlight). Thanks to all collaborators 🥰
     </div>
   </div>
   
@@ -307,13 +205,18 @@ NeurIPS, 2025, Spotlight
 </div>
 
 
+
+
+
+
+
 <style>
     /* News Section */
     .news-container {
       background: var(--bg-card);
       border-radius: 10px;
       border: 1px solid var(--border);
-      max-height: 340px;
+      max-height: 210px;
       overflow-y: auto;
       scrollbar-width: thin;
       scrollbar-color: var(--border) transparent;
