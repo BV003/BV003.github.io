@@ -91,7 +91,7 @@ box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
   </style>
 <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li >[2026.01] One paper related to AI interpretability is now available on arXiv, Feel free to check it out.🎉</li>
+    <li >[2026.01] One paper related to AI interpretability is now available on arXiv. Feel free to check it out.🎉</li>
     <li >[2025.09] One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰</li>
 </ul>
 </div>
