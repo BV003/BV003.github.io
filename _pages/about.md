@@ -41,7 +41,7 @@ redirect_from:
 
     .section-title {
       font-family: 'Crimson Pro', Georgia, serif;
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       font-weight: 600;
       color: var(--primary);
       margin-bottom: 16px;
@@ -311,7 +311,7 @@ NeurIPS, 2025, Spotlight
     Service
   </h2>
 
-**Reviewer:** Applied AI Letters(2025)
+<strong>Reviewer</strong>: Applied AI Letters(2025)
 
 </section>
 
