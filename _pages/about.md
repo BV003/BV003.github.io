@@ -7,6 +7,11 @@ redirect_from:
   - /about.html
 ---
 
+
+<h2 class="section-title">
+  About Me
+</h2>
+
 Hi 👋  
 I'm Michael Liu.  
 I am currently studying artificial intelligence and software engineering.  
@@ -57,43 +62,6 @@ I aim to become one of the top engineers in the world.
 
 ## News
 
-
-<!-- <div style="
-max-width: 660px;
-height: 210px; 
-overflow-y: auto; 
-margin: 0 auto 2rem auto;
-padding: 1.5rem 2rem; 
-background-color: #f8f9fa;
-border-radius: 4px;
-box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-"> -->
-<!-- 滚动条美化样式 (仅支持WebKit内核浏览器) -->
-<!-- <style>
-  /* 滚动条整体宽度 */
-  div::-webkit-scrollbar {
-    width: 6px;
-  }
-  /* 滚动条轨道 */
-  div::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 3px;
-  }
-  /* 滚动条滑块 */
-  div::-webkit-scrollbar-thumb {
-    background: #c1c1c1;
-    border-radius: 3px;
-  }
-  /* 滑块悬停效果 */
-  div::-webkit-scrollbar-thumb:hover {
-    background: #a8a8a8;
-  }
-</style> -->
-<!-- <ul style="list-style-type: none; padding-left: 0; margin: 0;">
-    <li >[2026.01] One paper related to AI interpretability is now available on arXiv. Feel free to check it out.🎉</li>
-    <li >[2025.09] One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.🥰</li>
-</ul>
-</div> -->
 
 
 <div class="news-container">
@@ -211,6 +179,45 @@ NeurIPS, 2025, Spotlight
 
 
 <style>
+
+    /* Section Styling */
+    .section {
+      padding: 28px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-title {
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-title::before {
+      content: '';
+      width: 4px;
+      height: 24px;
+      background: var(--ucsd-yellow);
+      border-radius: 2px;
+    }
+
+    .section-title a {
+      font-size: 0.5em;
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 500;
+      color: var(--ucsd-blue);
+      text-decoration: none;
+      margin-left: auto;
+    }
+
+    .section-title a:hover {
+      text-decoration: underline;
+    }
+
     /* News Section */
     .news-container {
       background: var(--bg-card);
