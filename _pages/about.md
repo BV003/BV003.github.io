@@ -165,7 +165,7 @@ I aim to become one of the top engineers in the world.
 
 <div class="announcement-container" style="
     max-width: 660px;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 0 auto;
     padding: 1.5rem 2rem; 
     background-color: #f8f9fa;
     border-radius: 4px;
@@ -285,9 +285,10 @@ NeurIPS, 2025, Spotlight
 
 
 <section class="section">
-  <h2 class="section-title">
-    Education
-  </h2>
+
+<h2 class="section-title">
+  Education
+</h2>
 
 <div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
   <div style="display: flex; 
