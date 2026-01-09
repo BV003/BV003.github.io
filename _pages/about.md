@@ -7,6 +7,150 @@ redirect_from:
   - /about.html
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Michael Liu</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+
+<style>
+    :root {
+      --ucsd-navy: #182B49;
+      --ucsd-blue: #00629B;
+      --ucsd-yellow: #FFCD00;
+      --ucsd-gold: #C69214;
+      --ucsd-sand: #F5F0E6;
+      --primary: var(--ucsd-navy);
+      --accent: var(--ucsd-gold);
+      --accent-bright: var(--ucsd-yellow);
+      --secondary: var(--ucsd-blue);
+      --text: #2d3748;
+      --text-light: #4a5568;
+      --bg: #fafafa;
+      --bg-card: #ffffff;
+      --border: #e2e8f0;
+      --highlight-blue: #e6f3fa;
+      --highlight-gold: #fff9e6;
+    }
+
+    /* Section Styling */
+    .section {
+      padding: 28px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .section-title {
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .section-title::before {
+      content: '';
+      width: 4px;
+      height: 24px;
+      background: var(--ucsd-yellow);
+      border-radius: 2px;
+    }
+
+    .section-title a {
+      font-size: 0.5em;
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 500;
+      color: var(--ucsd-blue);
+      text-decoration: none;
+      margin-left: auto;
+    }
+
+    .section-title a:hover {
+      text-decoration: underline;
+    }
+
+    /* News Section */
+    .news-container {
+      background: var(--bg-card);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      max-height: 210px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+      scrollbar-color: var(--border) transparent;
+    }
+
+    .news-container::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .news-container::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .news-container::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 3px;
+    }
+
+    .news-item {
+      padding: 12px 20px;
+      border-bottom: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 72px 1fr;
+      gap: 14px;
+      align-items: baseline;
+      transition: background 0.2s;
+    }
+
+    .news-item:last-child {
+      border-bottom: none;
+    }
+
+    .news-item:hover {
+      background: rgba(0, 98, 155, 0.04);
+    }
+
+    .news-date {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ucsd-blue);
+      font-family: 'Crimson Pro', serif;
+    }
+
+    .news-content {
+      font-size: 14px;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .news-content a {
+      color: var(--ucsd-navy);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .news-content a:hover {
+      color: var(--ucsd-blue);
+      text-decoration: underline;
+    }
+
+    .news-highlight {
+      color: #dc2626;
+      font-weight: 600;
+    }
+</style>
+</head>
+
+<body>
+
 <section class="section">
   <h2 class="section-title">
     About Me
@@ -172,121 +316,9 @@ NeurIPS, 2025, Spotlight
          onmouseout="this.parentNode.parentNode.style.transform='translateY(0)'">
   </a>
 </div>
+</body>
+</html>
 
 
 
 
-
-
-
-<style>
-
-    /* Section Styling */
-    .section {
-      padding: 28px 0;
-      border-top: 1px solid var(--border);
-    }
-
-    .section-title {
-      font-family: 'Crimson Pro', Georgia, serif;
-      font-size: 1.6rem;
-      font-weight: 600;
-      color: var(--primary);
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .section-title::before {
-      content: '';
-      width: 4px;
-      height: 24px;
-      background: var(--ucsd-yellow);
-      border-radius: 2px;
-    }
-
-    .section-title a {
-      font-size: 0.5em;
-      font-family: 'Source Sans 3', sans-serif;
-      font-weight: 500;
-      color: var(--ucsd-blue);
-      text-decoration: none;
-      margin-left: auto;
-    }
-
-    .section-title a:hover {
-      text-decoration: underline;
-    }
-
-    /* News Section */
-    .news-container {
-      background: var(--bg-card);
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      max-height: 210px;
-      overflow-y: auto;
-      scrollbar-width: thin;
-      scrollbar-color: var(--border) transparent;
-    }
-
-    .news-container::-webkit-scrollbar {
-      width: 6px;
-    }
-
-    .news-container::-webkit-scrollbar-track {
-      background: transparent;
-    }
-
-    .news-container::-webkit-scrollbar-thumb {
-      background: var(--border);
-      border-radius: 3px;
-    }
-
-    .news-item {
-      padding: 12px 20px;
-      border-bottom: 1px solid var(--border);
-      display: grid;
-      grid-template-columns: 72px 1fr;
-      gap: 14px;
-      align-items: baseline;
-      transition: background 0.2s;
-    }
-
-    .news-item:last-child {
-      border-bottom: none;
-    }
-
-    .news-item:hover {
-      background: rgba(0, 98, 155, 0.04);
-    }
-
-    .news-date {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--ucsd-blue);
-      font-family: 'Crimson Pro', serif;
-    }
-
-    .news-content {
-      font-size: 14px;
-      color: var(--text);
-      line-height: 1.5;
-    }
-
-    .news-content a {
-      color: var(--ucsd-navy);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .news-content a:hover {
-      color: var(--ucsd-blue);
-      text-decoration: underline;
-    }
-
-    .news-highlight {
-      color: #dc2626;
-      font-weight: 600;
-    }
-</style>
