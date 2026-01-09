@@ -205,9 +205,12 @@ I aim to become one of the top engineers in the world.
 </section>
 
 
-## News
 
 
+<section class="section">
+  <h2 class="section-title">
+    News
+  </h2>
 
 <div class="news-container">
 
@@ -227,11 +230,18 @@ I aim to become one of the top engineers in the world.
   
 </div>
 
+</section>
 
 
 <!-- ## Experience -->
 
-## Academic Publications
+
+
+<section class="section">
+  <h2 class="section-title">
+    Academic Publications
+  </h2>
+
 
 <div class='paper-box'>
 <div class='paper-box-image'>
@@ -264,11 +274,16 @@ Wei Shen, **Weiqi Liu**, Mingde Chen, Wenke Huang, Mang Ye
 NeurIPS, 2025, Spotlight
 </div>
 </div>
-
+</section>
 
 <!-- ## Popular Publications -->
 
-## Education
+
+
+<section class="section">
+  <h2 class="section-title">
+    Education
+  </h2>
 
 <div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
   <div style="display: flex; 
@@ -288,14 +303,24 @@ NeurIPS, 2025, Spotlight
          style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
   </div>         
 </div>
+</section>
 
 
-## Service
+<section class="section">
+  <h2 class="section-title">
+    Service
+  </h2>
 
 **Reviewer:** Applied AI Letters(2025)
 
+</section>
 
-## Email  
+
+
+<section class="section">
+  <h2 class="section-title">
+    Email  
+  </h2>
 <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px; font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 1em; color: #333;">
     <div style="display: flex; align-items: center; gap: 10px;">
         <span style="font-weight: bold; color: #555;">🖂</span>
@@ -307,6 +332,7 @@ NeurIPS, 2025, Spotlight
     </div>
 </div>
 
+</section>
 
 <div style="width: 150px; background-color: #ffffff;  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); padding: 2px; margin: 5px auto; transition: transform 0.3s ease;">
   <a href="https://mapmyvisitors.com/web/1byw8" title="Visit tracker" style="display: block; text-decoration: none;">
