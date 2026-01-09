@@ -154,13 +154,13 @@ redirect_from:
   <h2 class="section-title">
     About Me
   </h2>
-</section>
+
 
 Hi 👋  
 I'm Michael Liu.  
 I am currently studying artificial intelligence and software engineering.  
 I aim to become one of the top engineers in the world.
-
+</section>
 
 
 <div class="announcement-container" style="
