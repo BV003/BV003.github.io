@@ -23,7 +23,7 @@ redirect_from:
       --primary: var(--black);
       --accent: var(--black);
       --accent-bright: var(--black);
-      --secondary: var(---black);
+      --secondary: var(--black);
       --text: #2d3748;
       --text-light: #4a5568;
       --bg: #fafafa;
@@ -40,7 +40,7 @@ redirect_from:
     }
 
     .section-title {
-      font-family: 'Crimson Proucsd', Georgia, serif;
+      font-family: 'Crimson Pro', Georgia, serif;
       font-size: 1.6rem;
       font-weight: 600;
       color: var(--primary);
@@ -138,7 +138,7 @@ redirect_from:
     }
 
     .news-highlight {
-      color: #dc2626;
+      color: #000000;
       font-weight: 600;
     }
 </style>
