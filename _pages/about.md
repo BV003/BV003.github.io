@@ -150,7 +150,7 @@ redirect_from:
       text-align: justify;
       text-align-last: left;
       margin-bottom: 12px;
-      line-height: 1.6;
+      line-height: 1.5;
     }
 
 </style>
