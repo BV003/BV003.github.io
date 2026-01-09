@@ -163,7 +163,7 @@ I am currently studying artificial intelligence and software engineering.
 I aim to become one of the top engineers in the world.
 </section>
 
-
+<section class="section">
 <div class="announcement-container" style="
     max-width: 660px;
     margin: 0 auto 0 auto;
@@ -194,7 +194,7 @@ I aim to become one of the top engineers in the world.
         For any suggestions or collaborations, please feel free to drop me an e-mail!
     </p>
 </div>
-
+</section>
 
 
 <section class="section">
