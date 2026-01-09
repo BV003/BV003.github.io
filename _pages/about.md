@@ -145,6 +145,14 @@ redirect_from:
       color: #000000;
       font-weight: 600;
     }
+
+    .research-text {
+      text-align: justify;
+      text-align-last: left;
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
 </style>
 </head>
 
@@ -165,38 +173,6 @@ I aim to become one of the top engineers in the world.
 For any suggestions or collaborations, please feel free to drop me an e-mail! 📢
 </section>
 
-<!-- <section class="section">
-<div class="announcement-container" style="
-    max-width: 660px;
-    margin: 0 auto 0 auto;
-    padding: 1.5rem 2rem; 
-    background-color: #f8f9fa;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    
-">
-    <h3 style="
-        margin-top: 0;
-        margin-bottom: 0.75rem;
-        color: #2c3e50;
-        font-family: 'Helvetica Neue', Arial, sans-serif;
-        display: flex;
-        align-items: center;
-    ">
-        <span style="margin-right: 0.5rem;">📢</span>
-        Announcement
-    </h3>
-    <p style="
-        margin: 0;
-        color: #34495e;
-        font-size: 1.05rem;
-        line-height: 1.6;
-        font-family: 'Georgia', serif;
-    ">
-        For any suggestions or collaborations, please feel free to drop me an e-mail!
-    </p>
-</div>
-</section> -->
 
 
 <section class="section">
@@ -205,9 +181,9 @@ For any suggestions or collaborations, please feel free to drop me an e-mail! �
   </h2>
 
 
-<p class="tight">My current research focuses on agent, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:</p>  
-<p class="tight">To continuously make new discoveries in the field of artificial intelligence. The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.</p> 
-<p class="tight">To create practical technologies that solve real-world problems. I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.</p> 
+<p class="research-text">My current research focuses on agent, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:</p>  
+<p class="research-text">To continuously make new discoveries in the field of artificial intelligence. The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.</p> 
+<p class="research-text">To create practical technologies that solve real-world problems. I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.</p> 
 
 </section>
 
