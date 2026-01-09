@@ -39,6 +39,10 @@ redirect_from:
       border-top: 1px solid var(--border);
     }
 
+    .section h2 { 
+      margin: 0 !important;
+    }
+
     .section-title {
       font-family: 'Crimson Pro', Georgia, serif;
       font-size: 1.5rem;
