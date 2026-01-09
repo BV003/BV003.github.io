@@ -154,10 +154,6 @@ redirect_from:
   <h2 class="section-title">
     About Me
   </h2>
-
-<p>
-
-</p>
 Hi 👋  
 <br>
 I'm Michael Liu.  
