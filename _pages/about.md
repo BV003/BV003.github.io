@@ -36,13 +36,13 @@ redirect_from:
     /* Section Styling */
     .section {
       padding: 0px 0;
-      margin-bottom: 30px;
+      margin-bottom: 42px;
       /* border-top: 1px solid var(--border); */
     }
 
     .section h2 {
       margin-top: 0 !important;
-      margin-bottom: 16px !important;
+      margin-bottom: 8px !important;
     }
 
     .section-title {
