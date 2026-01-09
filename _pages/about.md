@@ -37,13 +37,11 @@ redirect_from:
     .section {
       padding: 0px 0;
       margin-bottom: 42px;
-      /* border-top: 1px solid var(--border); */
     }
 
     .section h2 {
       margin-top: 0 !important;
       margin-bottom: 8px !important;
-      border-bottom: 1px solid var(--border);
     }
 
     .section-title {
