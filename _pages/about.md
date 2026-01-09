@@ -7,7 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Michael Liu</title>
