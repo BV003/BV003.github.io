@@ -40,16 +40,16 @@ redirect_from:
       /* border-top: 1px solid var(--border); */
     }
 
-    /* .section h2 { 
-      margin: 0 !important;
-    } */
+    .section h2 {
+      margin: 0 0 16px 0 !important;
+    }
 
     .section-title {
       font-family: 'Crimson Pro', Georgia, serif;
       font-size: 1.5rem;
       font-weight: 600;
       color: var(--primary);
-      margin-bottom: 16px !important;
+      /* margin-bottom: 16px !important; */
       display: flex;
       align-items: center;
       gap: 12px;
