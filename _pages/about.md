@@ -7,10 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-
-<h2 class="section-title">
-  About Me
-</h2>
+<section class="section">
+  <h2 class="section-title">
+    About Me
+  </h2>
+</section>
 
 Hi 👋  
 I'm Michael Liu.  
