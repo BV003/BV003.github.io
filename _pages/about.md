@@ -41,7 +41,8 @@ redirect_from:
     }
 
     .section h2 {
-      margin: 0 0 16px 0 !important;
+      margin-top: 0 !important;
+      margin-bottom: 16px !important;
     }
 
     .section-title {
