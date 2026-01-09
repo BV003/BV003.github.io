@@ -19,15 +19,11 @@ redirect_from:
 
 <style>
     :root {
-      --ucsd-navy: #182B49;
-      --ucsd-blue: #00629B;
-      --ucsd-yellow: #FFCD00;
-      --ucsd-gold: #C69214;
-      --ucsd-sand: #F5F0E6;
-      --primary: var(--ucsd-navy);
-      --accent: var(--ucsd-gold);
-      --accent-bright: var(--ucsd-yellow);
-      --secondary: var(--ucsd-blue);
+      --black: #000000;
+      --primary: var(--black);
+      --accent: var(--black);
+      --accent-bright: var(--black);
+      --secondary: var(---black);
       --text: #2d3748;
       --text-light: #4a5568;
       --bg: #fafafa;
@@ -44,7 +40,7 @@ redirect_from:
     }
 
     .section-title {
-      font-family: 'Crimson Pro', Georgia, serif;
+      font-family: 'Crimson Proucsd', Georgia, serif;
       font-size: 1.6rem;
       font-weight: 600;
       color: var(--primary);
@@ -58,7 +54,7 @@ redirect_from:
       content: '';
       width: 4px;
       height: 24px;
-      background: var(--ucsd-yellow);
+      background: var(--black);
       border-radius: 2px;
     }
 
@@ -66,7 +62,7 @@ redirect_from:
       font-size: 0.5em;
       font-family: 'Source Sans 3', sans-serif;
       font-weight: 500;
-      color: var(--ucsd-blue);
+      color: var(--black);
       text-decoration: none;
       margin-left: auto;
     }
@@ -120,7 +116,7 @@ redirect_from:
     .news-date {
       font-size: 13px;
       font-weight: 600;
-      color: var(--ucsd-blue);
+      color: var(--black);
       font-family: 'Crimson Pro', serif;
     }
 
@@ -131,13 +127,13 @@ redirect_from:
     }
 
     .news-content a {
-      color: var(--ucsd-navy);
+      color: var(--black);
       text-decoration: none;
       font-weight: 500;
     }
 
     .news-content a:hover {
-      color: var(--ucsd-blue);
+      color: var(--black);
       text-decoration: underline;
     }
 
