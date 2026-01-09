@@ -43,6 +43,7 @@ redirect_from:
     .section h2 {
       margin-top: 0 !important;
       margin-bottom: 8px !important;
+      border-bottom: 1px solid var(--border);
     }
 
     .section-title {
@@ -50,7 +51,6 @@ redirect_from:
       font-size: 1.5rem;
       font-weight: 600;
       color: var(--primary);
-      /* margin-bottom: 16px !important; */
       display: flex;
       align-items: center;
       gap: 12px;
