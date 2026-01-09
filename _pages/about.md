@@ -35,7 +35,7 @@ redirect_from:
 
     /* Section Styling */
     .section {
-      padding: 28px 0;
+      padding: 0px 0;
       border-top: 1px solid var(--border);
     }
 
