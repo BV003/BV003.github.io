@@ -36,19 +36,20 @@ redirect_from:
     /* Section Styling */
     .section {
       padding: 0px 0;
+      margin-bottom: 20px;
       /* border-top: 1px solid var(--border); */
     }
 
-    .section h2 { 
+    /* .section h2 { 
       margin: 0 !important;
-    }
+    } */
 
     .section-title {
       font-family: 'Crimson Pro', Georgia, serif;
       font-size: 1.5rem;
       font-weight: 600;
       color: var(--primary);
-      margin-bottom: 16px;
+      margin-bottom: 16px !important;
       display: flex;
       align-items: center;
       gap: 12px;
