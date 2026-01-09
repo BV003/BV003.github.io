@@ -157,14 +157,21 @@ redirect_from:
     About Me
   </h2>
 
+<p>
 
+</p>
 Hi 👋  
+
 I'm Michael Liu.  
+
 I am currently studying artificial intelligence and software engineering.  
+
 I aim to become one of the top engineers in the world.
+
+For any suggestions or collaborations, please feel free to drop me an e-mail! 📢
 </section>
 
-<section class="section">
+<!-- <section class="section">
 <div class="announcement-container" style="
     max-width: 660px;
     margin: 0 auto 0 auto;
@@ -195,7 +202,7 @@ I aim to become one of the top engineers in the world.
         For any suggestions or collaborations, please feel free to drop me an e-mail!
     </p>
 </div>
-</section>
+</section> -->
 
 
 <section class="section">
