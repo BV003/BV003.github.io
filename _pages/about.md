@@ -159,13 +159,13 @@ redirect_from:
 
 </p>
 Hi 👋  
-
+<br>
 I'm Michael Liu.  
-
+<br>
 I am currently studying artificial intelligence and software engineering.  
-
+<br>
 I aim to become one of the top engineers in the world.
-
+<br>
 For any suggestions or collaborations, please feel free to drop me an e-mail! 📢
 </section>
 
