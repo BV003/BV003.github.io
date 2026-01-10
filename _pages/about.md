@@ -175,6 +175,12 @@ For any <strong>suggestions</strong> or <strong>collaborations</strong>, please 
 <p class="research-text">My current research focuses on agent, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:</p>  
 <p class="research-text">To continuously make new discoveries in the field of artificial intelligence. The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.</p> 
 <p class="research-text">To create practical technologies that solve real-world problems. I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.</p> 
+<p class="research-text">
+我目前的主要精力是研究人工智能。大语言模型的出现大大提升了技术创新速度，同时可以自动化平庸的脑力活动。而将大语言模型加持下的软件与硬件结合起来，可以做到现实世界中大规模的自动化。我认为研究如何构建更好的AI模型以及应用AI是一个很有前景的方向。
+作为初学者，我之前做过的工作比较分散，但都是围绕着AI展开，我涉猎过ai可解释性，rag与agent系统，（能量驱动模型）EBM，联邦学习。
+作为兴趣爱好，我对投资，去中心化货币，文学写作感兴趣。
+</p> 
+
 </section>
 
 
