@@ -32,9 +32,10 @@ redirect_from:
         --highlight-gold: #fff9e6;
       }
 
+      /* margin: 0 auto; */
       .container {
         max-width: 600px;
-        margin: 0 auto;
+        margin: 0;
       }
 
       /* Section Styling */
