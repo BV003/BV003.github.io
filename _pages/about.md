@@ -35,7 +35,7 @@ redirect_from:
       /* margin: 0 auto; */
       .container {
         max-width: 750px;
-        margin: 0;
+        margin: 0 auto;
       }
 
       /* Section Styling */
