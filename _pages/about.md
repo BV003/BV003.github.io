@@ -159,13 +159,13 @@ redirect_from:
   <h2 class="section-title">
     About Me
   </h2>
-Hi 👋  
+Hi.
 <br>
-I'm Weiqi Liu, you can call me Michael.  
+I'm Weiqi Liu, and you can call me Michael.
 <br>
 I aim to become one of the top engineers in the world.
 <br>
-For any <strong>suggestions</strong> or <strong>ollaborations</strong>, please feel free to drop me an e-mail! 📢
+For any <strong>suggestions</strong> or <strong>collaborations</strong>, please feel free to drop me an e-mail.
 </section>
 
 <section class="section">
