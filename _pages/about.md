@@ -32,6 +32,11 @@ redirect_from:
         --highlight-gold: #fff9e6;
       }
 
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
       /* Section Styling */
       .section {
         padding: 0px 0;
@@ -155,6 +160,7 @@ redirect_from:
   </head>
 
 <body>
+<div class="container">
 <section class="section">
   <h2 class="section-title">
     About Me
@@ -314,6 +320,8 @@ NeurIPS, 2025, Spotlight
         onmouseover="this.parentNode.parentNode.style.transform='translateY(-3px)'"
         onmouseout="this.parentNode.parentNode.style.transform='translateY(0)'">
   </a>
+</div>
+
 </div>
 
 </body>
