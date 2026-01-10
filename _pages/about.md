@@ -313,7 +313,12 @@ NeurIPS, 2025, Spotlight
          onmouseout="this.parentNode.parentNode.style.transform='translateY(0)'">
   </a> -->
 
-  <a href='https://mapmyvisitors.com/web/1byw8'  title='Visit tracker'><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=300&t=n&d=oA1TaZZoeaTCZHmXfZ8HSPLWF_P3209OAemPCXcoJW8'/></a>
+  <a href='https://mapmyvisitors.com/web/1byw8'  title='Visit tracker' style="display: block; text-decoration: none;">
+    <img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=300&t=tt&d=oA1TaZZoeaTCZHmXfZ8HSPLWF_P3209OAemPCXcoJW8'
+        style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #f0f0f0;"
+        onmouseover="this.parentNode.parentNode.style.transform='translateY(-3px)'"
+        onmouseout="this.parentNode.parentNode.style.transform='translateY(0)'">
+  </a>
 
 
 </div>
