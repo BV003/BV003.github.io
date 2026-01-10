@@ -34,7 +34,7 @@ redirect_from:
 
       /* margin: 0 auto; */
       .container {
-        max-width: 600px;
+        max-width: 750px;
         margin: 0;
       }
 
