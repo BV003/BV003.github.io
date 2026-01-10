@@ -172,13 +172,11 @@ For any <strong>suggestions</strong> or <strong>collaborations</strong>, please 
   <h2 class="section-title">
     Research
   </h2>
-<!-- <p class="research-text">My current research focuses on agent, with the aim of improving them for better performance. At the same time, I have a strong interest in post-training for large language models. From a broader perspective, my research goals are twofold:</p>  
-<p class="research-text">To continuously make new discoveries in the field of artificial intelligence. The rapid development of AI is remarkable, and I believe there are still many untapped treasures waiting to be explored.</p> 
-<p class="research-text">To create practical technologies that solve real-world problems. I am committed to applying AI techniques to solve real-world problems and bring advanced algorithms into everyday applications.</p>  -->
+
 <p class="research-text">
 My primary focus is currently on <strong>artificial intelligence</strong> research. The emergence of large language models has greatly accelerated technological innovation and can automate many repetitive cognitive tasks. When these models are integrated with software and hardware, they enable large-scale automation in the real world. I believe that researching how to build more efficient AI models and exploring their practical applications is a highly promising direction.
 
-As for my personal interests, I am also deeply passionate about <strong>investing</strong>, <strong>Web3 technologies</strong>, and <strong>literary writing</strong>.
+As for my personal interests, I am also deeply passionate about <strong>investing</strong>, <strong>Web3 technologies</strong>, <strong>literary writing</strong>, and <strong>aesthetics</strong>.
 </p> 
 
 </section>
