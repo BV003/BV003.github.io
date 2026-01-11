@@ -277,7 +277,7 @@ NeurIPS, 2025, Spotlight
         style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
     <div>
         B.S. in Software Engineering<br>
-        Wuhan University<br>
+        <strong>Wuhan University</strong><br>
         2022 - 2026
     </div>
 
