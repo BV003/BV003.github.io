@@ -272,14 +272,15 @@ NeurIPS, 2025, Spotlight
   background-color: #ffffff;
   border-radius: 4px;
   ">
+    <img src="/images/whu.png" 
+        alt="Wuhan University Logo" 
+        style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
     <div>
         B.S. in Software Engineering<br>
         Wuhan University<br>
         2022 - 2026
     </div>
-    <img src="/images/whu.png" 
-         alt="Wuhan University Logo" 
-         style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
+
   </div>         
 </div>
 </section>
