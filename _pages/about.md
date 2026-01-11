@@ -273,9 +273,9 @@ NeurIPS, 2025, Spotlight
   border-radius: 4px;
   ">
     <div>
-        <div style="font-size: 1em;">B.S. in Software Engineering</div>
-        <div style="font-size: 1em;">Wuhan University</div>
-        <div style="font-size: 1em;">2022 - 2026</div>
+        B.S. in Software Engineering<br>
+        Wuhan University<br>
+        2022 - 2026
     </div>
     <img src="/images/whu.png" 
          alt="Wuhan University Logo" 
