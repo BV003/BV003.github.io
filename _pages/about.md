@@ -230,7 +230,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 </div>
 <div class='paper-box-text' markdown="1">  
 NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models    
-[[**paper**](https://arxiv.org/pdf/2601.03671)]<br>
+[**paper**](https://arxiv.org/pdf/2601.03671)<br>
 **Weiqi Liu**, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du   
 arxiv
 </div>
@@ -247,7 +247,7 @@ arxiv
 </div>
 <div class='paper-box-text' markdown="1">  
 MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation    
-[[**paper**](https://neurips.cc/virtual/2025/poster/121843)] [[**code**](https://github.com/shentt67/MARS-VFL)]  
+[**paper**](https://neurips.cc/virtual/2025/poster/121843)[**code**](https://github.com/shentt67/MARS-VFL)
 Wei Shen, **Weiqi Liu**, Mingde Chen, Wenke Huang, Mang Ye  
 NeurIPS, 2025, Spotlight
 </div>
