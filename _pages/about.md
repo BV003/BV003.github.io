@@ -225,21 +225,74 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     Work Experience
   </h2>
 
-<div style="font-family: 'Segoe UI', Tahoma, sans-serif; padding: 8px 0;">
-  <div style="display: flex; gap: 24px; align-items: flex-start;">
-    <div style="min-width: 60px; font-size: 15px; color: var(--text-light); font-weight: 500; padding-top: 2px;">
-      2026
-    </div>
-    <div>
-      <div style="font-size: 18px; color: var(--primary); font-weight: bold; margin-bottom: 6px;">
-        Apple
-      </div>
-      <div style="font-size: 15.5px; color: var(--text); font-weight: 500;">
-        AI Software Engineer Intern
+  <div class="experience-card">
+    <div class="experience-header">
+      <div class="company-info">
+        <div class="company-name-row">
+          <span class="company-name">Apple</span>
+          <span class="experience-date-inline">2026</span>
+        </div>
+        <div class="company-role">AI Software Engineer Intern</div>
       </div>
     </div>
   </div>
-</div>
+
+  <style>
+    .experience-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .experience-card:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .experience-header {
+      margin-bottom: 0;
+    }
+
+    .company-info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .company-name-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .company-name {
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .experience-date-inline {
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-light);
+      background: var(--bg);
+      padding: 3px 10px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+    }
+
+    @media (max-width: 600px) {
+      .company-name-row {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+
 </section>
 
 <section class="section">
