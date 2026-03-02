@@ -225,43 +225,23 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     Work Experience
   </h2>
 
-<div style="
-  display: flex;
-  align-items: flex-start;
+<div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
+  <div style="display: flex; 
+  align-items: center; 
   gap: 16px;
-  padding: 20px 0;
-  border-bottom: 1px solid var(--border);
-  transition: background 0.2s ease;
-">
-  <div style="
-    flex-shrink: 0;
-    width: 48px;
-    height: 48px;
-    background: linear-gradient(135deg, #f5f5f7 0%, #e8e8ed 100%);
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 21px 0;
+  background-color: #ffffff;
+  border-radius: 4px;
   ">
-    <i class="fab fa-apple" aria-hidden="true" style="color: #1d1d1f;"></i>
-  </div>
-  <div style="flex: 1;">
-    <div style="
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-      flex-wrap: wrap;
-      gap: 8px;
-    ">
-      <strong style="font-size: 17px; color: var(--primary);">Apple</strong>
-      <span style="font-size: 14px; color: var(--text-light); font-weight: 500;">2026</span>
+    <div style="text-align: center; min-width: 85px;">
+        2026
     </div>
-    <div style="margin-top: 4px; font-size: 15px; color: var(--text);">
-      AI Software Engineer Intern
+    <div>
+        <strong>Apple</strong><br>
+        AI Software Engineer Intern
     </div>
-  </div>
+
+  </div>         
 </div>
 </section>
 
