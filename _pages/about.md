@@ -225,10 +225,44 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     Work Experience
   </h2>
 
-<p style="font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6;">
-<strong>Apple</strong> — AI Software Engineer Intern<br>
-<em>2026</em>
-</p>
+<div style="
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.2s ease;
+">
+  <div style="
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #f5f5f7 0%, #e8e8ed 100%);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  ">
+    <i class="fab fa-apple" aria-hidden="true" style="color: #1d1d1f;"></i>
+  </div>
+  <div style="flex: 1;">
+    <div style="
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 8px;
+    ">
+      <strong style="font-size: 17px; color: var(--primary);">Apple</strong>
+      <span style="font-size: 14px; color: var(--text-light); font-weight: 500;">2026</span>
+    </div>
+    <div style="margin-top: 4px; font-size: 15px; color: var(--text);">
+      AI Software Engineer Intern
+    </div>
+  </div>
+</div>
 </section>
 
 <section class="section">
