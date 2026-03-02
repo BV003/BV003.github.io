@@ -198,6 +198,13 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
+      <i class="fab fa-apple" aria-hidden="true" style="margin-right: 2px;"></i>Started as AI Software Engineer Intern at <strong>Apple</strong>.
+    </div>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">Jan 2026</span>
+    <div class="news-content">
       🎉One paper related to AI interpretability is now available on arXiv. Feel free to check it out.
     </div>
   </div>
