@@ -213,9 +213,16 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 </section>
 
 
-<!-- ## Experience -->
+<section class="section">
+  <h2 class="section-title">
+    Work Experience
+  </h2>
 
-
+<p style="font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6;">
+<strong>Apple</strong> — AI Software Engineer Intern<br>
+<em>2026</em>
+</p>
+</section>
 
 <section class="section">
   <h2 class="section-title">
