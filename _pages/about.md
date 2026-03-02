@@ -225,23 +225,16 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     Work Experience
   </h2>
 
-<div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
-  <div style="display: flex; 
-  align-items: center; 
-  gap: 16px;
-  padding: 21px 0;
-  background-color: #ffffff;
-  border-radius: 4px;
-  ">
-    <div style="text-align: center; min-width: 85px;">
-        2026
+<div style="font-family: 'Segoe UI', Tahoma, sans-serif; line-height: 1.6;">
+  <div style="margin-bottom: 16px;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px;">
+      <strong style="font-size: 16px; color: var(--primary);">Apple</strong>
+      <span style="font-size: 14px; color: var(--text-light);">2026</span>
     </div>
-    <div>
-        <strong>Apple</strong><br>
-        AI Software Engineer Intern
+    <div style="font-size: 14px; color: var(--text);">
+      AI Software Engineer Intern
     </div>
-
-  </div>         
+  </div>
 </div>
 </section>
 
