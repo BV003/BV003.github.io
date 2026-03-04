@@ -394,17 +394,17 @@ NeurIPS, 2025, Spotlight
     <div class="experience-header">
       <div class="company-info">
         <div class="company-name-row">
-          <span class="company-name">Get in Touch</span>
+          <a href="mailto:michaelliuwq003@gmail.com" style="text-decoration: none; color: var(--primary);">michaelliuwq003@gmail.com</a>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 8px; font-family: 'Source Sans 3', sans-serif; font-size: 14px;">
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <span style="font-weight: 600; color: var(--text-light);">🖂</span>
-            <a href="mailto:michaelliuwq003@gmail.com" style="text-decoration: none; color: var(--primary); font-weight: 500;">michaelliuwq003@gmail.com</a>
-          </div>
-          <div style="display: flex; align-items: center; gap: 10px;">
-            <span style="font-weight: 600; color: var(--text-light);">🖂</span>
-            <a href="mailto:2022302111185@whu.edu.cn" style="text-decoration: none; color: var(--primary); font-weight: 500;">2022302111185@whu.edu.cn</a>
-          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="experience-card" style="margin-top: 12px;">
+    <div class="experience-header">
+      <div class="company-info">
+        <div class="company-name-row">
+          <a href="mailto:2022302111185@whu.edu.cn" style="text-decoration: none; color: var(--primary);">2022302111185@whu.edu.cn</a>
         </div>
       </div>
     </div>
