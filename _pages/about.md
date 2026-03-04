@@ -369,7 +369,17 @@ NeurIPS, 2025, Spotlight
     Service
   </h2>
 
-<strong>Reviewer</strong>: Applied AI Letters(2025)
+  <div class="experience-card">
+    <div class="experience-header">
+      <div class="company-info">
+        <div class="company-name-row">
+          <span class="company-name">Reviewer</span>
+          <span class="experience-date-inline">2025</span>
+        </div>
+        <div class="company-role">Applied AI Letters</div>
+      </div>
+    </div>
+  </div>
 
 </section>
 
