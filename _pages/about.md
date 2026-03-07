@@ -389,14 +389,14 @@ NeurIPS, 2025, Spotlight
   <h2 class="section-title">Contact</h2>
   
   <div class="email-container">
-    <a href="mailto:michaelliuwq003@gmail.com" class="email-link">
+    <a href="mailto:michaelliuwq003@gmail.com" class="email-link experience-card">
       <svg class="email-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <rect x="2" y="4" width="20" height="16" rx="2"/>
         <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
       </svg>
       <span>michaelliuwq003@gmail.com</span>
     </a>
-    <a href="mailto:2022302111185@whu.edu.cn" class="email-link">
+    <a href="mailto:2022302111185@whu.edu.cn" class="email-link experience-card">
       <svg class="email-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
         <rect x="2" y="4" width="20" height="16" rx="2"/>
         <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
@@ -420,18 +420,17 @@ NeurIPS, 2025, Spotlight
       padding: 16px 20px;
       background: var(--bg-card);
       border: 1px solid var(--border);
-      border-radius: 10px;
+      border-radius: 12px;
       text-decoration: none;
       color: var(--text);
       font-family: 'Source Sans 3', sans-serif;
       font-size: 14px;
-      transition: all 0.25s ease;
+      transition: all 0.3s ease;
     }
     
     .email-link:hover {
-      border-color: var(--black);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-      transform: translateX(4px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      transform: translateY(-2px);
     }
     
     .email-icon {
