@@ -607,9 +607,10 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   Education
 </h2>
 
-<div class="experience-card">
-  <div class="experience-header">
-    <div class="company-info">
+<div class="experience-card edu-card">
+  <div class="edu-content">
+    <img src="/images/whu.png" alt="Wuhan University Logo" class="edu-logo">
+    <div class="edu-info">
       <div class="company-name-row">
         <span class="company-name">Wuhan University</span>
         <span class="experience-date-inline">2022 - 2026</span>
@@ -618,6 +619,38 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     </div>
   </div>
 </div>
+
+<style>
+  .edu-card {
+    padding: 20px 24px;
+  }
+  
+  .edu-content {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .edu-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+  }
+  
+  .edu-info {
+    flex: 1;
+  }
+  
+  @media (max-width: 600px) {
+    .edu-logo {
+      width: 50px;
+      height: 50px;
+    }
+  }
+</style>
 </section>
 
 
