@@ -158,6 +158,170 @@ layout: null
 
 <body>
 <div class="container">
+
+<!-- Header Section with Avatar and Links -->
+<section class="section" style="margin-bottom: 20px; padding-bottom: 30px; border-bottom: 1px solid var(--border);">
+  <div class="header-container">
+    <div class="header-left">
+      <img src="/images/profile.png" alt="Weiqi Liu" class="header-avatar">
+      <div class="header-info">
+        <h1 class="header-name">Weiqi Liu</h1>
+        <p class="header-subtitle">Michael</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div class="header-links">
+        <a href="/files/cv.pdf" class="header-link" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+          </svg>
+          CV
+        </a>
+        <a href="https://bv003me.vercel.app/" class="header-link" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+          </svg>
+          Blog
+        </a>
+      </div>
+      <div class="header-social">
+        <a href="mailto:michaelliuwq003@gmail.com" class="social-icon" title="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+          </svg>
+        </a>
+        <a href="https://github.com/BV003" class="social-icon" target="_blank" title="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </a>
+        <a href="https://scholar.google.com" class="social-icon" target="_blank" title="Google Scholar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--border);
+    }
+
+    .header-name {
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--black);
+      margin: 0;
+    }
+
+    .header-subtitle {
+      font-size: 1rem;
+      color: var(--text-light);
+      margin: 4px 0 0 0;
+    }
+
+    .header-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 12px;
+    }
+
+    .header-links {
+      display: flex;
+      gap: 12px;
+    }
+
+    .header-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 8px 16px;
+      background: var(--black);
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .header-link:hover {
+      opacity: 0.8;
+      transform: translateY(-1px);
+    }
+
+    .header-social {
+      display: flex;
+      gap: 10px;
+    }
+
+    .social-icon {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      color: var(--text);
+      text-decoration: none;
+      transition: all 0.2s ease;
+    }
+
+    .social-icon:hover {
+      background: var(--black);
+      color: white;
+      border-color: var(--black);
+    }
+
+    @media (max-width: 600px) {
+      .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+      }
+
+      .header-right {
+        align-items: flex-start;
+        width: 100%;
+      }
+
+      .header-links {
+        width: 100%;
+      }
+
+      .header-link {
+        flex: 1;
+        justify-content: center;
+      }
+    }
+  </style>
+</section>
+
 <section class="section">
   <h2 class="section-title">
     About Me
