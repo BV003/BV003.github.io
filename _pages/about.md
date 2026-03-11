@@ -649,69 +649,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
 </section>
 
-
-
-<section class="section">
-  <h2 class="section-title">Contact</h2>
-  
-  <div class="email-container">
-    <a href="mailto:michaelliuwq003@gmail.com" class="email-link experience-card">
-      <svg class="email-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="2" y="4" width="20" height="16" rx="2"/>
-        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-      </svg>
-      <span>michaelliuwq003@gmail.com</span>
-    </a>
-    <a href="mailto:2022302111185@whu.edu.cn" class="email-link experience-card">
-      <svg class="email-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <rect x="2" y="4" width="20" height="16" rx="2"/>
-        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-      </svg>
-      <span>2022302111185@whu.edu.cn</span>
-    </a>
-  </div>
-
-  <style>
-    .email-container {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-      margin-top: 8px;
-    }
-    
-    .email-link {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      padding: 16px 20px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      text-decoration: none;
-      color: var(--text);
-      font-family: 'Source Sans 3', sans-serif;
-      font-size: 14px;
-      transition: all 0.3s ease;
-    }
-    
-    .email-link:hover {
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      transform: translateY(-2px);
-    }
-    
-    .email-icon {
-      width: 18px;
-      height: 18px;
-      color: var(--text-light);
-      transition: color 0.25s ease;
-    }
-    
-    .email-link:hover .email-icon {
-      color: var(--black);
-    }
-  </style>
-</section>
-
 <div style="width: 200px; background-color: #ffffff;  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); padding: 2px; margin: 5px auto; transition: transform 0.3s ease;">
 
   <a href='https://mapmyvisitors.com/web/1byw8'  title='Visit tracker' style="display: block; text-decoration: none;">
