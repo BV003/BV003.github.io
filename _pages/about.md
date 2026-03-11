@@ -462,31 +462,35 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
   <style>
     .pub-container {
-      display: flex;
-      flex-direction: column;
-      gap: 24px;
+      background: var(--bg-card);
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      overflow: hidden;
     }
 
     .pub-item {
       display: grid;
-      grid-template-columns: 220px 1fr;
-      gap: 24px;
-      padding: 20px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      transition: all 0.25s ease;
+      grid-template-columns: 200px 1fr;
+      gap: 20px;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+      transition: background 0.2s;
+      align-items: center;
+    }
+
+    .pub-item:last-child {
+      border-bottom: none;
     }
 
     .pub-item:hover {
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+      background: rgba(0, 0, 0, 0.02);
     }
 
     .pub-image {
-      position: relative;
-      border-radius: 8px;
+      border-radius: 6px;
       overflow: hidden;
       background: var(--bg);
+      height: 120px;
     }
 
     .pub-image img {
@@ -494,24 +498,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
       height: 100%;
       object-fit: cover;
       display: block;
-    }
-
-    .pub-badge {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      background: var(--black);
-      color: white;
-      padding: 4px 12px;
-      border-radius: 4px;
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: 0.3px;
-    }
-
-    .pub-badge-spotlight {
-      background: #000;
-      color: #fff;
     }
 
     .pub-content {
@@ -522,42 +508,42 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
     .pub-title {
       font-family: 'Crimson Pro', Georgia, serif;
-      font-size: 1.15rem;
+      font-size: 1.1rem;
       font-weight: 600;
       color: var(--black);
       line-height: 1.4;
-      margin-bottom: 10px;
+      margin-bottom: 6px;
     }
 
     .pub-authors {
       font-size: 14px;
       color: var(--text);
-      margin-bottom: 6px;
-      line-height: 1.5;
+      margin-bottom: 4px;
+      line-height: 1.4;
     }
 
     .pub-venue {
       font-size: 13px;
       color: var(--text-light);
       font-weight: 500;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .pub-links {
       display: flex;
-      gap: 12px;
+      gap: 10px;
     }
 
     .pub-link {
       display: inline-flex;
       align-items: center;
-      gap: 6px;
-      padding: 6px 14px;
+      gap: 4px;
+      padding: 4px 10px;
       border: 1px solid var(--border);
-      border-radius: 6px;
+      border-radius: 4px;
       text-decoration: none;
-      color: var(--black);
-      font-size: 13px;
+      color: var(--text);
+      font-size: 12px;
       font-weight: 500;
       transition: all 0.2s ease;
     }
@@ -571,11 +557,11 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     @media (max-width: 600px) {
       .pub-item {
         grid-template-columns: 1fr;
-        gap: 16px;
+        gap: 12px;
       }
 
       .pub-image {
-        height: 160px;
+        height: 140px;
       }
     }
   </style>
@@ -584,7 +570,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     <!-- Publication 1 -->
     <div class="pub-item">
       <div class="pub-image">
-        <div class="pub-badge">arXiv</div>
         <img src='https://raw.githubusercontent.com/BV003/images/main/paper/2.png' alt="NeuronScope Paper">
       </div>
       <div class="pub-content">
@@ -593,7 +578,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
         <div class="pub-venue">arXiv, 2026</div>
         <div class="pub-links">
           <a href="https://arxiv.org/pdf/2601.03671" class="pub-link" target="_blank">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
               <polyline points="14 2 14 8 20 8"></polyline>
             </svg>
@@ -606,23 +591,22 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     <!-- Publication 2 -->
     <div class="pub-item">
       <div class="pub-image">
-        <div class="pub-badge pub-badge-spotlight">NeurIPS 2025</div>
         <img src='https://raw.githubusercontent.com/BV003/images/main/paper/1.png' alt="MARS-VFL Paper">
       </div>
       <div class="pub-content">
         <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
         <div class="pub-authors">Wei Shen, <strong>Weiqi Liu</strong>, Mingde Chen, Wenke Huang, Mang Ye</div>
-        <div class="pub-venue">NeurIPS, 2025 <span style="color: var(--black); font-weight: 600;">(Spotlight)</span></div>
+        <div class="pub-venue">NeurIPS, 2025 (Spotlight)</div>
         <div class="pub-links">
           <a href="https://neurips.cc/virtual/2025/poster/121843" class="pub-link" target="_blank">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
               <polyline points="14 2 14 8 20 8"></polyline>
             </svg>
             Paper
           </a>
           <a href="https://github.com/shentt67/MARS-VFL" class="pub-link" target="_blank">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
             </svg>
             Code
