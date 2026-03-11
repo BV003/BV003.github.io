@@ -115,7 +115,7 @@ layout: null
       }
 
       .news-item:hover {
-        background: rgba(0, 98, 155, 0.04);
+        background: rgba(0, 0, 0, 0.02);
       }
 
       .news-date {
@@ -389,8 +389,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     }
 
     .experience-card:hover {
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      transform: translateY(-2px);
+      background: rgba(0, 0, 0, 0.02);
     }
 
     .experience-header {
@@ -608,24 +607,16 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   Education
 </h2>
 
-<div style="display: flex; align-items: center; gap: 15px; font-family: 'Segoe UI', Tahoma, sans-serif;">
-  <div style="display: flex; 
-  align-items: center; 
-  gap: 16px;
-  padding: 21px 0;
-  background-color: #ffffff;
-  border-radius: 4px;
-  ">
-    <img src="/images/whu.png" 
-        alt="Wuhan University Logo" 
-        style="width:75px; height:75px; border-radius:50%; border:1px solid #ccc;">
-    <div>
-        <strong>Wuhan University</strong><br>
-        B.S. in Software Engineering<br>
-        2022 - 2026
+<div class="experience-card">
+  <div class="experience-header">
+    <div class="company-info">
+      <div class="company-name-row">
+        <span class="company-name">Wuhan University</span>
+        <span class="experience-date-inline">2022 - 2026</span>
+      </div>
+      <div class="company-role">B.S. in Software Engineering</div>
     </div>
-
-  </div>         
+  </div>
 </div>
 </section>
 
