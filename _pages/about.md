@@ -170,23 +170,19 @@ layout: null
       </div>
     </div>
     <div class="header-right">
-      <div class="header-links">
-        <a href="/files/cv.pdf" class="header-link" target="_blank">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <div class="header-social-row">
+        <a href="/files/cv.pdf" class="social-icon" target="_blank" title="CV">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
             <polyline points="14 2 14 8 20 8"></polyline>
           </svg>
-          CV
         </a>
-        <a href="https://bv003me.vercel.app/" class="header-link" target="_blank">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <a href="https://bv003me.vercel.app/" class="social-icon" target="_blank" title="Blog">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
             <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
           </svg>
-          Blog
         </a>
-      </div>
-      <div class="header-social">
         <a href="mailto:michaelliuwq003@gmail.com" class="social-icon" title="Email">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <rect x="2" y="4" width="20" height="16" rx="2"/>
@@ -201,6 +197,13 @@ layout: null
         <a href="https://scholar.google.com" class="social-icon" target="_blank" title="Google Scholar">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </a>
+        <a href="https://linkedin.com" class="social-icon" target="_blank" title="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
           </svg>
         </a>
       </div>
@@ -250,38 +253,14 @@ layout: null
       gap: 12px;
     }
 
-    .header-links {
-      display: flex;
-      gap: 12px;
-    }
-
-    .header-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 8px 16px;
-      background: var(--black);
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-size: 14px;
-      font-weight: 500;
-      transition: all 0.2s ease;
-    }
-
-    .header-link:hover {
-      opacity: 0.8;
-      transform: translateY(-1px);
-    }
-
-    .header-social {
+    .header-social-row {
       display: flex;
       gap: 10px;
     }
 
     .social-icon {
-      width: 36px;
-      height: 36px;
+      width: 40px;
+      height: 40px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -290,12 +269,14 @@ layout: null
       color: var(--text);
       text-decoration: none;
       transition: all 0.2s ease;
+      background: var(--bg-card);
     }
 
     .social-icon:hover {
       background: var(--black);
       color: white;
       border-color: var(--black);
+      transform: translateY(-2px);
     }
 
     @media (max-width: 600px) {
@@ -310,13 +291,8 @@ layout: null
         width: 100%;
       }
 
-      .header-links {
-        width: 100%;
-      }
-
-      .header-link {
-        flex: 1;
-        justify-content: center;
+      .header-social-row {
+        flex-wrap: wrap;
       }
     }
   </style>
