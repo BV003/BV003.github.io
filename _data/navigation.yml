@@ -8,11 +8,12 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Home"
-    url: /
-    
+        
   - title: "CV"
     url: /files/cv.pdf
-    
+
   - title: "Blog"
     url: "https://bv003me.vercel.app/"
+    
+    
+
