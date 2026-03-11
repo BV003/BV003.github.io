@@ -206,6 +206,11 @@ layout: null
             <circle cx="4" cy="4" r="2"></circle>
           </svg>
         </a>
+        <a href="https://substack.com/" class="social-icon" target="_blank" title="Substack">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16v4H4zm0 6h16v2H4zm0 4h16v2H4zm0 4h10v2H4z"/>
+          </svg>
+        </a>
       </div>
     </div>
   </div>
