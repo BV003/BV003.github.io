@@ -295,37 +295,178 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   <h2 class="section-title">
     Academic Publications
   </h2>
-<div class='paper-box'>
-<div class='paper-box-image'>
-    <div>
-      <div class="badge">arxiv</div>
-      <img src='https://raw.githubusercontent.com/BV003/images/main/paper/2.png' alt="sym" width="100%">
-    </div>
-</div>
-<div class='paper-box-text' markdown="1">  
-NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models    
-[**paper**](https://arxiv.org/pdf/2601.03671)<br>
-**Weiqi Liu**, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du   
-arxiv
-</div>
-</div>
 
-<div style="height: 20px;"></div>
+  <style>
+    .pub-container {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
 
-<div class='paper-box'>
-<div class='paper-box-image'>
-    <div>
-      <div class="badge">NeurIPS 2025</div>
-      <img src='https://raw.githubusercontent.com/BV003/images/main/paper/1.png' alt="sym" width="100%">
+    .pub-item {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 24px;
+      padding: 20px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      transition: all 0.25s ease;
+    }
+
+    .pub-item:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    .pub-image {
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--bg);
+    }
+
+    .pub-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .pub-badge {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: var(--black);
+      color: white;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .pub-badge-spotlight {
+      background: #000;
+      color: #fff;
+    }
+
+    .pub-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .pub-title {
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--black);
+      line-height: 1.4;
+      margin-bottom: 10px;
+    }
+
+    .pub-authors {
+      font-size: 14px;
+      color: var(--text);
+      margin-bottom: 6px;
+      line-height: 1.5;
+    }
+
+    .pub-venue {
+      font-size: 13px;
+      color: var(--text-light);
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .pub-links {
+      display: flex;
+      gap: 12px;
+    }
+
+    .pub-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 14px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      text-decoration: none;
+      color: var(--black);
+      font-size: 13px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .pub-link:hover {
+      background: var(--black);
+      color: white;
+      border-color: var(--black);
+    }
+
+    @media (max-width: 600px) {
+      .pub-item {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .pub-image {
+        height: 160px;
+      }
+    }
+  </style>
+
+  <div class="pub-container">
+    <!-- Publication 1 -->
+    <div class="pub-item">
+      <div class="pub-image">
+        <div class="pub-badge">arXiv</div>
+        <img src='https://raw.githubusercontent.com/BV003/images/main/paper/2.png' alt="NeuronScope Paper">
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models</div>
+        <div class="pub-authors"><strong>Weiqi Liu</strong>, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du</div>
+        <div class="pub-venue">arXiv, 2026</div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2601.03671" class="pub-link" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            Paper
+          </a>
+        </div>
+      </div>
     </div>
-</div>
-<div class='paper-box-text' markdown="1">  
-MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation    
-[**paper**](https://neurips.cc/virtual/2025/poster/121843) [**code**](https://github.com/shentt67/MARS-VFL)<br>
-Wei Shen, **Weiqi Liu**, Mingde Chen, Wenke Huang, Mang Ye  
-NeurIPS, 2025, Spotlight
-</div>
-</div>
+
+    <!-- Publication 2 -->
+    <div class="pub-item">
+      <div class="pub-image">
+        <div class="pub-badge pub-badge-spotlight">NeurIPS 2025</div>
+        <img src='https://raw.githubusercontent.com/BV003/images/main/paper/1.png' alt="MARS-VFL Paper">
+      </div>
+      <div class="pub-content">
+        <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
+        <div class="pub-authors">Wei Shen, <strong>Weiqi Liu</strong>, Mingde Chen, Wenke Huang, Mang Ye</div>
+        <div class="pub-venue">NeurIPS, 2025 <span style="color: var(--black); font-weight: 600;">(Spotlight)</span></div>
+        <div class="pub-links">
+          <a href="https://neurips.cc/virtual/2025/poster/121843" class="pub-link" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+            </svg>
+            Paper
+          </a>
+          <a href="https://github.com/shentt67/MARS-VFL" class="pub-link" target="_blank">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            Code
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- ## Popular Publications -->
