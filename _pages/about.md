@@ -231,7 +231,7 @@ layout: null
     .header-avatar {
       width: 80px;
       height: 80px;
-      border-radius: 50%;
+      border-radius: 8px;
       object-fit: cover;
       border: 2px solid var(--border);
     }
