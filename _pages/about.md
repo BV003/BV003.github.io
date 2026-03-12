@@ -160,7 +160,7 @@ layout: null
 <div class="container">
 
 <!-- Header Section with Avatar and Links -->
-<section class="section" style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
+<section class="section" style="margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--border);">
   <div class="header-container">
     <div class="header-left">
       <img src="/images/profile.png" alt="Michael Liu" class="header-avatar">
