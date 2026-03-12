@@ -161,7 +161,7 @@ layout: null
 <div class="container">
 
 <!-- Header Section with Avatar and Links -->
-<section class="section" style="margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--border);">
+<section class="section" style="margin-bottom: 12px; padding-bottom: 3px; border-bottom: 1px solid var(--border);">
   <div class="header-container">
     <div class="header-left">
       <img src="/images/profile.png" alt="Michael Liu" class="header-avatar">
@@ -340,7 +340,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
-      <i class="fab fa-apple" aria-hidden="true" style="margin-right: 3.6px; vertical-align: middle;"></i>I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
+      <i class="fab fa-apple" aria-hidden="true" style="margin-right: 4px; font-size: 16px; vertical-align: -1px;"></i>I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
     </div>
   </div>
 
