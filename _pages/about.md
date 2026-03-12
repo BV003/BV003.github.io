@@ -340,7 +340,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
-      <i class="fab fa-apple" aria-hidden="true" style="margin-right: 4px; font-size: 16px; vertical-align: -1px;"></i>I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
+      <i class="fab fa-apple" aria-hidden="true" style="margin-right: 5px; font-size: 16px; vertical-align: -1px; margin-left: 3px;"></i>I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
     </div>
   </div>
 
