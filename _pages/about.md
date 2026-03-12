@@ -147,7 +147,7 @@ layout: null
         font-weight: 600;
       }
 
-      .research-text {
+      .about-text, .research-text {
         text-align: justify;
         text-align-last: left;
         margin-bottom: 12px;
@@ -163,10 +163,9 @@ layout: null
 <section class="section" style="margin-bottom: 20px; padding-bottom: 30px; border-bottom: 1px solid var(--border);">
   <div class="header-container">
     <div class="header-left">
-      <img src="/images/profile.png" alt="Weiqi Liu" class="header-avatar">
+      <img src="/images/profile.png" alt="Michael Liu" class="header-avatar">
       <div class="header-info">
-        <h1 class="header-name">Weiqi Liu</h1>
-        <p class="header-subtitle">Michael</p>
+        <h1 class="header-name">Michael Liu</h1>
       </div>
     </div>
     <div class="header-right">
@@ -307,6 +306,7 @@ layout: null
   <h2 class="section-title">
     About Me
   </h2>
+<p class="about-text">
 Hi.
 <br>
 I'm Weiqi Liu, and you can call me Michael.
@@ -314,6 +314,7 @@ I'm Weiqi Liu, and you can call me Michael.
 I aim to become one of the top engineers in the world.
 <br>
 For any <strong>suggestions</strong> or <strong>collaborations</strong>, please feel free to drop me an e-mail.
+</p>
 </section>
 
 <section class="section">
@@ -673,14 +674,8 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
 </section>
 
-<div style="width: 200px; background-color: #ffffff;  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); padding: 2px; margin: 5px auto; transition: transform 0.3s ease;">
-
-  <a href='https://mapmyvisitors.com/web/1byw8'  title='Visit tracker' style="display: block; text-decoration: none;">
-    <img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=300&t=tt&d=oA1TaZZoeaTCZHmXfZ8HSPLWF_P3209OAemPCXcoJW8'
-        style="width: 100%; height: auto; border-radius: 6px; border: 1px solid #f0f0f0;"
-        onmouseover="this.parentNode.parentNode.style.transform='translateY(-3px)'"
-        onmouseout="this.parentNode.parentNode.style.transform='translateY(0)'">
-  </a>
+<div style="text-align: center; margin-top: 30px; padding: 15px;">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=BV003.BV003.github.io&right_color=%23000000&left_color=%23555555" alt="Visitors">
 </div>
 
 </div>
