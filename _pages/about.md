@@ -160,7 +160,7 @@ layout: null
 <div class="container">
 
 <!-- Header Section with Avatar and Links -->
-<section class="section" style="margin-bottom: 20px; padding-bottom: 30px; border-bottom: 1px solid var(--border);">
+<section class="section" style="margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid var(--border);">
   <div class="header-container">
     <div class="header-left">
       <img src="/images/profile.png" alt="Michael Liu" class="header-avatar">
@@ -219,13 +219,13 @@ layout: null
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 30px;
+      gap: 20px;
     }
 
     .header-left {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 16px;
     }
 
     .header-avatar {
@@ -254,12 +254,12 @@ layout: null
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      gap: 12px;
+      gap: 8px;
     }
 
     .header-social-row {
       display: flex;
-      gap: 10px;
+      gap: 8px;
     }
 
     .social-icon {
