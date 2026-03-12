@@ -233,7 +233,6 @@ layout: null
       height: 80px;
       border-radius: 8px;
       object-fit: cover;
-      border: 2px solid var(--border);
     }
 
     .header-name {
