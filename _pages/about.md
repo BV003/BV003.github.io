@@ -680,7 +680,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 </section>
 
 <div style="text-align: center; margin-top: 30px; padding: 15px;">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=BV003.BV003.github.io&right_color=%23000000&left_color=%23555555" alt="Visitors">
+  <img src="/images/signature.png" alt="Signature" style="max-width: 200px; height: auto;">
 </div>
 
 </div>
