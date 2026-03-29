@@ -372,69 +372,71 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     Work Experience
   </h2>
 
-  <div class="experience-card">
-    <div class="experience-header">
-      <div class="company-info">
-        <div class="company-name-row">
-          <span class="company-name">Apple</span>
-          <span class="experience-date-inline">2026</span>
-        </div>
-        <div class="company-role">AI Software Engineer Intern</div>
+  <div class="exp-list">
+    <div class="exp-item">
+      <div class="exp-main">
+        <span class="exp-company">Apple</span>
+        <span class="exp-date">2026</span>
       </div>
+      <div class="exp-role">AI Software Engineer Intern</div>
     </div>
   </div>
 
   <style>
-    .experience-card {
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px;
+    .exp-list {
       margin-top: 8px;
-      transition: all 0.3s ease;
     }
 
-    .experience-card:hover {
-      background: rgba(0, 0, 0, 0.02);
+    .exp-item {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      transition: all 0.2s ease;
     }
 
-    .experience-header {
-      margin-bottom: 0;
+    .exp-item:first-child {
+      padding-top: 8px;
     }
 
-    .company-info {
+    .exp-item:last-child {
+      border-bottom: none;
+    }
+
+    .exp-item:hover {
+      padding-left: 8px;
+    }
+
+    .exp-main {
       display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-
-    .company-name-row {
-      display: flex;
-      align-items: center;
+      justify-content: space-between;
+      align-items: baseline;
       gap: 12px;
+      margin-bottom: 4px;
     }
 
-    .company-name {
+    .exp-company {
       font-family: 'Crimson Pro', Georgia, serif;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       font-weight: 600;
       color: var(--primary);
     }
 
-    .experience-date-inline {
+    .exp-date {
       font-family: 'Crimson Pro', serif;
-      font-size: 0.85rem;
-      font-weight: 600;
+      font-size: 0.9rem;
+      font-weight: 500;
       color: var(--text-light);
-      background: var(--bg);
-      padding: 3px 10px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    .exp-role {
+      font-size: 0.95rem;
+      color: var(--text);
     }
 
     @media (max-width: 600px) {
-      .company-name-row {
-        flex-wrap: wrap;
+      .exp-main {
+        flex-direction: column;
+        gap: 4px;
       }
     }
   </style>
@@ -447,21 +449,22 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   </h2>
 
   <style>
-    .pub-container {
-      background: var(--bg-card);
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      overflow: hidden;
+    .pub-list {
+      margin-top: 8px;
     }
 
     .pub-item {
       display: grid;
-      grid-template-columns: 200px 1fr;
+      grid-template-columns: 180px 1fr;
       gap: 20px;
-      padding: 16px 20px;
+      padding: 20px 0;
       border-bottom: 1px solid var(--border);
-      transition: background 0.2s;
-      align-items: center;
+      transition: all 0.2s ease;
+      align-items: start;
+    }
+
+    .pub-item:first-child {
+      padding-top: 8px;
     }
 
     .pub-item:last-child {
@@ -469,14 +472,14 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     }
 
     .pub-item:hover {
-      background: rgba(0, 0, 0, 0.02);
+      padding-left: 8px;
     }
 
     .pub-image {
       border-radius: 6px;
       overflow: hidden;
       background: var(--bg);
-      height: 120px;
+      height: 110px;
     }
 
     .pub-image img {
@@ -494,7 +497,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
     .pub-title {
       font-family: 'Crimson Pro', Georgia, serif;
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       font-weight: 600;
       color: var(--black);
       line-height: 1.4;
@@ -552,7 +555,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     }
   </style>
 
-  <div class="pub-container">
+  <div class="pub-list">
     <!-- Publication 1 -->
     <div class="pub-item">
       <div class="pub-image">
@@ -613,33 +616,48 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   Education
 </h2>
 
-<div class="experience-card edu-card">
-  <div class="edu-content">
+<div class="edu-list">
+  <div class="edu-item">
     <img src="/images/whu.png" alt="Wuhan University Logo" class="edu-logo">
     <div class="edu-info">
-      <div class="company-name-row">
-        <span class="company-name">Wuhan University</span>
-        <span class="experience-date-inline">2022 - 2026</span>
+      <div class="edu-main">
+        <span class="edu-school">Wuhan University</span>
+        <span class="edu-date">2022 - 2026</span>
       </div>
-      <div class="company-role">B.S. in Software Engineering</div>
+      <div class="edu-degree">B.S. in Software Engineering</div>
     </div>
   </div>
 </div>
 
 <style>
-  .edu-card {
-    padding: 20px 24px;
+  .edu-list {
+    margin-top: 8px;
   }
-  
-  .edu-content {
+
+  .edu-item {
     display: flex;
     align-items: center;
     gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+    transition: all 0.2s ease;
+  }
+
+  .edu-item:first-child {
+    padding-top: 8px;
+  }
+
+  .edu-item:last-child {
+    border-bottom: none;
+  }
+
+  .edu-item:hover {
+    padding-left: 8px;
   }
   
   .edu-logo {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid var(--border);
@@ -649,11 +667,44 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   .edu-info {
     flex: 1;
   }
+
+  .edu-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .edu-school {
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary);
+  }
+
+  .edu-date {
+    font-family: 'Crimson Pro', serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-light);
+    flex-shrink: 0;
+  }
+
+  .edu-degree {
+    font-size: 0.95rem;
+    color: var(--text);
+  }
   
   @media (max-width: 600px) {
     .edu-logo {
-      width: 50px;
-      height: 50px;
+      width: 45px;
+      height: 45px;
+    }
+
+    .edu-main {
+      flex-direction: column;
+      gap: 4px;
     }
   }
 </style>
@@ -665,17 +716,74 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     Service
   </h2>
 
-  <div class="experience-card">
-    <div class="experience-header">
-      <div class="company-info">
-        <div class="company-name-row">
-          <span class="company-name">Reviewer</span>
-          <span class="experience-date-inline">2025</span>
-        </div>
-        <div class="company-role">Applied AI Letters</div>
+  <div class="service-list">
+    <div class="service-item">
+      <div class="service-main">
+        <span class="service-role">Reviewer</span>
+        <span class="service-date">2025</span>
       </div>
+      <div class="service-venue">Applied AI Letters</div>
     </div>
   </div>
+
+  <style>
+    .service-list {
+      margin-top: 8px;
+    }
+
+    .service-item {
+      padding: 16px 0;
+      border-bottom: 1px solid var(--border);
+      transition: all 0.2s ease;
+    }
+
+    .service-item:first-child {
+      padding-top: 8px;
+    }
+
+    .service-item:last-child {
+      border-bottom: none;
+    }
+
+    .service-item:hover {
+      padding-left: 8px;
+    }
+
+    .service-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 4px;
+    }
+
+    .service-role {
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .service-date {
+      font-family: 'Crimson Pro', serif;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-light);
+      flex-shrink: 0;
+    }
+
+    .service-venue {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    @media (max-width: 600px) {
+      .service-main {
+        flex-direction: column;
+        gap: 4px;
+      }
+    }
+  </style>
 
 </section>
 
