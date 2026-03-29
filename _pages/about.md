@@ -709,6 +709,13 @@ As for my personal interests, I am also deeply passionate about <strong>investin
       </div>
       <div class="service-venue">Applied AI Letters</div>
     </div>
+    <div class="service-item">
+      <div class="service-main">
+        <span class="service-role">Teaching Assistant</span>
+        <span class="service-date">Fall 2023</span>
+      </div>
+      <div class="service-venue">Advanced Programming, Wuhan University</div>
+    </div>
   </div>
 
   <style>
