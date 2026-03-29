@@ -390,7 +390,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     .exp-item {
       padding: 16px 0;
       border-bottom: 1px solid var(--border);
-      transition: all 0.2s ease;
     }
 
     .exp-item:first-child {
@@ -399,10 +398,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
     .exp-item:last-child {
       border-bottom: none;
-    }
-
-    .exp-item:hover {
-      padding-left: 8px;
     }
 
     .exp-main {
@@ -459,7 +454,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
       gap: 20px;
       padding: 20px 0;
       border-bottom: 1px solid var(--border);
-      transition: all 0.2s ease;
       align-items: start;
     }
 
@@ -469,10 +463,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
     .pub-item:last-child {
       border-bottom: none;
-    }
-
-    .pub-item:hover {
-      padding-left: 8px;
     }
 
     .pub-image {
@@ -534,13 +524,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
       color: var(--text);
       font-size: 12px;
       font-weight: 500;
-      transition: all 0.2s ease;
-    }
-
-    .pub-link:hover {
-      background: var(--black);
-      color: white;
-      border-color: var(--black);
     }
 
     @media (max-width: 600px) {
@@ -640,7 +623,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     gap: 16px;
     padding: 16px 0;
     border-bottom: 1px solid var(--border);
-    transition: all 0.2s ease;
   }
 
   .edu-item:first-child {
@@ -649,10 +631,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
   .edu-item:last-child {
     border-bottom: none;
-  }
-
-  .edu-item:hover {
-    padding-left: 8px;
   }
   
   .edu-logo {
@@ -734,7 +712,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     .service-item {
       padding: 16px 0;
       border-bottom: 1px solid var(--border);
-      transition: all 0.2s ease;
     }
 
     .service-item:first-child {
@@ -743,10 +720,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
     .service-item:last-child {
       border-bottom: none;
-    }
-
-    .service-item:hover {
-      padding-left: 8px;
     }
 
     .service-main {
