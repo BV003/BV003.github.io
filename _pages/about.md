@@ -524,6 +524,13 @@ As for my personal interests, I am also deeply passionate about <strong>investin
       color: var(--text);
       font-size: 12px;
       font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .pub-link:hover {
+      background: var(--black);
+      color: white;
+      border-color: var(--black);
     }
 
     @media (max-width: 600px) {
