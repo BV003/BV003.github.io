@@ -196,7 +196,8 @@ layout: null
         </a>
         <a href="https://scholar.google.com/citations?user=SYCjc44AAAAJ&hl=en&oi=sra" class="social-icon" target="_blank" title="Google Scholar">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5l6 3 6-3v-5"/>
           </svg>
         </a>
         <a href="https://www.linkedin.com/in/michael-liu-0673452b1/" class="social-icon" target="_blank" title="LinkedIn">
@@ -208,7 +209,9 @@ layout: null
         </a>
         <a href="https://michaelliu899840.substack.com/?utm_campaign=profile_chips" class="social-icon" target="_blank" title="Substack">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M4 4h16v4H4zm0 6h16v2H4zm0 4h16v2H4zm0 4h10v2H4z"/>
+            <path d="M4 4h16v4H4z"/>
+            <path d="M4 10h16"/>
+            <path d="M4 14h16v6H4z"/>
           </svg>
         </a>
         <a href="https://x.com/bbz377889285007" class="social-icon" target="_blank" title="X">
