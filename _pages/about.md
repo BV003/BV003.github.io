@@ -60,6 +60,11 @@ layout: null
         min-width: 0;
       }
 
+      .header-section {
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+      }
+
       @media (min-width: 601px) {
         .page-shell {
           flex-direction: row;
@@ -86,25 +91,17 @@ layout: null
           margin-left: var(--sidebar-width);
           padding: 32px 28px 56px;
         }
-      }
 
-      /* margin: 0 auto; */
-      .container {
-        max-width: 750px;
-        margin: 0 auto;
-      }
-
-      .header-section {
-        margin-bottom: 12px;
-        padding-bottom: 12px;
-      }
-
-      @media (min-width: 601px) {
         .header-section {
           margin-bottom: 0;
           padding-bottom: 0;
           border-bottom: none !important;
         }
+      }
+
+      .container {
+        max-width: 750px;
+        margin: 0 auto;
       }
 
       /* Section Styling */
@@ -360,12 +357,6 @@ layout: null
       max-width: 200px;
       max-height: 56px;
       object-fit: contain;
-    }
-
-    .header-subtitle {
-      font-size: 1rem;
-      color: var(--text-light);
-      margin: 4px 0 0 0;
     }
 
     .header-right {
