@@ -48,6 +48,11 @@ layout: null
         background: var(--bg);
       }
 
+      /* Sidebar: no huge section gaps; content shares one vertical rhythm */
+      .shell-sidebar .section {
+        margin-bottom: 0;
+      }
+
       .shell-main {
         flex: 1;
         box-sizing: border-box;
@@ -68,9 +73,12 @@ layout: null
           width: var(--sidebar-width);
           height: 100vh;
           overflow-y: auto;
-          padding: 32px 22px;
+          padding: 36px 24px;
           border-bottom: none;
           z-index: 10;
+          display: flex;
+          flex-direction: column;
+          align-items: stretch;
         }
 
         .shell-main {
@@ -302,11 +310,17 @@ layout: null
       gap: 16px;
     }
 
+    .header-info {
+      min-width: 0;
+    }
+
     .header-avatar {
       width: 80px;
       height: 80px;
       border-radius: 8px;
       object-fit: cover;
+      flex-shrink: 0;
+      display: block;
     }
 
     .header-name {
@@ -315,6 +329,7 @@ layout: null
       font-weight: 700;
       color: var(--black);
       margin: 0;
+      line-height: 1.15;
     }
 
     .header-subtitle {
@@ -328,16 +343,23 @@ layout: null
       flex-direction: column;
       align-items: flex-end;
       gap: 8px;
+      min-width: 0;
     }
 
+    /* Icon grid: fixed cell size so rows/columns align */
     .header-social-row {
-      display: flex;
-      gap: 8px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, 40px);
+      gap: 10px;
+      justify-content: start;
+      align-content: start;
+      width: 100%;
     }
 
     .social-icon {
       width: 40px;
       height: 40px;
+      box-sizing: border-box;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -345,7 +367,7 @@ layout: null
       border-radius: 50%;
       color: var(--text);
       text-decoration: none;
-      transition: all 0.2s ease;
+      transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
       background: var(--bg-card);
     }
 
@@ -359,40 +381,50 @@ layout: null
     @media (min-width: 601px) {
       .shell-sidebar .header-container {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 18px;
+        align-items: stretch;
+        gap: 22px;
       }
 
       .shell-sidebar .header-left {
         flex-direction: column;
         align-items: flex-start;
-        gap: 12px;
-      }
-
-      .shell-sidebar .header-right {
-        align-items: flex-start;
+        gap: 14px;
         width: 100%;
       }
 
+      .shell-sidebar .header-right {
+        align-items: stretch;
+        width: 100%;
+      }
+
+      /* 3×3 grid for nine links; same width as avatar for visual alignment */
       .shell-sidebar .header-social-row {
-        flex-wrap: wrap;
+        grid-template-columns: repeat(3, 40px);
+        gap: 10px 12px;
+      }
+
+      .shell-sidebar .header-avatar {
+        width: 144px;
+        height: 144px;
+        border-radius: 10px;
+      }
+
+      .shell-sidebar .header-name {
+        font-size: 1.5rem;
+        width: 100%;
       }
     }
 
     @media (max-width: 600px) {
       .header-container {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
+        align-items: stretch;
+        gap: 18px;
       }
 
       .header-right {
-        align-items: flex-start;
+        align-items: stretch;
         width: 100%;
-      }
-
-      .header-social-row {
-        flex-wrap: wrap;
       }
     }
   </style>
