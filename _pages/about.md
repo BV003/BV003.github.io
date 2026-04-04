@@ -238,11 +238,13 @@ layout: null
   <div class="header-container">
     <div class="header-left">
       <img src="/images/profile.png" alt="Michael Liu" class="header-avatar">
-      <div class="header-info">
-        <h1 class="header-name">Michael Liu</h1>
-      </div>
-      <div class="header-signature">
-        <img src="/images/signature.png" alt="Signature" class="header-signature-img">
+      <div class="header-intro">
+        <div class="header-info">
+          <h1 class="header-name">Michael Liu</h1>
+        </div>
+        <div class="header-signature">
+          <img src="/images/signature.png" alt="Signature" class="header-signature-img">
+        </div>
       </div>
     </div>
     <div class="header-right">
@@ -315,6 +317,15 @@ layout: null
 
     .header-info {
       min-width: 0;
+    }
+
+    /* Groups name + signature so they stay adjacent (mobile row / desktop column in sidebar) */
+    .header-intro {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+      flex: 0 1 auto;
     }
 
     .header-avatar {
@@ -410,6 +421,13 @@ layout: null
         width: 100%;
       }
 
+      .shell-sidebar .header-intro {
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        width: 100%;
+      }
+
       .shell-sidebar .header-info {
         width: 100%;
         text-align: center;
@@ -465,17 +483,17 @@ layout: null
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
+        justify-content: flex-start;
         gap: 12px;
       }
 
-      .header-info {
-        flex: 1 1 auto;
-        min-width: 0;
+      .header-intro {
+        gap: 6px;
       }
 
       .header-signature-img {
-        max-width: min(112px, 32vw);
-        max-height: 48px;
+        max-width: min(220px, 48vw);
+        max-height: 80px;
       }
 
       .header-right {
