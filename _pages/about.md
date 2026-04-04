@@ -22,7 +22,7 @@ layout: null
         --secondary: var(--black);
         --text: #2d3748;
         --text-light: #4a5568;
-        --bg: #fafafa;
+        --bg: #ffffff;
         --bg-card: #ffffff;
         --border: #e2e8f0;
         --highlight-blue: #e6f3fa;
@@ -46,7 +46,6 @@ layout: null
         box-sizing: border-box;
         padding: 20px 16px;
         background: var(--bg);
-        border-bottom: 1px solid var(--border);
       }
 
       .shell-main {
@@ -71,7 +70,6 @@ layout: null
           overflow-y: auto;
           padding: 32px 22px;
           border-bottom: none;
-          border-right: 1px solid var(--border);
           z-index: 10;
         }
 
