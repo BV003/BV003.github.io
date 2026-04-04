@@ -79,6 +79,7 @@ layout: null
           display: flex;
           flex-direction: column;
           align-items: stretch;
+          justify-content: center;
         }
 
         .shell-main {
@@ -460,8 +461,8 @@ layout: null
       }
 
       .shell-sidebar .header-avatar {
-        width: 144px;
-        height: 144px;
+        width: 120px;
+        height: 120px;
         border-radius: 10px;
       }
 
@@ -477,7 +478,7 @@ layout: null
       }
 
       .shell-sidebar .header-signature-img {
-        max-width: 144px;
+        max-width: 120px;
         max-height: none;
       }
     }
