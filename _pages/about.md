@@ -242,6 +242,9 @@ layout: null
         <h1 class="header-name">Michael Liu</h1>
       </div>
     </div>
+    <div class="header-signature">
+      <img src="/images/signature.png" alt="Signature" class="header-signature-img">
+    </div>
     <div class="header-right">
       <div class="header-social-row">
         <a href="/files/cv.pdf" class="social-icon" target="_blank" title="CV">
@@ -332,6 +335,18 @@ layout: null
       line-height: 1.15;
     }
 
+    .header-signature {
+      width: 100%;
+      line-height: 0;
+    }
+
+    .header-signature-img {
+      display: block;
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+    }
+
     .header-subtitle {
       font-size: 1rem;
       color: var(--text-light);
@@ -412,6 +427,10 @@ layout: null
       .shell-sidebar .header-name {
         font-size: 1.5rem;
         width: 100%;
+      }
+
+      .shell-sidebar .header-signature-img {
+        max-width: 144px;
       }
     }
 
@@ -901,10 +920,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
   </style>
 
 </section>
-
-<div style="text-align: center; margin-top: 30px; padding: 15px;">
-  <img src="/images/signature.png" alt="Signature" style="max-width: 200px; height: auto;">
-</div>
 
 </div>
 </main>
