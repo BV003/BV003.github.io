@@ -411,10 +411,14 @@ layout: null
     .shell-sidebar .social-icon {
       border: none;
       background: transparent;
+      transition: none;
     }
 
     .shell-sidebar .social-icon:hover {
-      border-color: transparent;
+      background: transparent;
+      color: var(--text);
+      border: none;
+      transform: none;
     }
 
     @media (min-width: 601px) {
