@@ -241,9 +241,9 @@ layout: null
       <div class="header-info">
         <h1 class="header-name">Michael Liu</h1>
       </div>
-    </div>
-    <div class="header-signature">
-      <img src="/images/signature.png" alt="Signature" class="header-signature-img">
+      <div class="header-signature">
+        <img src="/images/signature.png" alt="Signature" class="header-signature-img">
+      </div>
     </div>
     <div class="header-right">
       <div class="header-social-row">
@@ -336,15 +336,18 @@ layout: null
     }
 
     .header-signature {
-      width: 100%;
       line-height: 0;
+      flex-shrink: 0;
+      width: auto;
     }
 
     .header-signature-img {
       display: block;
-      max-width: 200px;
-      width: 100%;
+      width: auto;
       height: auto;
+      max-width: 200px;
+      max-height: 56px;
+      object-fit: contain;
     }
 
     .header-subtitle {
@@ -429,8 +432,13 @@ layout: null
         width: 100%;
       }
 
+      .shell-sidebar .header-signature {
+        width: 100%;
+      }
+
       .shell-sidebar .header-signature-img {
         max-width: 144px;
+        max-height: none;
       }
     }
 
@@ -439,6 +447,23 @@ layout: null
         flex-direction: column;
         align-items: stretch;
         gap: 18px;
+      }
+
+      .header-left {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .header-info {
+        flex: 1 1 auto;
+        min-width: 0;
+      }
+
+      .header-signature-img {
+        max-width: min(112px, 32vw);
+        max-height: 48px;
       }
 
       .header-right {
