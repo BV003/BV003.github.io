@@ -438,15 +438,25 @@ layout: null
         width: 100%;
       }
 
-      /* 3×3 grid for nine links; centered under avatar block */
+      /* 4 columns, smaller icons; 8 links → two rows of four */
       .shell-sidebar .header-social-row {
-        grid-template-columns: repeat(3, 40px);
-        gap: 10px 12px;
+        grid-template-columns: repeat(4, 30px);
+        gap: 8px;
         justify-content: center;
         width: max-content;
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
+      }
+
+      .shell-sidebar .social-icon {
+        width: 30px;
+        height: 30px;
+      }
+
+      .shell-sidebar .social-icon svg {
+        width: 14px;
+        height: 14px;
       }
 
       .shell-sidebar .header-avatar {
