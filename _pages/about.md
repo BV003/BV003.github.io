@@ -405,20 +405,30 @@ layout: null
 
       .shell-sidebar .header-left {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 14px;
         width: 100%;
       }
 
+      .shell-sidebar .header-info {
+        width: 100%;
+        text-align: center;
+      }
+
       .shell-sidebar .header-right {
-        align-items: stretch;
+        align-items: center;
         width: 100%;
       }
 
-      /* 3×3 grid for nine links; same width as avatar for visual alignment */
+      /* 3×3 grid for nine links; centered under avatar block */
       .shell-sidebar .header-social-row {
         grid-template-columns: repeat(3, 40px);
         gap: 10px 12px;
+        justify-content: center;
+        width: max-content;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
       }
 
       .shell-sidebar .header-avatar {
@@ -434,6 +444,8 @@ layout: null
 
       .shell-sidebar .header-signature {
         width: 100%;
+        display: flex;
+        justify-content: center;
       }
 
       .shell-sidebar .header-signature-img {
@@ -469,6 +481,10 @@ layout: null
       .header-right {
         align-items: stretch;
         width: 100%;
+      }
+
+      .shell-sidebar .header-social-row {
+        justify-content: center;
       }
     }
   </style>
@@ -817,7 +833,6 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--border);
     flex-shrink: 0;
   }
   
