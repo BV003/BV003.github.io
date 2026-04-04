@@ -408,6 +408,15 @@ layout: null
       transform: translateY(-2px);
     }
 
+    .shell-sidebar .social-icon {
+      border: none;
+      background: transparent;
+    }
+
+    .shell-sidebar .social-icon:hover {
+      border-color: transparent;
+    }
+
     @media (min-width: 601px) {
       .shell-sidebar .header-container {
         flex-direction: column;
