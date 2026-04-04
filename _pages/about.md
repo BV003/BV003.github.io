@@ -27,12 +27,77 @@ layout: null
         --border: #e2e8f0;
         --highlight-blue: #e6f3fa;
         --highlight-gold: #fff9e6;
+        --sidebar-width: 272px;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+      }
+
+      .page-shell {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      .shell-sidebar {
+        flex-shrink: 0;
+        box-sizing: border-box;
+        padding: 20px 16px;
+        background: var(--bg);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .shell-main {
+        flex: 1;
+        box-sizing: border-box;
+        padding: 20px 16px 48px;
+        min-width: 0;
+      }
+
+      @media (min-width: 601px) {
+        .page-shell {
+          flex-direction: row;
+          align-items: stretch;
+        }
+
+        .shell-sidebar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: var(--sidebar-width);
+          height: 100vh;
+          overflow-y: auto;
+          padding: 32px 22px;
+          border-bottom: none;
+          border-right: 1px solid var(--border);
+          z-index: 10;
+        }
+
+        .shell-main {
+          margin-left: var(--sidebar-width);
+          padding: 32px 28px 56px;
+        }
       }
 
       /* margin: 0 auto; */
       .container {
         max-width: 750px;
         margin: 0 auto;
+      }
+
+      .header-section {
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+      }
+
+      @media (min-width: 601px) {
+        .header-section {
+          margin-bottom: 0;
+          padding-bottom: 0;
+          border-bottom: none !important;
+        }
       }
 
       /* Section Styling */
@@ -158,10 +223,12 @@ layout: null
   </head>
 
 <body>
-<div class="container">
+<div class="page-shell">
+
+<aside class="shell-sidebar" aria-label="Profile and links">
 
 <!-- Header Section with Avatar and Links -->
-<section class="section" style="margin-bottom: 12px; padding-bottom: 3px; border-bottom: 1px solid var(--border);">
+<section class="section header-section">
   <div class="header-container">
     <div class="header-left">
       <img src="/images/profile.png" alt="Michael Liu" class="header-avatar">
@@ -291,6 +358,29 @@ layout: null
       transform: translateY(-2px);
     }
 
+    @media (min-width: 601px) {
+      .shell-sidebar .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+      }
+
+      .shell-sidebar .header-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+      }
+
+      .shell-sidebar .header-right {
+        align-items: flex-start;
+        width: 100%;
+      }
+
+      .shell-sidebar .header-social-row {
+        flex-wrap: wrap;
+      }
+    }
+
     @media (max-width: 600px) {
       .header-container {
         flex-direction: column;
@@ -309,6 +399,11 @@ layout: null
     }
   </style>
 </section>
+
+</aside>
+
+<main class="shell-main">
+<div class="container">
 
 <section class="section">
   <h2 class="section-title">
@@ -780,6 +875,9 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 <div style="text-align: center; margin-top: 30px; padding: 15px;">
   <img src="/images/signature.png" alt="Signature" style="max-width: 200px; height: auto;">
 </div>
+
+</div>
+</main>
 
 </div>
 
