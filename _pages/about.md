@@ -69,12 +69,12 @@ layout: null
         .page-shell {
           flex-direction: row;
           align-items: stretch;
+          max-width: 1200px;
+          margin: 0 auto;
         }
 
         .shell-sidebar {
-          position: fixed;
-          top: 0;
-          left: 0;
+          flex-shrink: 0;
           width: var(--sidebar-width);
           height: 100vh;
           overflow-y: auto;
@@ -88,7 +88,7 @@ layout: null
         }
 
         .shell-main {
-          margin-left: var(--sidebar-width);
+          flex: 1;
           padding: 32px 28px 56px;
         }
 
@@ -96,6 +96,16 @@ layout: null
           margin-bottom: 0;
           padding-bottom: 0;
           border-bottom: none !important;
+        }
+      }
+
+      @media (min-width: 1440px) {
+        .page-shell {
+          max-width: 1400px;
+        }
+
+        .shell-sidebar {
+          width: 300px;
         }
       }
 
