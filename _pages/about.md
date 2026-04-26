@@ -74,6 +74,8 @@ layout: null
         }
 
         .shell-sidebar {
+          position: sticky;
+          top: 0;
           flex-shrink: 0;
           width: var(--sidebar-width);
           height: 100vh;
