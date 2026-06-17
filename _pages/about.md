@@ -576,6 +576,13 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 <div class="news-container">
 
   <div class="news-item">
+    <span class="news-date">Jun 2026</span>
+    <div class="news-content">
+      🎓Graduated from Wuhan University.
+    </div>
+  </div>
+
+  <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
       <i class="fab fa-apple" aria-hidden="true" style="margin-right: 5px; font-size: 16px; vertical-align: -1px; margin-left: 3px;"></i>I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
