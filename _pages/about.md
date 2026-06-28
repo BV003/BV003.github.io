@@ -557,11 +557,11 @@ For any <strong>suggestions</strong> or <strong>collaborations</strong>, please 
 
 <section class="section">
   <h2 class="section-title">
-    Research
+    Interest
   </h2>
 
 <p class="research-text">
-My primary focus is currently on <strong>artificial intelligence</strong> research. The emergence of large language models has greatly accelerated technological innovation and can automate many repetitive cognitive tasks. When these models are integrated with software and hardware, they enable large-scale automation in the real world. I believe that researching how to build more efficient AI models and exploring their practical applications is a highly promising direction.
+My primary focus is currently on <strong>artificial intelligence</strong> engineering. The emergence of large language models has greatly accelerated technological innovation and can automate many repetitive cognitive tasks. When these models are integrated with software and hardware, they enable large-scale automation in the real world. I believe that researching how to build more efficient AI models and exploring their practical applications is a highly promising direction.
 
 As for my personal interests, I am also deeply passionate about <strong>investing</strong>, <strong>Web3 technologies</strong>, <strong>literary writing</strong>, and <strong>aesthetics</strong>.
 </p> 
