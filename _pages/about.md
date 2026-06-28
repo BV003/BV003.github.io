@@ -616,7 +616,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     <div class="exp-item">
       <div class="exp-main">
         <span class="exp-company">Apple</span>
-        <span class="exp-date">2026</span>
+        <span class="exp-date">Jan 2026 – Jul 2026</span>
       </div>
       <div class="exp-role">AI Software Engineer Intern</div>
     </div>
