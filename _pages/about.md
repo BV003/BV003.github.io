@@ -20,8 +20,8 @@ layout: null
         --accent: var(--black);
         --accent-bright: var(--black);
         --secondary: var(--black);
-        --text: #2d3748;
-        --text-light: #4a5568;
+        --text: #000000;
+        --text-light: #000000;
         --bg: #ffffff;
         --bg-card: #ffffff;
         --border: #e2e8f0;
