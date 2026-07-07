@@ -789,7 +789,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     <!-- Publication 1 -->
     <div class="pub-item">
       <div class="pub-image">
-        <img src='https://raw.githubusercontent.com/BV003/images/main/paper/2.png' alt="NeuronScope Paper">
+        <img src='/images/Neuron.png' alt="NeuronScope Paper">
       </div>
       <div class="pub-content">
         <div class="pub-title">NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models</div>
@@ -810,7 +810,7 @@ As for my personal interests, I am also deeply passionate about <strong>investin
     <!-- Publication 2 -->
     <div class="pub-item">
       <div class="pub-image">
-        <img src='https://raw.githubusercontent.com/BV003/images/main/paper/1.png' alt="MARS-VFL Paper">
+        <img src='/images/Mars.png' alt="MARS-VFL Paper">
       </div>
       <div class="pub-content">
         <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
