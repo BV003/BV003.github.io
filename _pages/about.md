@@ -247,7 +247,6 @@ layout: null
 <section class="section header-section">
   <div class="header-container">
     <div class="header-left">
-      <img src="/images/profile.png" alt="Michael Liu" class="header-avatar">
       <div class="header-intro">
         <div class="header-info">
           <h1 class="header-name">Michael Liu</h1>
