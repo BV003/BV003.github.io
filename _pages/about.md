@@ -1017,6 +1017,13 @@ As for my personal interests, I am also deeply passionate about <strong>investin
 
 </div>
 
+<div style="text-align: center; padding: 20px 0;">
+<a href="https://www.easycounter.com/">
+<img src="https://www.easycounter.com/counter.php?liuweiqi"
+border="0" alt="Free Hit Counter"></a>
+<br><a href="https://www.easycounter.com/">Web Site Hit Counter</a>
+</div>
+
 </body>
 </html>
 
