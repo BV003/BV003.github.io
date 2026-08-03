@@ -847,6 +847,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 <div class="edu-list">
   <div class="edu-item">
+    <img src="/images/UWseattle.png" alt="University of Washington Logo" class="edu-logo">
+    <div class="edu-info">
+      <div class="edu-main">
+        <span class="edu-school">University of Washington, Seattle</span>
+        <span class="edu-date">2026 - Present</span>
+      </div>
+      <div class="edu-degree">M.S. in Electrical and Computer Engineering</div>
+    </div>
+  </div>
+
+  <div class="edu-item">
     <img src="/images/whu.png" alt="Wuhan University Logo" class="edu-logo">
     <div class="edu-info">
       <div class="edu-main">
