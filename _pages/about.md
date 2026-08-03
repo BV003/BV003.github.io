@@ -900,7 +900,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   .edu-logo {
     width: 50px;
     height: 50px;
-    object-fit: cover;
+    object-fit: contain;
     flex-shrink: 0;
   }
   
