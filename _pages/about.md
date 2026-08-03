@@ -575,6 +575,13 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 <div class="news-container">
 
   <div class="news-item">
+    <span class="news-date">Aug 2025</span>
+    <div class="news-content">
+      🐺I will begin my M.S. in Electrical and Computer Engineering at University of Washington, Seattle this fall!
+    </div>
+  </div>
+
+  <div class="news-item">
     <span class="news-date">Jun 2026</span>
     <div class="news-content">
       🎓Graduated from Wuhan University.
