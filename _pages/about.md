@@ -188,7 +188,7 @@ layout: null
         display: grid;
         grid-template-columns: 72px 1fr;
         gap: 14px;
-        align-items: baseline;
+        align-items: center;
         transition: background 0.2s;
       }
 
