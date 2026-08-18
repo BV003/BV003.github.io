@@ -577,7 +577,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   <div class="news-item">
     <span class="news-date">Aug 2026</span>
     <div class="news-content">
-      🐺I will begin my M.S. in Electrical and Computer Engineering at University of Washington, Seattle this fall!
+      🐾I will begin my M.S. in Electrical and Computer Engineering at University of Washington, Seattle this fall!
     </div>
   </div>
 
