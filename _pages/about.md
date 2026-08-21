@@ -548,7 +548,7 @@ Hi.
 <br>
 I'm Weiqi Liu, and you can call me Michael.
 <br>
-I aim to become one of the top engineers in the world.
+I aim to become one of the top engineers and researchers in the world.
 <br>
 For any <strong>suggestions</strong> or <strong>collaborations</strong>, please feel free to drop me an e-mail.
 </p>
