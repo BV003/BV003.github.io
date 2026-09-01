@@ -672,6 +672,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     .exp-role {
       font-size: 0.95rem;
       color: var(--text);
+      line-height: 1.4;
     }
 
     @media (max-width: 600px) {
@@ -1040,7 +1041,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 </body>
 </html>
-
 
 
 
