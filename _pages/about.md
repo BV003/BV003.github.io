@@ -33,6 +33,7 @@ layout: null
       body {
         margin: 0;
         background: var(--bg);
+        font-family: 'Source Sans 3', sans-serif;
       }
 
       .page-shell {
