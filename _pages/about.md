@@ -10,7 +10,7 @@ layout: null
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
@@ -33,7 +33,7 @@ layout: null
       body {
         margin: 0;
         background: var(--bg);
-        font-family: 'Source Sans 3', sans-serif;
+        font-family: 'Inter', sans-serif;
       }
 
       .page-shell {
@@ -148,7 +148,7 @@ layout: null
 
       .section-title a {
         font-size: 0.5em;
-        font-family: 'Source Sans 3', sans-serif;
+        font-family: 'Inter', sans-serif;
         font-weight: 500;
         color: var(--black);
         text-decoration: none;
