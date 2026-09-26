@@ -550,7 +550,7 @@ I'm Weiqi Liu, and you can call me Michael.
 <br>
 I aim to become one of the top engineers and researchers in the world.
 <br>
-For any <strong>suggestions</strong> or <strong>collaborations</strong>, please feel free to drop me an e-mail.
+For any suggestions or collaborations, please feel free to drop me an e-mail.
 </p>
 </section>
 
@@ -591,7 +591,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
-      I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
+      I am excited to begin my role as an AI Software Engineer Intern at Apple.
     </div>
   </div>
 
@@ -769,7 +769,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     <div class="pub-item">
       <div class="pub-content">
         <div class="pub-title">NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models</div>
-        <div class="pub-authors"><strong>Weiqi Liu</strong>, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du</div>
+        <div class="pub-authors">Weiqi Liu, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du</div>
         <div class="pub-venue">arXiv, 2026</div>
         <div class="pub-links">
           <a href="https://arxiv.org/pdf/2601.03671" class="pub-link" target="_blank">
@@ -787,7 +787,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     <div class="pub-item">
       <div class="pub-content">
         <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
-        <div class="pub-authors">Wei Shen, <strong>Weiqi Liu</strong>, Mingde Chen, Wenke Huang, Mang Ye</div>
+        <div class="pub-authors">Wei Shen, Weiqi Liu, Mingde Chen, Wenke Huang, Mang Ye</div>
         <div class="pub-venue">NeurIPS, 2025 (Spotlight)</div>
         <div class="pub-links">
           <a href="https://neurips.cc/virtual/2025/poster/121843" class="pub-link" target="_blank">
