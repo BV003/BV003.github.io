@@ -24,7 +24,7 @@ layout: null
         --text-light: #000000;
         --bg: #ffffff;
         --bg-card: #ffffff;
-        --border: #e2e8f0;
+        --border: #dddddd;
         --highlight-blue: #e6f3fa;
         --highlight-gold: #fff9e6;
         --sidebar-width: 272px;
@@ -982,4 +982,3 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 </body>
 </html>
-
