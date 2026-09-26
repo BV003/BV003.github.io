@@ -577,35 +577,35 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   <div class="news-item">
     <span class="news-date">Aug 2026</span>
     <div class="news-content">
-      🐾I will begin my M.S. in Electrical and Computer Engineering at University of Washington, Seattle this fall!
+      I will begin my M.S. in Electrical and Computer Engineering at University of Washington, Seattle this fall!
     </div>
   </div>
 
   <div class="news-item">
     <span class="news-date">Jun 2026</span>
     <div class="news-content">
-      🎓Graduated from Wuhan University.
+      Graduated from Wuhan University.
     </div>
   </div>
 
   <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
-      <i class="fab fa-apple" aria-hidden="true" style="margin-right: 5px; font-size: 16px; vertical-align: -1px; margin-left: 3px;"></i>I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
+      I am excited to begin my role as an AI Software Engineer Intern at <strong>Apple</strong>.
     </div>
   </div>
 
   <div class="news-item">
     <span class="news-date">Jan 2026</span>
     <div class="news-content">
-      🎉One paper related to AI interpretability is now available on arXiv. Feel free to check it out.
+      One paper related to AI interpretability is now available on arXiv. Feel free to check it out.
     </div>
   </div>
 
   <div class="news-item">
     <span class="news-date">Sep 2025</span>
     <div class="news-content">
-      🥰One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.
+      One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.
     </div>
   </div>
   
@@ -696,12 +696,8 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .pub-item {
-      display: grid;
-      grid-template-columns: 180px 1fr;
-      gap: 20px;
       padding: 20px 0;
       border-bottom: 1px solid var(--border);
-      align-items: start;
     }
 
     .pub-item:first-child {
@@ -710,20 +706,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .pub-item:last-child {
       border-bottom: none;
-    }
-
-    .pub-image {
-      border-radius: 6px;
-      overflow: hidden;
-      background: var(--bg);
-      height: 110px;
-    }
-
-    .pub-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      display: block;
     }
 
     .pub-content {
@@ -780,24 +762,11 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       border-color: var(--black);
     }
 
-    @media (max-width: 600px) {
-      .pub-item {
-        grid-template-columns: 1fr;
-        gap: 12px;
-      }
-
-      .pub-image {
-        height: 140px;
-      }
-    }
   </style>
 
   <div class="pub-list">
     <!-- Publication 1 -->
     <div class="pub-item">
-      <div class="pub-image">
-        <img src='/images/Neuron.png' alt="NeuronScope Paper">
-      </div>
       <div class="pub-content">
         <div class="pub-title">NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models</div>
         <div class="pub-authors"><strong>Weiqi Liu</strong>, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du</div>
@@ -816,9 +785,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     <!-- Publication 2 -->
     <div class="pub-item">
-      <div class="pub-image">
-        <img src='/images/Mars.png' alt="MARS-VFL Paper">
-      </div>
       <div class="pub-content">
         <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
         <div class="pub-authors">Wei Shen, <strong>Weiqi Liu</strong>, Mingde Chen, Wenke Huang, Mang Ye</div>
@@ -855,7 +821,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 <div class="edu-list">
   <div class="edu-item">
-    <img src="/images/UWseattle.png" alt="University of Washington Logo" class="edu-logo">
     <div class="edu-info">
       <div class="edu-main">
         <span class="edu-school">University of Washington, Seattle</span>
@@ -866,7 +831,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   </div>
 
   <div class="edu-item">
-    <img src="/images/whu.png" alt="Wuhan University Logo" class="edu-logo">
     <div class="edu-info">
       <div class="edu-main">
         <span class="edu-school">Wuhan University</span>
@@ -883,9 +847,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   }
 
   .edu-item {
-    display: flex;
-    align-items: center;
-    gap: 16px;
     padding: 16px 0;
     border-bottom: 1px solid var(--border);
   }
@@ -898,17 +859,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     border-bottom: none;
   }
   
-  .edu-logo {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    flex-shrink: 0;
-  }
-  
-  .edu-info {
-    flex: 1;
-  }
-
   .edu-main {
     display: flex;
     justify-content: space-between;
@@ -938,11 +888,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   }
   
   @media (max-width: 600px) {
-    .edu-logo {
-      width: 45px;
-      height: 45px;
-    }
-
     .edu-main {
       flex-direction: column;
       gap: 4px;
@@ -1041,6 +986,5 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 </body>
 </html>
-
 
 
