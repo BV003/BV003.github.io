@@ -688,7 +688,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 <section class="section">
   <h2 class="section-title">
-    Selected Academic Publications
+    Academic Publications
   </h2>
 
   <style>
