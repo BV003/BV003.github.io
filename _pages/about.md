@@ -697,8 +697,12 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .pub-item {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 20px;
       padding: 20px 0;
       border-bottom: 1px solid var(--border);
+      align-items: start;
     }
 
     .pub-item:first-child {
@@ -707,6 +711,20 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .pub-item:last-child {
       border-bottom: none;
+    }
+
+    .pub-image {
+      border-radius: 6px;
+      overflow: hidden;
+      background: var(--bg);
+      height: 110px;
+    }
+
+    .pub-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
 
     .pub-content {
@@ -763,11 +781,25 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       border-color: var(--black);
     }
 
+    @media (max-width: 600px) {
+      .pub-item {
+        grid-template-columns: 1fr;
+        gap: 12px;
+      }
+
+      .pub-image {
+        height: 140px;
+      }
+    }
+
   </style>
 
   <div class="pub-list">
     <!-- Publication 1 -->
     <div class="pub-item">
+      <div class="pub-image">
+        <img src="/images/Neuron.png" alt="NeuronScope paper figure">
+      </div>
       <div class="pub-content">
         <div class="pub-title">NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models</div>
         <div class="pub-authors">Weiqi Liu, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du</div>
@@ -786,6 +818,9 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     <!-- Publication 2 -->
     <div class="pub-item">
+      <div class="pub-image">
+        <img src="/images/Mars.png" alt="MARS-VFL paper figure">
+      </div>
       <div class="pub-content">
         <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
         <div class="pub-authors">Wei Shen, Weiqi Liu, Mingde Chen, Wenke Huang, Mang Ye</div>
@@ -822,6 +857,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 <div class="edu-list">
   <div class="edu-item">
+    <img src="/images/UWseattle.png" alt="University of Washington logo" class="edu-logo">
     <div class="edu-info">
       <div class="edu-main">
         <span class="edu-school">University of Washington, Seattle</span>
@@ -832,6 +868,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   </div>
 
   <div class="edu-item">
+    <img src="/images/whu.png" alt="Wuhan University logo" class="edu-logo">
     <div class="edu-info">
       <div class="edu-main">
         <span class="edu-school">Wuhan University</span>
@@ -848,6 +885,9 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   }
 
   .edu-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
     padding: 16px 0;
     border-bottom: 1px solid var(--border);
   }
@@ -858,6 +898,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
   .edu-item:last-child {
     border-bottom: none;
+  }
+
+  .edu-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .edu-info {
+    flex: 1;
   }
   
   .edu-main {
@@ -889,6 +940,11 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   }
   
   @media (max-width: 600px) {
+    .edu-logo {
+      width: 45px;
+      height: 45px;
+    }
+
     .edu-main {
       flex-direction: column;
       gap: 4px;
