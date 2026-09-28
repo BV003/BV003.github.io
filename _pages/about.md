@@ -33,7 +33,7 @@ layout: null
       body {
         margin: 0;
         background: var(--bg);
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-family: 'Times New Roman', Times, serif;
       }
 
       .page-shell {
@@ -148,7 +148,7 @@ layout: null
 
       .section-title a {
         font-size: 0.5em;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-family: 'Times New Roman', Times, serif;
         font-weight: 500;
         color: var(--black);
         text-decoration: none;
