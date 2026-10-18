@@ -113,7 +113,7 @@ layout: null
   <a href="/" class="back-link">&larr; Back to Home</a>
 
   <h1 class="page-title">My Sites</h1>
-  <p class="page-intro">Other sites I build and maintain. Pick one to visit.</p>
+  <p class="page-intro">Other sites I build and maintain.</p>
 
   <div class="site-list">
     <a href="https://bv003.github.io/EEP596/" class="site-card">
