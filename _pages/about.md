@@ -307,6 +307,13 @@ layout: null
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
           </svg>
         </a>
+        <a href="/sites/" class="social-icon" title="My Sites">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M2 12h20"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+        </a>
       </div>
     </div>
   </div>
@@ -455,9 +462,9 @@ layout: null
         width: 100%;
       }
 
-      /* 4 columns, smaller icons; 8 links → two rows of four */
+      /* 5 columns, smaller icons; 9 icons → rows of five and four */
       .shell-sidebar .header-social-row {
-        grid-template-columns: repeat(4, 30px);
+        grid-template-columns: repeat(5, 30px);
         gap: 8px;
         justify-content: center;
         width: max-content;
