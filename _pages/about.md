@@ -210,7 +210,7 @@ layout: null
       /* Fixed-width month so months and years each line up in their own column */
       .news-month {
         display: inline-block;
-        width: 2.2em;
+        width: 2em;
       }
 
       .news-content {
