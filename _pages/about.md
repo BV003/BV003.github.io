@@ -704,9 +704,10 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       margin-top: 8px;
     }
 
+    /* Text-only layout; to bring figures back, set columns to "120px 1fr" and uncomment the pub-image blocks below */
     .pub-item {
       display: grid;
-      grid-template-columns: 120px 1fr;
+      grid-template-columns: 1fr;
       gap: 20px;
       padding: 20px 0;
       border-bottom: 1px solid var(--border);
@@ -812,9 +813,11 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   <div class="pub-list">
     <!-- Publication 1 -->
     <div class="pub-item">
+      <!--
       <div class="pub-image">
         <img src="/images/Neuron.png" alt="NeuronScope paper figure">
       </div>
+      -->
       <div class="pub-content">
         <div class="pub-title">NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models</div>
         <div class="pub-authors">Weiqi Liu, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du</div>
@@ -835,9 +838,11 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     <!-- Publication 2 -->
     <div class="pub-item">
+      <!--
       <div class="pub-image">
         <img src="/images/Mars.png" alt="MARS-VFL paper figure">
       </div>
+      -->
       <div class="pub-content">
         <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
         <div class="pub-authors">Wei Shen, Weiqi Liu, Mingde Chen, Wenke Huang, Mang Ye</div>
