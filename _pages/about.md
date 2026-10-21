@@ -706,7 +706,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .pub-item {
       display: grid;
-      grid-template-columns: 180px 1fr;
+      grid-template-columns: 120px 1fr;
       gap: 20px;
       padding: 20px 0;
       border-bottom: 1px solid var(--border);
@@ -725,7 +725,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       border-radius: 6px;
       overflow: hidden;
       background: var(--bg);
-      height: 110px;
+      height: 75px;
     }
 
     .pub-image img {
