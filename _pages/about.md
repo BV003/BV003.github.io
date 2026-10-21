@@ -181,15 +181,10 @@ layout: null
         grid-template-columns: 72px 1fr;
         gap: 14px;
         align-items: center;
-        transition: background 0.2s;
       }
 
       .news-item:last-child {
         border-bottom: none;
-      }
-
-      .news-item:hover {
-        background: rgba(0, 0, 0, 0.02);
       }
 
       .news-date {
