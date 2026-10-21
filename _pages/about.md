@@ -157,8 +157,8 @@ layout: null
         overflow-y: auto;
         scrollbar-width: thin;
         scrollbar-color: #c4c4c4 #f2f2f2;
-        -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent), linear-gradient(#000, #000);
-        mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent), linear-gradient(#000, #000);
+        -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 28px), transparent), linear-gradient(#000, #000);
+        mask-image: linear-gradient(to bottom, #000 calc(100% - 28px), transparent), linear-gradient(#000, #000);
         -webkit-mask-size: 100% 100%, 10px 100%;
         mask-size: 100% 100%, 10px 100%;
         -webkit-mask-position: 0 0, 100% 0;
