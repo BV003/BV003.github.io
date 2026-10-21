@@ -194,7 +194,7 @@ layout: null
 
       .news-date {
         font-size: 13px;
-        font-weight: 600;
+        font-weight: 400;
         color: var(--black);
         font-family: 'Crimson Pro', serif;
       }
@@ -656,7 +656,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     .exp-company {
       font-family: 'Crimson Pro', Georgia, serif;
       font-size: 1.2rem;
-      font-weight: 600;
+      font-weight: 400;
       color: var(--primary);
     }
 
@@ -734,7 +734,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     .pub-title {
       font-family: 'Crimson Pro', Georgia, serif;
       font-size: 1.05rem;
-      font-weight: 600;
+      font-weight: 400;
       color: var(--black);
       line-height: 1.4;
       margin-bottom: 6px;
@@ -920,7 +920,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   .edu-school {
     font-family: 'Crimson Pro', Georgia, serif;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--primary);
   }
 
@@ -1003,7 +1003,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     .service-role {
       font-family: 'Crimson Pro', Georgia, serif;
       font-size: 1.2rem;
-      font-weight: 600;
+      font-weight: 400;
       color: var(--primary);
     }
 
