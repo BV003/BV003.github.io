@@ -152,17 +152,22 @@ layout: null
 
       /* News Section */
       .news-container {
-        background: var(--bg-card);
-        border-radius: 10px;
-        border: 1px solid var(--border);
         max-height: 210px;
         overflow-y: auto;
         scrollbar-width: thin;
-        scrollbar-color: var(--border) transparent;
+        scrollbar-color: var(--black) transparent;
+        -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+        mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+      }
+
+      /* Drop the bottom fade once scrolled to the end (toggled by script) */
+      .news-container.at-end {
+        -webkit-mask-image: none;
+        mask-image: none;
       }
 
       .news-container::-webkit-scrollbar {
-        width: 6px;
+        width: 2px;
       }
 
       .news-container::-webkit-scrollbar-track {
@@ -170,21 +175,15 @@ layout: null
       }
 
       .news-container::-webkit-scrollbar-thumb {
-        background: var(--border);
-        border-radius: 3px;
+        background: var(--black);
       }
 
       .news-item {
-        padding: 12px 20px;
-        border-bottom: 1px solid var(--border);
+        padding: 8px 12px 8px 0;
         display: grid;
         grid-template-columns: 72px 1fr;
         gap: 14px;
         align-items: center;
-      }
-
-      .news-item:last-child {
-        border-bottom: none;
       }
 
       .news-date {
@@ -1029,6 +1028,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 </main>
 
 </div>
+
+<script>
+  document.querySelectorAll('.news-container').forEach(function (el) {
+    function update() {
+      el.classList.toggle('at-end', el.scrollTop + el.clientHeight >= el.scrollHeight - 1);
+    }
+    el.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+</script>
 
 </body>
 </html>
