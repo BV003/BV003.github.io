@@ -204,6 +204,13 @@ layout: null
         font-weight: 400;
         color: var(--black);
         font-family: 'Times New Roman', Times, serif;
+        white-space: nowrap;
+      }
+
+      /* Fixed-width month so months and years each line up in their own column */
+      .news-month {
+        display: inline-block;
+        width: 2.2em;
       }
 
       .news-content {
@@ -581,35 +588,35 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 <div class="news-container">
 
   <div class="news-item">
-    <span class="news-date">Aug 2026</span>
+    <span class="news-date"><span class="news-month">Aug</span><span class="news-year">2026</span></span>
     <div class="news-content">
       I will begin my M.S. in Electrical and Computer Engineering at University of Washington, Seattle this fall.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">Jun 2026</span>
+    <span class="news-date"><span class="news-month">Jun</span><span class="news-year">2026</span></span>
     <div class="news-content">
       Graduated from Wuhan University.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">Jan 2026</span>
+    <span class="news-date"><span class="news-month">Jan</span><span class="news-year">2026</span></span>
     <div class="news-content">
       I am excited to begin my role as an AI Software Engineer Intern at Apple.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">Jan 2026</span>
+    <span class="news-date"><span class="news-month">Jan</span><span class="news-year">2026</span></span>
     <div class="news-content">
       One paper related to AI interpretability is now available on arXiv. Feel free to check it out.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">Sep 2025</span>
+    <span class="news-date"><span class="news-month">Sep</span><span class="news-year">2025</span></span>
     <div class="news-content">
       One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.
     </div>
