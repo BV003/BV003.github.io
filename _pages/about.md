@@ -199,7 +199,7 @@ layout: null
         align-items: center;
       }
 
-      /* Dates use ISO 8601 (YYYY-MM); Times digits are equal-width so the column lines up */
+      /* Dates use [YYYY.MM]; Times digits are equal-width so the column lines up */
       .news-date {
         font-size: 0.9rem;
         font-weight: 400;
@@ -584,35 +584,35 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 <div class="news-container">
 
   <div class="news-item">
-    <span class="news-date">2026-08</span>
+    <span class="news-date">[2026.08]</span>
     <div class="news-content">
       I will begin my M.S. in Electrical and Computer Engineering at University of Washington, Seattle this fall.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">2026-06</span>
+    <span class="news-date">[2026.06]</span>
     <div class="news-content">
       Graduated from Wuhan University.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">2026-01</span>
+    <span class="news-date">[2026.01]</span>
     <div class="news-content">
       I am excited to begin my role as an AI Software Engineer Intern at Apple.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">2026-01</span>
+    <span class="news-date">[2026.01]</span>
     <div class="news-content">
       One paper related to AI interpretability is now available on arXiv. Feel free to check it out.
     </div>
   </div>
 
   <div class="news-item">
-    <span class="news-date">2025-09</span>
+    <span class="news-date">[2025.09]</span>
     <div class="news-content">
       One paper is accepted to NeurIPS 2025(Spotlight). Thanks to all my collaborators.
     </div>
