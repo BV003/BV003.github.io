@@ -151,11 +151,26 @@ layout: null
       }
 
       /* News Section */
+      /* Bottom fade on content; second mask layer keeps the right-side scrollbar strip fully visible */
       .news-container {
-        max-height: 210px;
+        max-height: 150px;
         overflow-y: auto;
         scrollbar-width: thin;
         scrollbar-color: #c4c4c4 #f2f2f2;
+        -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent), linear-gradient(#000, #000);
+        mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent), linear-gradient(#000, #000);
+        -webkit-mask-size: 100% 100%, 10px 100%;
+        mask-size: 100% 100%, 10px 100%;
+        -webkit-mask-position: 0 0, 100% 0;
+        mask-position: 0 0, 100% 0;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+      }
+
+      /* Drop the bottom fade once scrolled to the end (toggled by script) */
+      .news-container.at-end {
+        -webkit-mask-image: none;
+        mask-image: none;
       }
 
       .news-container::-webkit-scrollbar {
@@ -1026,6 +1041,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 </main>
 
 </div>
+
+<script>
+  document.querySelectorAll('.news-container').forEach(function (el) {
+    function update() {
+      el.classList.toggle('at-end', el.scrollTop + el.clientHeight >= el.scrollHeight - 1);
+    }
+    el.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+</script>
 
 </body>
 </html>
