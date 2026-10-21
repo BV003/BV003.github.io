@@ -193,14 +193,14 @@ layout: null
       }
 
       .news-date {
-        font-size: 13px;
+        font-size: 0.9rem;
         font-weight: 400;
         color: var(--black);
         font-family: 'Times New Roman', Times, serif;
       }
 
       .news-content {
-        font-size: 14px;
+        font-size: 0.9rem;
         color: var(--text);
         line-height: 1.5;
       }
@@ -655,7 +655,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .exp-company {
       font-family: 'Times New Roman', Times, serif;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 400;
       color: var(--primary);
     }
@@ -669,7 +669,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .exp-role {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: var(--text);
       line-height: 1.4;
     }
@@ -733,7 +733,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .pub-title {
       font-family: 'Times New Roman', Times, serif;
-      font-size: 1.05rem;
+      font-size: 1rem;
       font-weight: 400;
       color: var(--black);
       line-height: 1.4;
@@ -741,14 +741,14 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .pub-authors {
-      font-size: 14px;
+      font-size: 0.9rem;
       color: var(--text);
       margin-bottom: 4px;
       line-height: 1.4;
     }
 
     .pub-venue {
-      font-size: 13px;
+      font-size: 0.9rem;
       color: var(--text-light);
       font-weight: 500;
       margin-bottom: 10px;
@@ -919,7 +919,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
   .edu-school {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--primary);
   }
@@ -933,7 +933,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   }
 
   .edu-degree {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     color: var(--text);
   }
   
@@ -1002,7 +1002,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .service-role {
       font-family: 'Times New Roman', Times, serif;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 400;
       color: var(--primary);
     }
@@ -1016,7 +1016,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .service-venue {
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: var(--text);
     }
 
