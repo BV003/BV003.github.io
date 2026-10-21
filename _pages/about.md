@@ -757,11 +757,18 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       line-height: 1.4;
     }
 
+    /* Venue and Paper/Code buttons share one line; wraps on narrow screens */
+    .pub-meta {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+    }
+
     .pub-venue {
       font-size: 0.9rem;
       color: var(--text-light);
       font-weight: 500;
-      margin-bottom: 10px;
     }
 
     .pub-links {
@@ -811,15 +818,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       <div class="pub-content">
         <div class="pub-title">NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models</div>
         <div class="pub-authors">Weiqi Liu, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du</div>
-        <div class="pub-venue">arXiv, 2026</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/pdf/2601.03671" class="pub-link" target="_blank">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-              <polyline points="14 2 14 8 20 8"></polyline>
-            </svg>
-            Paper
-          </a>
+        <div class="pub-meta">
+          <div class="pub-venue">arXiv, 2026</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/pdf/2601.03671" class="pub-link" target="_blank">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              Paper
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -832,21 +841,23 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       <div class="pub-content">
         <div class="pub-title">MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation</div>
         <div class="pub-authors">Wei Shen, Weiqi Liu, Mingde Chen, Wenke Huang, Mang Ye</div>
-        <div class="pub-venue">NeurIPS, 2025 (Spotlight)</div>
-        <div class="pub-links">
-          <a href="https://neurips.cc/virtual/2025/poster/121843" class="pub-link" target="_blank">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-              <polyline points="14 2 14 8 20 8"></polyline>
-            </svg>
-            Paper
-          </a>
-          <a href="https://github.com/shentt67/MARS-VFL" class="pub-link" target="_blank">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-            </svg>
-            Code
-          </a>
+        <div class="pub-meta">
+          <div class="pub-venue">NeurIPS, 2025 (Spotlight)</div>
+          <div class="pub-links">
+            <a href="https://neurips.cc/virtual/2025/poster/121843" class="pub-link" target="_blank">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              Paper
+            </a>
+            <a href="https://github.com/shentt67/MARS-VFL" class="pub-link" target="_blank">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              Code
+            </a>
+          </div>
         </div>
       </div>
     </div>
