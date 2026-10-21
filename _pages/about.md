@@ -155,27 +155,25 @@ layout: null
         max-height: 210px;
         overflow-y: auto;
         scrollbar-width: thin;
-        scrollbar-color: var(--black) transparent;
-        -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
-        mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
-      }
-
-      /* Drop the bottom fade once scrolled to the end (toggled by script) */
-      .news-container.at-end {
-        -webkit-mask-image: none;
-        mask-image: none;
+        scrollbar-color: #c4c4c4 #f2f2f2;
       }
 
       .news-container::-webkit-scrollbar {
-        width: 2px;
+        width: 6px;
       }
 
       .news-container::-webkit-scrollbar-track {
-        background: transparent;
+        background: #f2f2f2;
+        border-radius: 3px;
       }
 
       .news-container::-webkit-scrollbar-thumb {
-        background: var(--black);
+        background: #c4c4c4;
+        border-radius: 3px;
+      }
+
+      .news-container::-webkit-scrollbar-thumb:hover {
+        background: #888888;
       }
 
       .news-item {
@@ -1028,17 +1026,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 </main>
 
 </div>
-
-<script>
-  document.querySelectorAll('.news-container').forEach(function (el) {
-    function update() {
-      el.classList.toggle('at-end', el.scrollTop + el.clientHeight >= el.scrollHeight - 1);
-    }
-    el.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    update();
-  });
-</script>
 
 </body>
 </html>
