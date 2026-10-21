@@ -135,15 +135,6 @@ layout: null
         color: var(--primary);
         display: flex;
         align-items: center;
-        gap: 12px;
-      }
-
-      .section-title::before {
-        content: '';
-        width: 4px;
-        height: 24px;
-        background: var(--black);
-        border-radius: 2px;
       }
 
       .section-title a {
