@@ -24,9 +24,7 @@ layout: null
         --text-light: #000000;
         --bg: #ffffff;
         --bg-card: #ffffff;
-        --border: #dddddd;
-        --highlight-blue: #e6f3fa;
-        --highlight-gold: #fff9e6;
+        --border: #000000;
         --sidebar-width: 272px;
       }
 
@@ -156,11 +154,10 @@ layout: null
         max-height: 150px;
         overflow-y: auto;
         scrollbar-width: thin;
-        scrollbar-color: #c4c4c4 #f2f2f2;
         -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 28px), transparent), linear-gradient(#000, #000);
         mask-image: linear-gradient(to bottom, #000 calc(100% - 28px), transparent), linear-gradient(#000, #000);
-        -webkit-mask-size: 100% 100%, 10px 100%;
-        mask-size: 100% 100%, 10px 100%;
+        -webkit-mask-size: 100% 100%, 16px 100%;
+        mask-size: 100% 100%, 16px 100%;
         -webkit-mask-position: 0 0, 100% 0;
         mask-position: 0 0, 100% 0;
         -webkit-mask-repeat: no-repeat;
@@ -171,24 +168,6 @@ layout: null
       .news-container.at-end {
         -webkit-mask-image: none;
         mask-image: none;
-      }
-
-      .news-container::-webkit-scrollbar {
-        width: 6px;
-      }
-
-      .news-container::-webkit-scrollbar-track {
-        background: #f2f2f2;
-        border-radius: 3px;
-      }
-
-      .news-container::-webkit-scrollbar-thumb {
-        background: #c4c4c4;
-        border-radius: 3px;
-      }
-
-      .news-container::-webkit-scrollbar-thumb:hover {
-        background: #888888;
       }
 
       .news-item {
