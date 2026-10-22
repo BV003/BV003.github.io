@@ -764,20 +764,16 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       display: inline-flex;
       align-items: center;
       gap: 4px;
-      padding: 4px 10px;
-      border: 1px solid var(--border);
-      border-radius: 4px;
       text-decoration: none;
-      color: var(--text);
+      color: var(--text-light);
       font-size: 12px;
       font-weight: 500;
-      transition: all 0.2s ease;
+      transition: color 0.2s ease;
     }
 
     .pub-link:hover {
-      background: var(--black);
-      color: white;
-      border-color: var(--black);
+      color: var(--black);
+      text-decoration: underline;
     }
 
     @media (max-width: 600px) {
