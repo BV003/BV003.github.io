@@ -118,7 +118,7 @@ layout: null
       /* Section Styling */
       .section {
         padding: 0px 0;
-        margin-bottom: 42px;
+        margin-bottom: 52px;
       }
 
       .section h2 {
@@ -623,15 +623,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .exp-item {
       padding: 16px 0;
-      border-bottom: 1px solid var(--border);
     }
 
     .exp-item:first-child {
       padding-top: 8px;
     }
 
+
     .exp-item:last-child {
-      border-bottom: none;
+
+      padding-bottom: 0;
+
     }
 
     .exp-main {
@@ -688,8 +690,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       display: grid;
       grid-template-columns: 1fr;
       gap: 20px;
-      padding: 20px 0;
-      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
       align-items: start;
     }
 
@@ -697,8 +698,11 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       padding-top: 8px;
     }
 
+
     .pub-item:last-child {
-      border-bottom: none;
+
+      padding-bottom: 0;
+
     }
 
     .pub-image {
@@ -892,15 +896,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     align-items: center;
     gap: 16px;
     padding: 16px 0;
-    border-bottom: 1px solid var(--border);
   }
 
   .edu-item:first-child {
     padding-top: 8px;
   }
 
+
   .edu-item:last-child {
-    border-bottom: none;
+
+    padding-bottom: 0;
+
   }
 
   .edu-logo {
@@ -986,15 +992,17 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
     .service-item {
       padding: 16px 0;
-      border-bottom: 1px solid var(--border);
     }
 
     .service-item:first-child {
       padding-top: 8px;
     }
 
+
     .service-item:last-child {
-      border-bottom: none;
+
+      padding-bottom: 0;
+
     }
 
     .service-main {
