@@ -677,6 +677,77 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 <section class="section">
   <h2 class="section-title">
+    Project
+  </h2>
+
+  <div class="project-list">
+    <div class="project-item">
+      <div class="project-name">MemServe</div>
+      <div class="project-desc">Serving models larger than MIG memory on NVIDIA MIG instances with SGLang.</div>
+      <ul class="project-points">
+        <li>HybridGEMM kernel that computes on weights kept in CPU memory.</li>
+        <li>Runtime that tunes the split ratio alpha online from HBM and host-link load.</li>
+        <li>Serverless control plane that places models on SGLang workers on demand.</li>
+      </ul>
+    </div>
+  </div>
+
+  <style>
+    .project-list {
+      margin-top: 8px;
+    }
+
+    .project-item {
+      padding: 16px 0;
+    }
+
+    .project-item:first-child {
+      padding-top: 8px;
+    }
+
+    .project-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .project-name {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 1rem;
+      font-weight: 400;
+      color: var(--primary);
+      margin-bottom: 4px;
+    }
+
+    .project-desc {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .project-points {
+      margin: 6px 0 0;
+      padding: 0;
+      list-style: none;
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .project-points li {
+      position: relative;
+      padding-left: 16px;
+    }
+
+    .project-points li::before {
+      content: "–";
+      position: absolute;
+      left: 0;
+    }
+  </style>
+
+</section>
+
+<section class="section">
+  <h2 class="section-title">
     Academic Publications
   </h2>
 
