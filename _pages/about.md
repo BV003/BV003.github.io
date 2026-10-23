@@ -677,7 +677,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 <section class="section">
   <h2 class="section-title">
-    Project
+    Projects
   </h2>
 
   <div class="project-list">
