@@ -543,7 +543,7 @@ I'm Weiqi Liu, and you can call me Michael.
 <br>
 I aim to become one of the top engineers and researchers in the world.
 <br>
-For any suggestions or collaborations, please feel free to drop me an e-mail.
+For any suggestions or collaborations, please feel free to drop me a message on Telegram or an e-mail.
 </p>
 </section>
 
