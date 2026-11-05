@@ -730,9 +730,13 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       margin-bottom: 4px;
     }
 
-    .project-link {
+    .pub-link.project-link {
       margin-left: 8px;
-      vertical-align: baseline;
+      align-items: baseline;
+    }
+
+    .project-link svg {
+      align-self: center;
     }
 
     .project-desc {
