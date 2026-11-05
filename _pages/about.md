@@ -687,7 +687,15 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
   <div class="project-list">
     <div class="project-item">
-      <div class="project-name">MemServe</div>
+      <div class="project-name">
+        MemServe
+        <a href="https://github.com/PhysFlow/ServerlessLLMonSuperchips" class="pub-link project-link" target="_blank">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          Code
+        </a>
+      </div>
       <div class="project-desc">Serving models larger than MIG memory on NVIDIA MIG instances with SGLang.</div>
       <ul class="project-points">
         <li>HybridGEMM kernel that computes on weights kept in CPU memory.</li>
@@ -720,6 +728,11 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       font-weight: 400;
       color: var(--primary);
       margin-bottom: 4px;
+    }
+
+    .project-link {
+      margin-left: 8px;
+      vertical-align: baseline;
     }
 
     .project-desc {
