@@ -209,6 +209,11 @@ layout: null
       <div class="site-name">New Technologies <span class="site-arrow">&rarr;</span></div>
       <p class="site-desc">A timeline of notable new AI technologies, from ChatGPT onward.</p>
     </a>
+
+    <a href="https://bv003-stats.vercel.app/" class="site-card">
+      <div class="site-name">Site Analytics <span class="site-arrow">&rarr;</span></div>
+      <p class="site-desc">Self-hosted Umami dashboard for traffic across my sites.</p>
+    </a>
   </div>
 
 </main>
