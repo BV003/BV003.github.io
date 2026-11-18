@@ -15,12 +15,15 @@ layout: null
 
   <style>
       :root {
-        --bg: #0d1014;
-        --panel: #12161b;
-        --text: #d6dde4;
-        --muted: #7a8591;
-        --accent: #5fd4c9;
-        --line: #232a32;
+        --bg: #07090b;
+        --term: #0c1013;
+        --bar: #141a1f;
+        --text: #c9d4dc;
+        --muted: #5d6b77;
+        --green: #7ee787;
+        --cyan: #56d4dd;
+        --yellow: #e3b341;
+        --line: #1d252c;
       }
 
       * { box-sizing: border-box; }
@@ -28,160 +31,154 @@ layout: null
       body {
         margin: 0;
         min-height: 100vh;
-        background: var(--bg);
+        background:
+          radial-gradient(circle at 50% 0%, rgba(86,212,221,0.06), transparent 60%),
+          var(--bg);
         color: var(--text);
         font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 14px;
         -webkit-font-smoothing: antialiased;
       }
 
-      ::selection { background: var(--accent); color: var(--bg); }
+      ::selection { background: var(--green); color: var(--bg); }
 
       .container {
-        max-width: 780px;
+        max-width: 820px;
         margin: 0 auto;
         padding: 56px 24px 80px;
       }
 
       .back-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        font-size: 13px;
+        font-size: 12px;
         color: var(--muted);
         text-decoration: none;
-        transition: color 0.2s ease;
+      }
+      .back-link::before { content: "cd "; color: var(--green); }
+      .back-link:hover { color: var(--cyan); }
+
+      .terminal {
+        margin-top: 28px;
+        background: var(--term);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.5);
       }
 
-      .back-link::before { content: "["; }
-      .back-link::after { content: "]"; }
-
-      .back-link:hover {
-        color: var(--accent);
+      .term-bar {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 11px 14px;
+        background: var(--bar);
+        border-bottom: 1px solid var(--line);
       }
+      .dot { width: 11px; height: 11px; border-radius: 50%; }
+      .dot.r { background: #ff5f57; }
+      .dot.y { background: #febc2e; }
+      .dot.g { background: #28c840; }
+      .term-title {
+        flex: 1;
+        text-align: center;
+        margin-right: 49px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .term-body { padding: 22px 22px 26px; }
+
+      .prompt { color: var(--muted); margin: 0; line-height: 1.7; }
+      .prompt .user { color: var(--green); }
+      .prompt .path { color: var(--cyan); }
+      .prompt .cmd { color: var(--text); }
 
       .page-title {
-        font-size: clamp(2rem, 6vw, 2.75rem);
+        margin: 18px 0 4px;
+        font-size: clamp(1.6rem, 5vw, 2.2rem);
         font-weight: 700;
-        line-height: 1.1;
+        color: var(--green);
         letter-spacing: -0.01em;
-        margin: 56px 0 14px;
       }
-
-      .page-title::before {
-        content: "~/ ";
-        color: var(--muted);
-        font-weight: 400;
-      }
+      .page-title::before { content: "# "; color: var(--muted); font-weight: 400; }
 
       .page-intro {
-        margin: 0 0 44px;
-        font-size: 0.95rem;
-        line-height: 1.6;
+        margin: 0 0 22px;
         color: var(--muted);
+        line-height: 1.6;
       }
-
-      .page-intro::before { content: "> "; color: var(--accent); }
-
-      .page-intro::after {
-        content: "_";
-        margin-left: 2px;
-        color: var(--accent);
-        animation: blink 1.1s steps(1) infinite;
-      }
-
-      @keyframes blink { 50% { opacity: 0; } }
+      .page-intro::before { content: "// "; }
 
       .site-list {
         counter-reset: site;
-        display: grid;
-        gap: 12px;
+        border-top: 1px dashed var(--line);
       }
 
       .site-card {
         counter-increment: site;
         display: grid;
-        grid-template-columns: 48px 1fr;
-        column-gap: 8px;
-        padding: 20px 22px 20px 18px;
-        background: var(--panel);
-        border: 1px solid var(--line);
-        border-radius: 6px;
+        grid-template-columns: 34px 1fr;
+        column-gap: 10px;
+        padding: 16px 10px;
+        border-bottom: 1px dashed var(--line);
         color: var(--text);
         text-decoration: none;
-        transition: border-color 0.2s ease;
+        transition: background 0.15s ease;
       }
-
       .site-card::before {
-        content: counter(site, decimal-leading-zero);
+        content: "[" counter(site) "]";
         grid-row: 1 / span 2;
-        padding-top: 3px;
-        font-size: 12px;
-        color: var(--muted);
-        transition: color 0.2s ease;
+        color: var(--yellow);
       }
-
-      .site-card > * {
-        grid-column: 2;
-      }
+      .site-card > * { grid-column: 2; }
 
       .site-card:hover,
       .site-card:focus-visible {
         outline: none;
-        border-color: var(--accent);
-      }
-
-      .site-card:hover::before,
-      .site-card:focus-visible::before {
-        color: var(--accent);
+        background: rgba(126,231,135,0.05);
       }
 
       .site-name {
-        font-size: 1.05rem;
-        font-weight: 700;
-        line-height: 1.35;
         display: flex;
         justify-content: space-between;
         align-items: baseline;
         gap: 16px;
-        transition: color 0.2s ease;
+        font-weight: 700;
+        color: var(--cyan);
       }
+      .site-card:hover .site-name { color: var(--green); }
 
-      .site-card:hover .site-name,
-      .site-card:focus-visible .site-name {
-        color: var(--accent);
-      }
-
-      .site-arrow {
-        font-size: 1rem;
-        color: var(--muted);
-        flex-shrink: 0;
-        transition: transform 0.2s ease, color 0.2s ease;
-      }
-
-      .site-card:hover .site-arrow,
-      .site-card:focus-visible .site-arrow {
-        color: var(--accent);
-        transform: translateX(4px);
-      }
+      .site-arrow { color: var(--muted); flex-shrink: 0; transition: transform 0.15s ease, color 0.15s ease; }
+      .site-card:hover .site-arrow { color: var(--green); transform: translateX(4px); }
 
       .site-desc {
-        margin: 8px 0 0;
-        max-width: 64ch;
-        font-size: 0.85rem;
+        margin: 6px 0 0;
+        max-width: 66ch;
+        font-size: 13px;
         line-height: 1.65;
         color: var(--muted);
       }
 
+      .cursor {
+        display: inline-block;
+        width: 8px;
+        height: 1.1em;
+        vertical-align: text-bottom;
+        background: var(--green);
+        animation: blink 1.1s steps(1) infinite;
+      }
+      @keyframes blink { 50% { opacity: 0; } }
+
+      .prompt.end { margin-top: 18px; }
+
       @media (prefers-reduced-motion: reduce) {
-        .page-intro::after { animation: none; }
+        .cursor { animation: none; }
         .site-arrow { transition: none; }
       }
 
       @media (max-width: 560px) {
-        .container { padding: 40px 16px 64px; }
-        .page-title { margin-top: 44px; }
-        .page-intro { margin-bottom: 36px; }
-        .site-card { grid-template-columns: 34px 1fr; padding: 18px 16px 18px 14px; }
+        .container { padding: 36px 16px 56px; }
+        .term-body { padding: 18px 14px 22px; }
+        .site-card { grid-template-columns: 28px 1fr; padding: 14px 4px; }
       }
   </style>
   </head>
@@ -191,29 +188,42 @@ layout: null
 
   <a href="/" class="back-link">Michael Liu&rsquo;s Homepage &rarr;</a>
 
-  <h1 class="page-title">My Sites</h1>
-  <p class="page-intro">Sites I build and maintain.</p>
+  <div class="terminal">
+    <div class="term-bar">
+      <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+      <span class="term-title">michael@liu: ~/sites</span>
+    </div>
 
-  <div class="site-list">
-    <a href="https://bv003.github.io/EEP596/" class="site-card">
-      <div class="site-name">Deep Learning <span class="site-arrow">&rarr;</span></div>
-      <p class="site-desc">Course notes on deep learning: lectures and labs on regression, neural networks, CNNs, and generative models.</p>
-    </a>
+    <div class="term-body">
+      <p class="prompt"><span class="user">michael@liu</span>:<span class="path">~</span>$ <span class="cmd">ls ~/sites</span></p>
 
-    <a href="https://bv003.github.io/tech-stack-atlas/" class="site-card">
-      <div class="site-name">Tech Stack Atlas <span class="site-arrow">&rarr;</span></div>
-      <p class="site-desc">Layered technology stacks across four areas: inference, training, search &amp; recommendation, and AI agents.</p>
-    </a>
+      <h1 class="page-title">My Sites</h1>
+      <p class="page-intro">Sites I build and maintain.</p>
 
-    <a href="https://bv003.github.io/New-Technologies/" class="site-card">
-      <div class="site-name">New Technologies <span class="site-arrow">&rarr;</span></div>
-      <p class="site-desc">A timeline of notable new AI technologies, from ChatGPT onward.</p>
-    </a>
+      <div class="site-list">
+        <a href="https://bv003.github.io/EEP596/" class="site-card">
+          <div class="site-name">Deep Learning <span class="site-arrow">&rarr;</span></div>
+          <p class="site-desc">Course notes on deep learning: lectures and labs on regression, neural networks, CNNs, and generative models.</p>
+        </a>
 
-    <a href="https://bv003-stats.vercel.app/" class="site-card">
-      <div class="site-name">Site Analytics <span class="site-arrow">&rarr;</span></div>
-      <p class="site-desc">Self-hosted Umami dashboard for traffic across my sites.</p>
-    </a>
+        <a href="https://bv003.github.io/tech-stack-atlas/" class="site-card">
+          <div class="site-name">Tech Stack Atlas <span class="site-arrow">&rarr;</span></div>
+          <p class="site-desc">Layered technology stacks across four areas: inference, training, search &amp; recommendation, and AI agents.</p>
+        </a>
+
+        <a href="https://bv003.github.io/New-Technologies/" class="site-card">
+          <div class="site-name">New Technologies <span class="site-arrow">&rarr;</span></div>
+          <p class="site-desc">A timeline of notable new AI technologies, from ChatGPT onward.</p>
+        </a>
+
+        <a href="https://bv003-stats.vercel.app/" class="site-card">
+          <div class="site-name">Site Analytics <span class="site-arrow">&rarr;</span></div>
+          <p class="site-desc">Self-hosted Umami dashboard for traffic across my sites.</p>
+        </a>
+      </div>
+
+      <p class="prompt end"><span class="user">michael@liu</span>:<span class="path">~</span>$ <span class="cursor"></span></p>
+    </div>
   </div>
 
 </main>
