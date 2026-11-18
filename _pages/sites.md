@@ -8,7 +8,6 @@ layout: null
   <title>My Sites · Michael Liu</title>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script defer src="https://bv003-stats.vercel.app/script.js" data-website-id="cdbe9aa5-de02-4e77-9922-1cb98377b93e"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
@@ -214,11 +213,6 @@ layout: null
         <a href="https://bv003.github.io/New-Technologies/" class="site-card">
           <div class="site-name">New Technologies <span class="site-arrow">&rarr;</span></div>
           <p class="site-desc">A timeline of notable new AI technologies, from ChatGPT onward.</p>
-        </a>
-
-        <a href="https://bv003-stats.vercel.app/" class="site-card">
-          <div class="site-name">Site Analytics <span class="site-arrow">&rarr;</span></div>
-          <p class="site-desc">Self-hosted Umami dashboard for traffic across my sites.</p>
         </a>
       </div>
 
