@@ -16,104 +16,54 @@ layout: null
 
   <style>
       :root {
-        --black: #000000;
+        /* Palette: Tufte cream paper, near-black ink, one gray */
+        --black: #111111;
         --primary: var(--black);
         --accent: var(--black);
         --accent-bright: var(--black);
         --secondary: var(--black);
-        --text: #000000;
-        --text-light: #000000;
-        --bg: #ffffff;
-        --bg-card: #ffffff;
-        --border: #000000;
-        --sidebar-width: 272px;
+        --text: #111111;
+        --text-light: #6b6b6b;
+        --bg: #fffff8;
+        --bg-card: #fffff8;
+        --border: #e8e8dc;
+        /* Type scale: three sizes, nothing else */
+        --fs-lg: 1.333rem;   /* name, section titles  (24px) */
+        --fs-base: 1rem;     /* body, item titles     (18px) */
+        --fs-sm: 0.833rem;   /* dates, meta, details  (15px) */
+      }
+
+      html {
+        font-size: 18px;
       }
 
       body {
         margin: 0;
         background: var(--bg);
-        font-family: 'Times New Roman', Times, serif;
+        color: var(--text);
+        font-family: 'Crimson Pro', Georgia, serif;
+        font-size: var(--fs-base);
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
       }
 
+      /* One centered column at every width: header on top, content below */
       .page-shell {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-
-      .shell-sidebar {
-        flex-shrink: 0;
         box-sizing: border-box;
-        padding: 20px 16px;
-        background: var(--bg);
+        max-width: calc(35rem + 56px);
+        margin: 0 auto;
+        padding: 56px 28px 56px;
       }
 
-      /* Sidebar: no huge section gaps; content shares one vertical rhythm */
-      .shell-sidebar .section {
-        margin-bottom: 0;
-      }
-
-      .shell-main {
-        flex: 1;
-        box-sizing: border-box;
-        padding: 20px 16px 48px;
-        min-width: 0;
-      }
-
-      .header-section {
-        margin-bottom: 12px;
-        padding-bottom: 12px;
-      }
-
-      @media (min-width: 601px) {
+      @media (max-width: 600px) {
         .page-shell {
-          flex-direction: row;
-          align-items: stretch;
-          max-width: 1200px;
-          margin: 0 auto;
-        }
-
-        .shell-sidebar {
-          position: sticky;
-          top: 0;
-          flex-shrink: 0;
-          width: var(--sidebar-width);
-          height: 100vh;
-          overflow-y: auto;
-          padding: 36px 24px;
-          border-bottom: none;
-          z-index: 10;
-          display: flex;
-          flex-direction: column;
-          align-items: stretch;
-          justify-content: center;
-        }
-
-        .shell-main {
-          flex: 1;
-          padding: 32px 28px 56px;
-        }
-
-        .header-section {
-          margin-bottom: 0;
-          padding-bottom: 0;
-          border-bottom: none !important;
-        }
-      }
-
-      @media (min-width: 1440px) {
-        .page-shell {
-          max-width: 1400px;
-        }
-
-        .shell-sidebar {
-          width: 300px;
+          padding: 36px 16px 48px;
         }
       }
 
       .container {
-        max-width: 750px;
-        margin: 0 auto;
+        max-width: 35rem;   /* ~75 characters per line */
+        margin: 0;
       }
 
       /* Section Styling */
@@ -129,7 +79,7 @@ layout: null
 
       .section-title {
         font-family: 'Crimson Pro', Georgia, serif;
-        font-size: 1.5rem;
+        font-size: var(--fs-lg);
         font-weight: 600;
         color: var(--primary);
         display: flex;
@@ -137,8 +87,8 @@ layout: null
       }
 
       .section-title a {
-        font-size: 0.5em;
-        font-family: 'Times New Roman', Times, serif;
+        font-size: var(--fs-sm);
+        font-family: 'Crimson Pro', Georgia, serif;
         font-weight: 500;
         color: var(--black);
         text-decoration: none;
@@ -152,7 +102,7 @@ layout: null
       /* News Section */
       /* Bottom fade on content; second mask layer keeps the right-side scrollbar strip fully visible */
       .news-container {
-        max-height: 150px;
+        max-height: 175px;  /* shows ~3.5 entries so the faded one hints at scrolling */
         overflow-y: auto;
         scrollbar-width: thin;
         -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 28px), transparent), linear-gradient(#000, #000);
@@ -176,21 +126,21 @@ layout: null
         display: grid;
         grid-template-columns: 72px 1fr;
         gap: 14px;
-        align-items: center;
+        align-items: baseline;  /* date sits on the entry's first line */
       }
 
-      /* Dates use [YYYY.MM]; Times digits are equal-width so the column lines up */
+      /* Dates use [YYYY.MM]; tabular digits keep the column aligned */
       .news-date {
-        font-size: 0.9rem;
+        font-size: var(--fs-sm);
         font-weight: 400;
-        color: var(--black);
-        font-family: 'Times New Roman', Times, serif;
+        color: var(--text-light);
+        font-family: 'Crimson Pro', Georgia, serif;
         white-space: nowrap;
         font-variant-numeric: tabular-nums;
       }
 
       .news-content {
-        font-size: 0.9rem;
+        font-size: var(--fs-sm);
         color: var(--text);
         line-height: 1.5;
       }
@@ -207,13 +157,24 @@ layout: null
       }
 
       .news-highlight {
-        color: #000000;
+        color: var(--black);
         font-weight: 600;
       }
 
-      .about-text, .research-text {
-        text-align: justify;
-        text-align-last: left;
+      /* Same look as the sidebar links: plain text, underline on hover */
+      .inline-link {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .inline-link:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        text-decoration-thickness: 1px;
+      }
+
+      .about-text {
+        text-align: left;
         margin-bottom: 12px;
         line-height: 1.5;
       }
@@ -223,314 +184,91 @@ layout: null
 <body>
 <div class="page-shell">
 
-<aside class="shell-sidebar" aria-label="Profile and links">
-
-<!-- Header Section with Avatar and Links -->
-<section class="section header-section">
-  <div class="header-container">
-    <div class="header-left">
-      <div class="header-intro">
-        <div class="header-info">
-          <h1 class="header-name">Michael Liu</h1>
-        </div>
-        <div class="header-signature">
-          <img src="/images/signature.png" alt="Signature" class="header-signature-img">
-        </div>
-      </div>
-    </div>
-    <div class="header-right">
-      <div class="header-social-row">
-        <a href="/files/cv.pdf" class="social-icon" target="_blank" title="CV">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-            <polyline points="14 2 14 8 20 8"></polyline>
-          </svg>
-        </a>
-        <a href="https://bv003me.vercel.app/" class="social-icon" target="_blank" title="Blog">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-          </svg>
-        </a>
-        <a href="mailto:michaelliuwq003@gmail.com" class="social-icon" title="Email">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="2" y="4" width="20" height="16" rx="2"/>
-            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
-          </svg>
-        </a>
-        <a href="https://github.com/BV003" class="social-icon" target="_blank" title="GitHub">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-          </svg>
-        </a>
-        <a href="https://scholar.google.com/citations?user=SYCjc44AAAAJ&hl=en&oi=sra" class="social-icon" target="_blank" title="Google Scholar">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-            <path d="M6 12v5l6 3 6-3v-5"/>
-          </svg>
-        </a>
-        <a href="https://www.linkedin.com/in/michael-liu-0673452b1/" class="social-icon" target="_blank" title="LinkedIn">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-            <rect x="2" y="9" width="4" height="12"></rect>
-            <circle cx="4" cy="4" r="2"></circle>
-          </svg>
-        </a>
-        <a href="https://michaelliu899840.substack.com/?utm_campaign=profile_chips" class="social-icon" target="_blank" title="Substack">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M4 4h16v4H4z"/>
-            <path d="M4 10h16"/>
-            <path d="M4 14h16v6H4z"/>
-          </svg>
-        </a>
-        <a href="https://x.com/bbz377889285007" class="social-icon" target="_blank" title="X">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-          </svg>
-        </a>
-        <a href="https://t.me/michaelliu003" class="social-icon" target="_blank" title="Telegram">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/>
-          </svg>
-        </a>
-        <a href="/sites/" class="social-icon" title="My Sites">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="10"/>
-            <path d="M2 12h20"/>
-            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
-          </svg>
-        </a>
-      </div>
-    </div>
+<header class="site-header">
+  <div class="site-title">
+    <h1 class="header-name">Michael Liu</h1>
+    <img src="/images/signature.png" alt="刘玮祺" class="header-signature-img">
   </div>
+  <nav class="site-links" aria-label="Links">
+        <a href="https://bv003me.vercel.app/" target="_blank" rel="noopener">Writing</a>
+        <a href="/sites/">Websites</a>
+        <a href="mailto:michaelliuwq003@gmail.com">Email</a>
+        <a href="https://x.com/bbz377889285007" target="_blank" rel="noopener">X</a>
+        <a href="https://michaelliu899840.substack.com/" target="_blank" rel="noopener">Substack</a>
+        <a href="https://github.com/BV003" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/michael-liu-0673452b1/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=SYCjc44AAAAJ&hl=en&oi=sra" target="_blank" rel="noopener">Scholar</a>
+        <a href="/files/cv.pdf" target="_blank" rel="noopener">CV</a>
+  </nav>
 
   <style>
-    .header-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
+    /* Header: name + signature, then every link in one format; all left-aligned with the text */
+    .site-header {
+      margin-bottom: 48px;
     }
 
-    .header-left {
+    .site-title {
       display: flex;
       align-items: center;
-      gap: 16px;
-    }
-
-    .header-info {
-      min-width: 0;
-    }
-
-    /* Groups name + signature so they stay adjacent (mobile row / desktop column in sidebar) */
-    .header-intro {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      min-width: 0;
-      flex: 0 1 auto;
-    }
-
-    .header-avatar {
-      width: 80px;
-      height: 80px;
-      border-radius: 8px;
-      object-fit: cover;
-      flex-shrink: 0;
-      display: block;
+      gap: 18px;
     }
 
     .header-name {
       font-family: 'Crimson Pro', Georgia, serif;
-      font-size: 1.8rem;
+      font-size: var(--fs-lg);
       font-weight: 700;
       color: var(--black);
       margin: 0;
       line-height: 1.15;
     }
 
-    .header-signature {
-      line-height: 0;
-      flex-shrink: 0;
-      width: auto;
-    }
-
+    /* The ink fills only the middle third of signature.png; negative margins
+       trim the empty paper so the brushwork can sit at the name's scale */
     .header-signature-img {
       display: block;
+      height: 100px;
       width: auto;
-      height: auto;
-      max-width: 200px;
-      max-height: 56px;
-      object-fit: contain;
+      margin: -34px 0 -30px -20px;
+      /* The PNG has a white ground; multiply lets the ink sit on the paper tone */
+      mix-blend-mode: multiply;
     }
 
-    .header-right {
+    .site-links {
       display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      gap: 8px;
-      min-width: 0;
+      flex-wrap: wrap;
+      gap: 4px 18px;
+      margin-top: 22px;
     }
 
-    /* Icon grid: fixed cell size so rows/columns align */
-    .header-social-row {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, 40px);
-      gap: 10px;
-      justify-content: start;
-      align-content: start;
-      width: 100%;
-    }
-
-    .social-icon {
-      width: 40px;
-      height: 40px;
-      box-sizing: border-box;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid var(--border);
-      border-radius: 50%;
+    .site-links a {
       color: var(--text);
       text-decoration: none;
-      transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
-      background: var(--bg-card);
     }
 
-    .social-icon:hover {
-      background: var(--black);
-      color: white;
-      border-color: var(--black);
-      transform: translateY(-2px);
-    }
-
-    .shell-sidebar .social-icon {
-      border: none;
-      background: transparent;
-      transition: none;
-    }
-
-    .shell-sidebar .social-icon:hover {
-      background: transparent;
-      color: var(--text);
-      border: none;
-      transform: none;
-    }
-
-    @media (min-width: 601px) {
-      .shell-sidebar .header-container {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 22px;
-      }
-
-      .shell-sidebar .header-left {
-        flex-direction: column;
-        align-items: center;
-        gap: 14px;
-        width: 100%;
-      }
-
-      .shell-sidebar .header-intro {
-        flex-direction: column;
-        align-items: center;
-        gap: 14px;
-        width: 100%;
-      }
-
-      .shell-sidebar .header-info {
-        width: 100%;
-        text-align: center;
-      }
-
-      .shell-sidebar .header-right {
-        align-items: center;
-        width: 100%;
-      }
-
-      /* 5 columns, smaller icons; 10 icons → two rows of five */
-      .shell-sidebar .header-social-row {
-        grid-template-columns: repeat(5, 30px);
-        gap: 8px;
-        justify-content: center;
-        width: max-content;
-        max-width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      .shell-sidebar .social-icon {
-        width: 30px;
-        height: 30px;
-      }
-
-      .shell-sidebar .social-icon svg {
-        width: 14px;
-        height: 14px;
-      }
-
-      .shell-sidebar .header-avatar {
-        width: 120px;
-        height: 120px;
-        border-radius: 10px;
-      }
-
-      .shell-sidebar .header-name {
-        font-size: 1.5rem;
-        width: 100%;
-      }
-
-      .shell-sidebar .header-signature {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-      }
-
-      .shell-sidebar .header-signature-img {
-        max-width: 120px;
-        max-height: none;
-      }
+    .site-links a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-thickness: 1px;
     }
 
     @media (max-width: 600px) {
-      .header-container {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 18px;
+      .site-header {
+        margin-bottom: 32px;
       }
 
-      .header-left {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-        justify-content: flex-start;
+      .site-title {
         gap: 12px;
       }
 
-      .header-intro {
-        gap: 6px;
-      }
-
       .header-signature-img {
-        max-width: min(220px, 48vw);
-        max-height: 80px;
-      }
-
-      .header-right {
-        align-items: stretch;
-        width: 100%;
-      }
-
-      .shell-sidebar .header-social-row {
-        justify-content: center;
+        height: 84px;
+        margin: -29px 0 -25px -18px;
       }
     }
   </style>
-</section>
+</header>
 
-</aside>
-
-<main class="shell-main">
+<main>
 <div class="container">
 
 <section class="section">
@@ -542,23 +280,11 @@ Hi.
 <br>
 I'm Weiqi Liu, and you can call me Michael.
 <br>
-I aim to become one of the top engineers and researchers in the world.
-<br>
-For any suggestions or collaborations, please feel free to drop me a message on Telegram or an e-mail.
+I'm an engineer who builds software and AI systems. I'm also interested in investing, cryptocurrency, literary writing, and aesthetics.
 </p>
-</section>
-
-<section class="section">
-  <h2 class="section-title">
-    Interest
-  </h2>
-
-<p class="research-text">
-My primary focus is currently on artificial intelligence engineering. The emergence of large language models has greatly accelerated technological innovation and can automate many repetitive cognitive tasks. When these models are integrated with software and hardware, they enable large-scale automation in the real world. I believe that researching how to build more efficient AI models and exploring their practical applications is a highly promising direction.
-
-As for my personal interests, I am also deeply passionate about investing, cryptocurrency, literary writing, and aesthetics.
-</p> 
-
+<p class="about-text">
+If you'd like to talk, whether it's about something fun, something technical, or something about money, please drop me an <a href="mailto:michaelliuwq003@gmail.com" class="inline-link">e-mail</a>. I'd be glad to hear from you.
+</p>
 </section>
 
 
@@ -651,22 +377,22 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .exp-company {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 1rem;
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: var(--fs-base);
       font-weight: 400;
       color: var(--primary);
     }
 
     .exp-date {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 0.9rem;
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: var(--fs-sm);
       font-weight: 500;
       color: var(--text-light);
       flex-shrink: 0;
     }
 
     .exp-role {
-      font-size: 0.9rem;
+      font-size: var(--fs-sm);
       color: var(--text);
       line-height: 1.4;
     }
@@ -691,9 +417,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       <div class="project-name">
         MemServe
         <a href="https://github.com/PhysFlow/ServerlessLLMonSuperchips" class="pub-link project-link" target="_blank">
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-          </svg>
           Code
         </a>
       </div>
@@ -724,8 +447,8 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .project-name {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 1rem;
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: var(--fs-base);
       font-weight: 400;
       color: var(--primary);
       margin-bottom: 4px;
@@ -736,12 +459,9 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       align-items: baseline;
     }
 
-    .project-link svg {
-      align-self: center;
-    }
 
     .project-desc {
-      font-size: 0.9rem;
+      font-size: var(--fs-sm);
       color: var(--text);
       line-height: 1.5;
     }
@@ -750,7 +470,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       margin: 6px 0 0;
       padding: 0;
       list-style: none;
-      font-size: 0.9rem;
+      font-size: var(--fs-sm);
       color: var(--text);
       line-height: 1.6;
     }
@@ -820,8 +540,8 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .pub-title {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 1rem;
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: var(--fs-base);
       font-weight: 400;
       color: var(--black);
       line-height: 1.4;
@@ -829,7 +549,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .pub-authors {
-      font-size: 0.9rem;
+      font-size: var(--fs-sm);
       color: var(--text);
       margin-bottom: 4px;
       line-height: 1.4;
@@ -844,7 +564,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .pub-venue {
-      font-size: 0.9rem;
+      font-size: var(--fs-sm);
       color: var(--text-light);
       font-weight: 500;
     }
@@ -860,7 +580,7 @@ As for my personal interests, I am also deeply passionate about investing, crypt
       gap: 4px;
       text-decoration: none;
       color: var(--text-light);
-      font-size: 0.9rem;
+      font-size: var(--fs-sm);
       font-weight: 500;
       transition: color 0.2s ease;
     }
@@ -897,10 +617,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
           <div class="pub-venue">arXiv, 2026</div>
           <div class="pub-links">
             <a href="https://arxiv.org/pdf/2601.03671" class="pub-link" target="_blank">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                <polyline points="14 2 14 8 20 8"></polyline>
-              </svg>
               Paper
             </a>
           </div>
@@ -922,16 +638,9 @@ As for my personal interests, I am also deeply passionate about investing, crypt
           <div class="pub-venue">NeurIPS, 2025 (Spotlight)</div>
           <div class="pub-links">
             <a href="https://neurips.cc/virtual/2025/poster/121843" class="pub-link" target="_blank">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                <polyline points="14 2 14 8 20 8"></polyline>
-              </svg>
               Paper
             </a>
             <a href="https://github.com/shentt67/MARS-VFL" class="pub-link" target="_blank">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-              </svg>
               Code
             </a>
           </div>
@@ -953,22 +662,20 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
 <div class="edu-list">
   <div class="edu-item">
-    <img src="/images/UWseattle.png" alt="University of Washington logo" class="edu-logo">
     <div class="edu-info">
       <div class="edu-main">
         <span class="edu-school">University of Washington, Seattle</span>
-        <span class="edu-date">2026 - Present</span>
+        <span class="edu-date">2026 – Present</span>
       </div>
       <div class="edu-degree">M.S. in Electrical and Computer Engineering</div>
     </div>
   </div>
 
   <div class="edu-item">
-    <img src="/images/whu.png" alt="Wuhan University logo" class="edu-logo">
     <div class="edu-info">
       <div class="edu-main">
         <span class="edu-school">Wuhan University</span>
-        <span class="edu-date">2022 - 2026</span>
+        <span class="edu-date">2022 – 2026</span>
       </div>
       <div class="edu-degree">B.S. in Software Engineering</div>
     </div>
@@ -998,12 +705,6 @@ As for my personal interests, I am also deeply passionate about investing, crypt
 
   }
 
-  .edu-logo {
-    width: 50px;
-    height: 50px;
-    object-fit: contain;
-    flex-shrink: 0;
-  }
 
   .edu-info {
     flex: 1;
@@ -1018,30 +719,26 @@ As for my personal interests, I am also deeply passionate about investing, crypt
   }
 
   .edu-school {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: var(--fs-base);
     font-weight: 400;
     color: var(--primary);
   }
 
   .edu-date {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 0.9rem;
+    font-family: 'Crimson Pro', Georgia, serif;
+    font-size: var(--fs-sm);
     font-weight: 500;
     color: var(--text-light);
     flex-shrink: 0;
   }
 
   .edu-degree {
-    font-size: 0.9rem;
+    font-size: var(--fs-sm);
     color: var(--text);
   }
   
   @media (max-width: 600px) {
-    .edu-logo {
-      width: 45px;
-      height: 45px;
-    }
 
     .edu-main {
       flex-direction: column;
@@ -1103,22 +800,22 @@ As for my personal interests, I am also deeply passionate about investing, crypt
     }
 
     .service-role {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 1rem;
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: var(--fs-base);
       font-weight: 400;
       color: var(--primary);
     }
 
     .service-date {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 0.9rem;
+      font-family: 'Crimson Pro', Georgia, serif;
+      font-size: var(--fs-sm);
       font-weight: 500;
       color: var(--text-light);
       flex-shrink: 0;
     }
 
     .service-venue {
-      font-size: 0.9rem;
+      font-size: var(--fs-sm);
       color: var(--text);
     }
 
