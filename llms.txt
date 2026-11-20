@@ -1,0 +1,42 @@
+# Michael Liu (Weiqi Liu · 刘玮祺)
+
+> Engineer who builds software and AI systems, and an M.S. student in Electrical and Computer Engineering at the University of Washington, Seattle. Also interested in investing, cryptocurrency, literary writing, and aesthetics. Open to conversations about something fun, something technical, or something about money.
+
+- Name: Michael Liu. Legal name Weiqi Liu; Chinese name 刘玮祺.
+- Contact: michaelliuwq003@gmail.com
+- Homepage: https://bv003.github.io/
+
+## Background
+
+- 2026 – present: M.S. in Electrical and Computer Engineering, University of Washington, Seattle
+- Jan 2026 – Jul 2026: AI Software Engineer Intern, Apple
+- 2022 – 2026: B.S. in Software Engineering, Wuhan University
+- Reviewer, Applied AI Letters (2025); Teaching Assistant, Advanced Programming, Wuhan University (Fall 2023)
+
+## Projects
+
+- [MemServe](https://github.com/PhysFlow/ServerlessLLMonSuperchips): serving models larger than MIG memory on NVIDIA MIG instances with SGLang. A HybridGEMM kernel computes on weights kept in CPU memory, a runtime tunes the GPU/CPU split online from HBM and host-link load, and a serverless control plane places models on SGLang workers on demand.
+
+## Publications
+
+- [NeuronScope: A Multi-Agent Framework for Explaining Polysemantic Neurons in Language Models](https://arxiv.org/pdf/2601.03671). Weiqi Liu, Yongliang Miao, Haiyan Zhao, Yanguang Liu, Mengnan Du. arXiv, 2026.
+- [MARS-VFL: A Unified Benchmark for Vertical Federated Learning with Realistic Evaluation](https://neurips.cc/virtual/2025/poster/121843). Wei Shen, Weiqi Liu, Mingde Chen, Wenke Huang, Mang Ye. NeurIPS 2025 (Spotlight).
+
+## Writing
+
+- [Blog](https://bv003me.vercel.app/): essays and notes on tech (LLM inference, CUDA, system design, paper notes), money, life, and fiction, in English and Chinese. Post index for AI: https://bv003me.vercel.app/llms.txt
+- [Substack](https://michaelliu899840.substack.com/)
+
+## Websites
+
+- [Deep Learning](https://bv003.github.io/EEP596/): course notes on regression, neural networks, CNNs, and generative models
+- [Tech Stack Atlas](https://bv003.github.io/tech-stack-atlas/): layered technology stacks across inference, training, search & recommendation, and AI agents
+- [New Technologies](https://bv003.github.io/New-Technologies/): a timeline of notable new AI technologies since ChatGPT
+
+## Profiles
+
+- [X](https://x.com/bbz377889285007)
+- [GitHub](https://github.com/BV003)
+- [LinkedIn](https://www.linkedin.com/in/michael-liu-0673452b1/)
+- [Google Scholar](https://scholar.google.com/citations?user=SYCjc44AAAAJ)
+- [CV (PDF)](https://bv003.github.io/files/cv.pdf)

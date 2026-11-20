@@ -8,6 +8,14 @@ layout: null
   <title>My Sites · Michael Liu</title>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Websites built and maintained by Michael Liu (刘玮祺): Deep Learning course notes, Tech Stack Atlas, and a timeline of new AI technologies.">
+  <link rel="canonical" href="https://bv003.github.io/sites/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="My Sites · Michael Liu">
+  <meta property="og:description" content="Websites built and maintained by Michael Liu.">
+  <meta property="og:url" content="https://bv003.github.io/sites/">
+  <meta property="og:image" content="https://bv003.github.io/images/og.png">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">

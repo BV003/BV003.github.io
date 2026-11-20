@@ -5,14 +5,67 @@ layout: null
 
 <html lang="en">
   <head>
-  <title>Michael Liu</title>
+  <title>Michael Liu (Weiqi Liu · 刘玮祺)</title>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Michael Liu (Weiqi Liu, 刘玮祺) is an engineer who builds software and AI systems and an M.S. student in Electrical and Computer Engineering at the University of Washington. He writes about tech, investing, cryptocurrency, and life.">
+  <meta name="author" content="Michael Liu">
+  <link rel="canonical" href="https://bv003.github.io/">
+  <link rel="alternate" type="text/plain" title="LLM summary" href="https://bv003.github.io/llms.txt">
+
+  <!-- Link previews (X, LinkedIn, WeChat, Slack, iMessage...) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Michael Liu">
+  <meta property="og:title" content="Michael Liu (Weiqi Liu · 刘玮祺)">
+  <meta property="og:description" content="Engineer building software and AI systems. Writing about tech, investing, and life.">
+  <meta property="og:url" content="https://bv003.github.io/">
+  <meta property="og:image" content="https://bv003.github.io/images/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Michael Liu, with his signature in Chinese">
+  <meta property="profile:first_name" content="Weiqi">
+  <meta property="profile:last_name" content="Liu">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@bbz377889285007">
+
+  <!-- Structured data: tells search engines and AI exactly who this page is about -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "url": "https://bv003.github.io/",
+    "mainEntity": {
+      "@type": "Person",
+      "@id": "https://bv003.github.io/#person",
+      "name": "Michael Liu",
+      "alternateName": ["Weiqi Liu", "刘玮祺"],
+      "givenName": "Weiqi",
+      "familyName": "Liu",
+      "url": "https://bv003.github.io/",
+      "image": "https://bv003.github.io/images/og.png",
+      "email": "mailto:michaelliuwq003@gmail.com",
+      "jobTitle": "Engineer",
+      "description": "Engineer who builds software and AI systems; interested in investing, cryptocurrency, literary writing, and aesthetics.",
+      "alumniOf": [
+        {"@type": "CollegeOrUniversity", "name": "University of Washington"},
+        {"@type": "CollegeOrUniversity", "name": "Wuhan University"}
+      ],
+      "knowsAbout": ["AI systems", "LLM inference", "Software engineering", "Investing", "Cryptocurrency", "Writing"],
+      "sameAs": [
+        "https://bv003me.vercel.app/",
+        "https://x.com/bbz377889285007",
+        "https://michaelliu899840.substack.com/",
+        "https://github.com/BV003",
+        "https://www.linkedin.com/in/michael-liu-0673452b1/",
+        "https://scholar.google.com/citations?user=SYCjc44AAAAJ"
+      ]
+    }
+  }
+  </script>
   <script defer src="https://bv003-stats.vercel.app/script.js" data-website-id="cdbe9aa5-de02-4e77-9922-1cb98377b93e"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
       :root {
